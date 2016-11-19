@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{667471B6-70BB-49DC-9FB8-8AA51EB1A54A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>rsp6m2</RootNamespace>
+    <AssemblyName>rsp6m2</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bchk011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bchk011.Designer.cs">
+      <DependentUpon>bchk011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bchv021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bchv021.Designer.cs">
+      <DependentUpon>bchv021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bf02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bf02.Designer.cs">
+      <DependentUpon>bf02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bg021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg021.Designer.cs">
+      <DependentUpon>bg021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bki011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bki011.Designer.cs">
+      <DependentUpon>bki011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bksg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bksg.Designer.cs">
+      <DependentUpon>bksg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bop.Designer.cs">
+      <DependentUpon>bop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bost.Designer.cs">
+      <DependentUpon>bost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp127.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp127.Designer.cs">
+      <DependentUpon>bp127.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp135.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp135.Designer.cs">
+      <DependentUpon>bp135.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp138.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp138.Designer.cs">
+      <DependentUpon>bp138.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp142.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp142.Designer.cs">
+      <DependentUpon>bp142.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp213.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp213.Designer.cs">
+      <DependentUpon>bp213.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpchs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpchs.Designer.cs">
+      <DependentUpon>bpchs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpm011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpm011.Designer.cs">
+      <DependentUpon>bpm011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpr011sm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpr011sm1.Designer.cs">
+      <DependentUpon>bpr011sm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpr011sm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpr011sm2.Designer.cs">
+      <DependentUpon>bpr011sm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpr021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpr021.Designer.cs">
+      <DependentUpon>bpr021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bprn021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bprn021.Designer.cs">
+      <DependentUpon>bprn021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bp_apch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp_apch.Designer.cs">
+      <DependentUpon>bp_apch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br009.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br009.Designer.cs">
+      <DependentUpon>br009.cs</DependentUpon>
+    </Compile>
+    <Compile Include="brn01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="brn01.Designer.cs">
+      <DependentUpon>brn01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bsf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bsf.Designer.cs">
+      <DependentUpon>bsf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bu011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bu011.Designer.cs">
+      <DependentUpon>bu011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buv011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buv011.Designer.cs">
+      <DependentUpon>buv011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bvm011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bvm011.Designer.cs">
+      <DependentUpon>bvm011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IHighlight.cs" />
+    <Compile Include="Controls\IHighlightControl.cs" />
+    <Compile Include="Controls\IResponseForClick.cs" />
+    <Compile Include="Controls\Light.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Light.Designer.cs">
+      <DependentUpon>Light.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RoundTrumbler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RoundTrumbler.Designer.cs">
+      <DependentUpon>RoundTrumbler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tumbler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tumbler.Designer.cs">
+      <DependentUpon>Tumbler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tumbler1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tumbler1.Designer.cs">
+      <DependentUpon>Tumbler1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tumbler2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tumbler2.Designer.cs">
+      <DependentUpon>Tumbler2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Voltmetr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Voltmetr.designer.cs">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drlPwr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drlPwr.Designer.cs">
+      <DependentUpon>drlPwr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drlStack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drlStack.Designer.cs">
+      <DependentUpon>drlStack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drlTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drlTop.Designer.cs">
+      <DependentUpon>drlTop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDesk.Designer.cs">
+      <DependentUpon>FormDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CompleteForm.Designer.cs">
+      <DependentUpon>CompleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeskForm.Designer.cs">
+      <DependentUpon>DeskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genericForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genericForm.designer.cs">
+      <DependentUpon>genericForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpClass\HelpFunctionClass.cs" />
+    <Compile Include="Manager\ProjectManager.cs" />
+    <Compile Include="Manager\Quiz.cs" />
+    <Compile Include="Manager\QuizeManager.cs" />
+    <Compile Include="prlPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prlPower.Designer.cs">
+      <DependentUpon>prlPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prlPwr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prlPwr.Designer.cs">
+      <DependentUpon>prlPwr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prlStack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prlStack.Designer.cs">
+      <DependentUpon>prlStack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prlTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prlTop.Designer.cs">
+      <DependentUpon>prlTop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pun.Designer.cs">
+      <DependentUpon>pun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pvk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvk.Designer.cs">
+      <DependentUpon>pvk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sp02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sp02.Designer.cs">
+      <DependentUpon>sp02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uvch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uvch.Designer.cs">
+      <DependentUpon>uvch.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bchk011.resx">
+      <DependentUpon>bchk011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bchv021.resx">
+      <DependentUpon>bchv021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bf02.resx">
+      <DependentUpon>bf02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg021.resx">
+      <DependentUpon>bg021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bki011.resx">
+      <DependentUpon>bki011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bksg.resx">
+      <DependentUpon>bksg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bop.resx">
+      <DependentUpon>bop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bost.resx">
+      <DependentUpon>bost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp127.resx">
+      <DependentUpon>bp127.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp135.resx">
+      <DependentUpon>bp135.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp138.resx">
+      <DependentUpon>bp138.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp142.resx">
+      <DependentUpon>bp142.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp213.resx">
+      <DependentUpon>bp213.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpchs.resx">
+      <DependentUpon>bpchs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpm011.resx">
+      <DependentUpon>bpm011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpr011sm1.resx">
+      <DependentUpon>bpr011sm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpr011sm2.resx">
+      <DependentUpon>bpr011sm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bpr021.resx">
+      <DependentUpon>bpr021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bprn021.resx">
+      <DependentUpon>bprn021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp_apch.resx">
+      <DependentUpon>bp_apch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br009.resx">
+      <DependentUpon>br009.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="brn01.resx">
+      <DependentUpon>brn01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bsf.resx">
+      <DependentUpon>bsf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bu011.resx">
+      <DependentUpon>bu011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buv011.resx">
+      <DependentUpon>buv011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bvm011.resx">
+      <DependentUpon>bvm011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Light.resx">
+      <DependentUpon>Light.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RoundTrumbler.resx">
+      <DependentUpon>RoundTrumbler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tumbler.resx">
+      <DependentUpon>Tumbler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tumbler1.resx">
+      <DependentUpon>Tumbler1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tumbler2.resx">
+      <DependentUpon>Tumbler2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Voltmetr.resx">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drlPwr.resx">
+      <DependentUpon>drlPwr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drlStack.resx">
+      <DependentUpon>drlStack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drlTop.resx">
+      <DependentUpon>drlTop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDesk.resx">
+      <DependentUpon>FormDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CompleteForm.resx">
+      <DependentUpon>CompleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeskForm.resx">
+      <DependentUpon>DeskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genericForm.resx">
+      <DependentUpon>genericForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prlPower.resx">
+      <DependentUpon>prlPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prlPwr.resx">
+      <DependentUpon>prlPwr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prlStack.resx">
+      <DependentUpon>prlStack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prlTop.resx">
+      <DependentUpon>prlTop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="pun.resx">
+      <DependentUpon>pun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pvk.resx">
+      <DependentUpon>pvk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sp02.resx">
+      <DependentUpon>sp02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uvch.resx">
+      <DependentUpon>uvch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\big_plastic_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\big_plastic_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\iron_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\iron_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\tumbler_round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\rsp6m.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\voltmetr1.BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\fuse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\lamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\lampgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Handle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Handle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Кнопка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\Потенциометр.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\lightoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\lighton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\заготовка индикаторы рсп\indikator_rsp_6m2\indikator_rsp_6m2.csproj">
+      <Project>{e3d91ef3-d9b5-4b22-8a71-4cf0577d67b0}</Project>
+      <Name>indikator_rsp_6m2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\PWRPanel.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
