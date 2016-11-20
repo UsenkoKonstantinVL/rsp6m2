@@ -47,7 +47,7 @@
             this.voltmetr1.Set_Bar_step = 10D;
             this.voltmetr1.Set_Center_str = "V";
             this.voltmetr1.Set_Value = 0;
-            this.voltmetr1.Size = new System.Drawing.Size(160, 160);
+            this.voltmetr1.Size = new System.Drawing.Size(170, 164);
             this.voltmetr1.TabIndex = 0;
             // 
             // bpr021

@@ -14,6 +14,10 @@ namespace rsp6m2.Controls
         private int Bar_min = 0;
         private double Bar_step = 10;
 
+        public bool WithArc = false;
+        public int startAngle = 0;
+        public int sleepAngle = -180;
+
         public string Set_Center_str
         {
             get { return Center_str; }
@@ -22,8 +26,8 @@ namespace rsp6m2.Controls
 
         public int Set_Value
         {
-            get { return  Value ; }
-            set { Value = 2*value; Invalidate(); OnValueChanged(new SomeEventArgs(Value)); }
+            get { return Value; }
+            set { Value = 2 * value; Invalidate(); OnValueChanged(new SomeEventArgs(Value)); }
         }
 
         public int current_Value
@@ -61,7 +65,7 @@ namespace rsp6m2.Controls
             get { return Bar_step; }
             set { Bar_step = value; }
         }
-       
+
 
         public delegate void SomeEventDelegate(object sender, SomeEventArgs e);
         public event SomeEventDelegate Value_Changed;
@@ -115,71 +119,77 @@ namespace rsp6m2.Controls
             int aux_Y0 = 2 * Height / 3 + Height / 30;
 
             using (Pen pen = new Pen(Color.Black, 2))
-            { e.Graphics.DrawLine(pen, aux_X0, aux_Y0, aux_X0 + x, aux_Y0 + y); }
-
-            int Size_Type = Width / 15;
-            System.Drawing.Font drawFont_Type = new System.Drawing.Font("Arial", Size_Type);
-            label1.Text = Center_str;
-            label1.Font = drawFont_Type;
-            label1.Left = Width / 2 - label1.Width / 2 + 1;
-            label1.Top = Height / 2 - label1.Height / 2;
-
-
-            // Прорисовка шкалы
-            int R = r - r / 15;
-            int X0 = x;
-            int Y0 = y;
-
-            int del = Bar_N_bolt;
-            for (int i = 0; i <= del / 2; i++)
             {
-                using (Pen myPen = new Pen(Color.Black, 1))
+                e.Graphics.DrawLine(pen, aux_X0, aux_Y0, aux_X0 + x, aux_Y0 + y); }
+                if (WithArc)
                 {
-                    int auxX = aux_X0 + Convert.ToInt32(0.98 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxY = aux_Y0 + Convert.ToInt32(0.98 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxXm = aux_X0 + Convert.ToInt32(1.05 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxYm = aux_Y0 + Convert.ToInt32(1.05 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    e.Graphics.DrawLine(myPen, auxX, auxY, auxXm, auxYm);
+                    e.Graphics.DrawArc(new Pen(Color.Red, 5), aux_X0 - r/2, aux_Y0 - r/2, r, r, startAngle, sleepAngle);
                 }
-            }
+                int Size_Type = Width / 15;
+                System.Drawing.Font drawFont_Type = new System.Drawing.Font("Arial", Size_Type);
+                label1.Text = Center_str;
+                label1.Font = drawFont_Type;
+                label1.Left = Width / 2 - label1.Width / 2 + 1;
+                label1.Top = Height / 2 - label1.Height / 2;
 
-            del = Bar_N_not_bolt;
-            for (int i = 0; i <= del / 2; i++)
-            {
-                using (Pen myPen = new Pen(Color.Black, 1))
+
+                // Прорисовка шкалы
+                int R = r - r / 15;
+                int X0 = x;
+                int Y0 = y;
+
+                int del = Bar_N_bolt;
+                for (int i = 0; i <= del / 2; i++)
                 {
-                    int auxX = aux_X0 + Convert.ToInt32(0.95 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxY = aux_Y0 + Convert.ToInt32(0.95 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxXm = aux_X0 + Convert.ToInt32(R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    int auxYm = aux_Y0 + Convert.ToInt32(R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                    e.Graphics.DrawLine(myPen, auxX, auxY, auxXm, auxYm);
+                    using (Pen myPen = new Pen(Color.Black, 1))
+                    {
+                        int auxX = aux_X0 + Convert.ToInt32(0.98 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxY = aux_Y0 + Convert.ToInt32(0.98 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxXm = aux_X0 + Convert.ToInt32(1.05 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxYm = aux_Y0 + Convert.ToInt32(1.05 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        e.Graphics.DrawLine(myPen, auxX, auxY, auxXm, auxYm);
+                    }
                 }
-            }
 
-            del = Bar_N_tzhifra;
-            for (int i = 0; i <= del / 2; i++)
-            {
-                int Size = Width / 20;
-                System.Drawing.Font drawFont = new System.Drawing.Font("Arial", Size);
-                int auxX = aux_X0 + Convert.ToInt32(0.9 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4))) - Size + 1;
-                int auxY = aux_Y0 + Convert.ToInt32(0.9 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                int auxXm = aux_X0 + Convert.ToInt32(1.25 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4))) - Size + 1;
-                int auxYm = aux_Y0 + Convert.ToInt32(1.25 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
-                if (i == 0 || i == del / 2)
+                del = Bar_N_not_bolt;
+                for (int i = 0; i <= del / 2; i++)
                 {
-                    if (i * Bar_step < 10)
-                    { e.Graphics.DrawString(" " + (i * Bar_step + Bar_min) + " ", drawFont, Brushes.Black, auxX, auxY); }
+                    using (Pen myPen = new Pen(Color.Black, 1))
+                    {
+                        int auxX = aux_X0 + Convert.ToInt32(0.95 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxY = aux_Y0 + Convert.ToInt32(0.95 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxXm = aux_X0 + Convert.ToInt32(R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        int auxYm = aux_Y0 + Convert.ToInt32(R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                        e.Graphics.DrawLine(myPen, auxX, auxY, auxXm, auxYm);
+                    }
+                }
+
+                del = Bar_N_tzhifra;
+                for (int i = 0; i <= del / 2; i++)
+                {
+                    int Size = Width / 20;
+                    System.Drawing.Font drawFont = new System.Drawing.Font("Arial", Size);
+                    int auxX = aux_X0 + Convert.ToInt32(0.9 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4))) - Size + 1;
+                    int auxY = aux_Y0 + Convert.ToInt32(0.9 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                    int auxXm = aux_X0 + Convert.ToInt32(1.25 * R * Math.Cos((Math.PI / del) * i - (3 * Math.PI / 4))) - Size + 1;
+                    int auxYm = aux_Y0 + Convert.ToInt32(1.25 * R * Math.Sin((Math.PI / del) * i - (3 * Math.PI / 4)));
+                    if (i == 0 || i == del / 2)
+                    {
+                        if (i * Bar_step < 10)
+                        { e.Graphics.DrawString(" " + (i * Bar_step + Bar_min) + " ", drawFont, Brushes.Black, auxX, auxY); }
+                        else
+                        { e.Graphics.DrawString((i * Bar_step + Bar_min) + "", drawFont, Brushes.Black, auxX, auxY); }
+                    }
                     else
-                    { e.Graphics.DrawString((i * Bar_step + Bar_min) + "", drawFont, Brushes.Black, auxX, auxY); }
-                }
-                else
-                {
-                    if (i * Bar_step < 10)
-                    { e.Graphics.DrawString(" " + (i * Bar_step + Bar_min) + " ", drawFont, Brushes.Black, auxXm, auxYm); }
-                    else
-                    { e.Graphics.DrawString((i * Bar_step + Bar_min) + "", drawFont, Brushes.Black, auxXm, auxYm); }
+                    {
+                        if (i * Bar_step < 10)
+                        { e.Graphics.DrawString(" " + (i * Bar_step + Bar_min) + " ", drawFont, Brushes.Black, auxXm, auxYm); }
+                        else
+                        { e.Graphics.DrawString((i * Bar_step + Bar_min) + "", drawFont, Brushes.Black, auxXm, auxYm); }
+                    }
                 }
             }
-        }
+
     }
 }
+

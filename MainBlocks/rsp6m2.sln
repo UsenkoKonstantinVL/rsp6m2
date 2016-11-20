@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rsp6m2", "rsp6m2\rsp6m2.csproj", "{667471B6-70BB-49DC-9FB8-8AA51EB1A54A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indikator_rsp_6m2", "..\заготовка индикаторы рсп\indikator_rsp_6m2\indikator_rsp_6m2.csproj", "{E3D91EF3-D9B5-4B22-8A71-4CF0577D67B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indikator_rsp_6m2", "..\Indicator\indikator_rsp_6m2\indikator_rsp_6m2.csproj", "{E3D91EF3-D9B5-4B22-8A71-4CF0577D67B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
