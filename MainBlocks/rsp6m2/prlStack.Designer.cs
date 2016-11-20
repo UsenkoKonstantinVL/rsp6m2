@@ -548,6 +548,9 @@
             this.Controls.Add(this.button17);
             this.Name = "prlStack";
             this.Text = "prlStack";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.prlStack_FormClosing);
+            this.Load += new System.EventHandler(this.prlStack_Load);
+            this.EnabledChanged += new System.EventHandler(this.prlStack_EnabledChanged);
             this.ResumeLayout(false);
 
         }

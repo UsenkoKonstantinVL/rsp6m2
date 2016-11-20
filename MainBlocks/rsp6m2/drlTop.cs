@@ -75,7 +75,7 @@ namespace rsp6m2
                     alfa = 50;
                     break;
                 default:
-                    alfa = -30;
+                    alfa = 50;
                     break;
             }
             tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);

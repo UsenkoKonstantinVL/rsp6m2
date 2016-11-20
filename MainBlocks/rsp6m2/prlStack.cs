@@ -37,8 +37,8 @@ namespace rsp6m2
         bsf bsf1 = new bsf();
         bprn021 bprn0211 = new bprn021();
         uvch uvch1 = new uvch();
-        bpr021 bpr021 = new bpr021();
-        bp_apch bp_apch1 = new bp_apch();
+        //bpr021 bpr021 = new bpr021();
+        //bp_apch bp_apch1 = new bp_apch();
         bf02 bf021 = new bf02();
         bg021 bg0211 = new bg021();
         pun pun1 = new pun();
@@ -157,22 +157,24 @@ namespace rsp6m2
 
         private void button21_Click(object sender, EventArgs e)
         {
+            bpr021 bpr021 = new bpr021(p, this);
             bpr021.Show();
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            bpr021.Show();
+            //bpr021.Show();
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            bp_apch1.Show();
+            bp_apch bp = new bp_apch(p, this);
+            bp.Show();
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            bp_apch1.Show();
+            //bp_apch1.Show();
         }
 
         private void button27_Click(object sender, EventArgs e)
@@ -203,6 +205,37 @@ namespace rsp6m2
         private void button23_Click(object sender, EventArgs e)
         {
             brn011.Show();
+        }
+
+        private void prlStack_Load(object sender, EventArgs e)
+        {
+            p.CheckClick((Control)sender);
+            p.GetInfo(holder);
+            f.Enabled = false;
+        }
+
+        private void prlStack_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            f.Enabled = true;
+            p.DeleteInfo();
+        }
+
+        private void prlStack_EnabledChanged(object sender, EventArgs e)
+        {
+            if (this.Enabled == true)
+            {
+                if (p != null)
+                {
+                    foreach (Control c in this.Controls)
+                    {
+                        if (c.GetType().ToString() == "System.Windows.Forms.Button")
+                        {
+                            ((Button)c).FlatAppearance.BorderSize = 0;
+                        }
+                    }
+                    p.GetInfo(holder);
+                }
+            }
         }
     }
 }

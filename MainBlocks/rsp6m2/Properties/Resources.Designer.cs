@@ -263,6 +263,16 @@ namespace rsp6m2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap БольшаяКраснаяКнопка {
+            get {
+                object obj = ResourceManager.GetObject("БольшаяКраснаяКнопка", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Кнопка {
             get {
                 object obj = ResourceManager.GetObject("Кнопка", resourceCulture);
