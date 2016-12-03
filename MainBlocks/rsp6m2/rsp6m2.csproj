@@ -254,6 +254,7 @@
     <Compile Include="drlTop.Designer.cs">
       <DependentUpon>drlTop.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmulatorManager\EmulatorManager.cs" />
     <Compile Include="FormDesk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,7 +297,19 @@
     <Compile Include="genericForm.designer.cs">
       <DependentUpon>genericForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="HelpClass\Helper.cs" />
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
+    <Compile Include="Managers\Managerbp142.cs" />
+    <Compile Include="Managers\ManagerDrlPwr.cs" />
+    <Compile Include="Managers\ManagerDrlStack.cs" />
+    <Compile Include="Managers\ManagerDrlTop.cs" />
+    <Compile Include="Managers\ManagerForm1.cs" />
+    <Compile Include="Managers\ManagerHelpForm.cs" />
+    <Compile Include="Managers\ManagerMainForm.cs" />
+    <Compile Include="Managers\ManagerPrlPwr.cs" />
+    <Compile Include="Managers\ManagerPrlStack.cs" />
+    <Compile Include="Managers\ManagerPrlTop.cs" />
+    <Compile Include="Manager\drlStack.cs" />
     <Compile Include="Manager\ProjectManager.cs" />
     <Compile Include="Manager\Quiz.cs" />
     <Compile Include="Manager\QuizeManager.cs" />
@@ -344,6 +357,7 @@
     <Compile Include="sp02.Designer.cs">
       <DependentUpon>sp02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tests\Test1.cs" />
     <Compile Include="uvch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -592,6 +606,7 @@
   <ItemGroup>
     <None Include="Image\Controls\БольшаяКраснаяКнопка.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

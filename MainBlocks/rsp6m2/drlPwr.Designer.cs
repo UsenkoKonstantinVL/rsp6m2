@@ -39,6 +39,7 @@
             this.ClientSize = new System.Drawing.Size(339, 593);
             this.Name = "drlPwr";
             this.Text = "drlPwr";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.drlPwr_FormClosing);
             this.ResumeLayout(false);
 
         }

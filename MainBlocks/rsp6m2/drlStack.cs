@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using rsp6m2.Controls;
 using rsp6m2.HelpClass;
 using rsp6m2.Manager;
+using rsp6m2.Managers;
 
 namespace rsp6m2
 {
@@ -27,12 +28,46 @@ namespace rsp6m2
             //button15
         }
 
+        public drlStack()
+        {
+            InitializeComponent();
+
+            if (ManagerDrlStack.AllControlls == null)
+            {
+                List<Control> lc = new List<Control>();
+
+                foreach (Control c in Controls)
+                {
+                    if (c is Button)
+                    {
+                        lc.Add(c);
+                    }
+                }
+
+                ManagerDrlStack.SetControls(lc);
+            }
+            else
+            {
+                List<Control> lc = ManagerDrlStack.AllControlls;
+                foreach (Control c in Controls)
+                {
+                    foreach (Control ac in lc)
+                    {
+                        if (c.Name == ac.Name)
+                        {
+                            //c = ac;
+                        }
+                    }
+                }
+            }
+        }
+
         private void InitializeHelper()
         {
             List<Control> Controls;
             holder = new Holder();
             Controls = new List<Control>();
-            Controls.Add(button15);
+            Controls.Add(button15_drl);
             /*Controls.Add(buttonIKO);
             Controls.Add(buttonPRL);
             Controls.Add(button6);//drlpwr
@@ -140,8 +175,9 @@ namespace rsp6m2
 
         private void button15_Click(object sender, EventArgs e)
         {
-            bp142 bp1421 = new bp142(p, this);
-            bp1421.Show();
+            /*bp142 bp1421 = new bp142(p, this);
+            bp1421.Show();*/
+            ManagerDrlStack.ClickToButton((Control)sender);
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -217,14 +253,14 @@ namespace rsp6m2
 
         private void drlStack_Load(object sender, EventArgs e)
         {
-            p.CheckClick((Control)sender);
+            /*p.CheckClick((Control)sender);
             p.GetInfo(holder);
-            f.Enabled = false;
+            f.Enabled = false;*/
         }
 
         private void drlStack_EnabledChanged(object sender, EventArgs e)
         {
-            if (this.Enabled == true)
+            /*if (this.Enabled == true)
             {
                 if (p != null)
                 {
@@ -237,13 +273,15 @@ namespace rsp6m2
                     }
                     p.GetInfo(holder);
                 }
-            }
+            }*/
         }
 
         private void drlStack_FormClosing(object sender, FormClosingEventArgs e)
         {
-            f.Enabled = true;
-            p.DeleteInfo();
+            /*f.Enabled = true;
+            p.DeleteInfo();*/
+            ManagerDrlStack.ShowOffForm();
+
         }
     }
 }

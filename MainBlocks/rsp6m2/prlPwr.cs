@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using rsp6m2.Controls;
 using rsp6m2.HelpClass;
 using rsp6m2.Manager;
+using rsp6m2.Managers;
 
 namespace rsp6m2
 {
@@ -43,6 +44,47 @@ namespace rsp6m2
              (tumblerbop_prlpwr).SetTumblerPosition(pos);
              (tumblerprmp1_prlpwr).SetTumblerPosition(pos);
              (tumblerprmp2_prlpwr).SetTumblerPosition(pos);
+
+
+            if (ManagerPrlPwr.AllControlls == null)
+            {
+                List<Control> lc = new List<Control>();
+                List<Control> ilc = new List<Control>();
+
+                foreach (Control c in Controls)
+                {
+                    if (c is Button)
+                    {
+                        lc.Add(c);
+                    }
+                    else if (c is Tumbler)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is RoundTrumbler)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is Light)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is Voltmetr)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                }
+
+                ManagerPrlPwr.SetControls(ilc, lc);
+            }
+            else
+            {
+                HelpClass.Helper.ReplaceControls(ManagerPrlPwr.SaveInstanceControls, Controls);
+            }
 
         }
 
@@ -84,14 +126,15 @@ namespace rsp6m2
 
         private void prlPwr_Load(object sender, EventArgs e)
         {
-            f.Enabled = false;
-            p.GetInfo(holder);
+           /* f.Enabled = false;
+            p.GetInfo(holder);*/
         }
 
         private void prlPwr_FormClosing(object sender, FormClosingEventArgs e)
         {
-            f.Enabled = true;
-            p.DeleteInfo();
+            /* f.Enabled = true;
+             p.DeleteInfo();*/
+            ManagerPrlPwr.ShowOffForm();
         }
 
         private void tumbler11_Load(object sender, EventArgs e)
@@ -101,8 +144,9 @@ namespace rsp6m2
 
         private void tumbler11_Click(object sender, EventArgs e)
         {
-            p.CheckClick(tumblerventilate_prlpwr);
-            p.GetInfo();//----vtyzk nen
+            /*/ p.CheckClick(tumblerventilate_prlpwr);
+             p.GetInfo();//----vtyzk nen*/
+            ManagerPrlPwr.ClickToButton((Control)sender);
         }
 
         private void label50_Click(object sender, EventArgs e)
@@ -127,19 +171,20 @@ namespace rsp6m2
 
         private void tumblerventilate_prlpwr_Click(object sender, EventArgs e)
         {
-            p.CheckClick((Control)sender);
-            p.GetInfo();
-            if(((Control)sender).Name == "tumblerprl_prlpwr")
-            {
-                if (((Tumbler)sender).CurrentTumblerPosition() == Position.Up)
-                {
-                    light1.LightOn();
-                }
-                else
-                {
-                    light1.LightOff();
-                }
-            }
+            /* p.CheckClick((Control)sender);
+             p.GetInfo();
+             if(((Control)sender).Name == "tumblerprl_prlpwr")
+             {
+                 if (((Tumbler)sender).CurrentTumblerPosition() == Position.Up)
+                 {
+                     light1.LightOn();
+                 }
+                 else
+                 {
+                     light1.LightOff();
+                 }
+             }*/
+            ManagerPrlPwr.ClickToButton((Control)sender);
         }
 
         private void tumblerprl_prlpwr_Load(object sender, EventArgs e)

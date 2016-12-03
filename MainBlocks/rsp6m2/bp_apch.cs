@@ -111,29 +111,30 @@ namespace rsp6m2
 
         private void bp_apch_Load(object sender, EventArgs e)
         {
-            p.CheckClick((Control)sender);
+          /*  p.CheckClick((Control)sender);
             p.GetInfo(holder);
             f.Enabled = false;
             voltmetr1.Set_Value = 0;
-            voltmetr2.Set_Value = 0;
+            voltmetr2.Set_Value = 0;*/
         }
 
         private void bp_apch_FormClosing(object sender, FormClosingEventArgs e)
         {
-            f.Enabled = true;
-            p.DeleteInfo();
+          /*  f.Enabled = true;
+            p.DeleteInfo();*/
+            
         }
 
         private void roundTrumbler_bpch_2_MouseClick(object sender, MouseEventArgs e)
         {
-            p.CheckClick((Control)sender);
-            p.GetInfo();
+          /*  p.CheckClick((Control)sender);
+            p.GetInfo();*/
         }
 
         private void roundTrumbler_bpch_1_MouseClick(object sender, MouseEventArgs e)
         {
-            p.CheckClick((Control)sender);
-            p.GetInfo();
+           /* p.CheckClick((Control)sender);
+            p.GetInfo();*/
         }
     }
 }

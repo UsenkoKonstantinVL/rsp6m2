@@ -13,8 +13,14 @@ namespace rsp6m2.Forms
         public CompleteForm()
         {
             InitializeComponent();
-            GetNewName("Тест закончен", "FormComplete");
+            //GetNewName("Тест закончен", "FormComplete");
 
+        }
+
+        public void GetName(String s1, String s2)
+        {
+            label1.Text = s1;
+            GetNewName(s1, s2);
         }
     }
 }

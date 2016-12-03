@@ -32,6 +32,11 @@ namespace rsp6m2.Forms
                 Message m = Message.Create(base.Handle, 0xA1, new IntPtr(2), IntPtr.Zero);
                 this.WndProc(ref m);
             });
+
+            if(!Managers.ManagerMainForm.IsInitialize())
+            {
+                Managers.ManagerMainForm.Initialize(this);
+            }
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -58,7 +63,7 @@ namespace rsp6m2.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool b = radioButton1.Checked;
+            /*bool b = radioButton1.Checked;
             var a = listBox1.SelectedIndex;
             ProjectManager pm = new ProjectManager(a, b, this);
             if(b)
@@ -80,17 +85,19 @@ namespace rsp6m2.Forms
             form1 = new Form1(this, pm);
 
             form1.Show();
-            Console.WriteLine("Выбранный индекс - " + a);
+            Console.WriteLine("Выбранный индекс - " + a);*/
+
+            EmulatorManager.EmulatorManager.InitializeManager(1, true);
         }
 
         public void Finish()
         {
-            this.Enabled = true;
+            /*this.Enabled = true;
             form1.Close();
             if(help != null)
                 help.Close();
             CompleteForm c = new CompleteForm();
-            c.ShowDialog();
+            c.ShowDialog();*/
         }
 
         void Initialize()
