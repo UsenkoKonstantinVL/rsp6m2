@@ -47,6 +47,8 @@ namespace rsp6m2
             holder = new Holder();
             holder.listOfFrom = this;
             holder.listOfControl = Controls;
+
+            voltmetr1.Set_Center_str = "mA";
         }
 
 

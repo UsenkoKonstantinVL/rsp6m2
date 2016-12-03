@@ -45,7 +45,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.tumbler21 = new rsp6m2.Controls.Tumbler2();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel7.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // voltmetr1
@@ -54,7 +63,7 @@
             this.voltmetr1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("voltmetr1.BackgroundImage")));
             this.voltmetr1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.voltmetr1.current_Value = 0;
-            this.voltmetr1.Location = new System.Drawing.Point(171, 121);
+            this.voltmetr1.Location = new System.Drawing.Point(293, 113);
             this.voltmetr1.Name = "voltmetr1";
             this.voltmetr1.Set_Bar_min = 0;
             this.voltmetr1.Set_Bar_N_bolt = 10;
@@ -71,7 +80,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(301, 345);
+            this.label7.Location = new System.Drawing.Point(423, 337);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 15);
             this.label7.TabIndex = 67;
@@ -82,7 +91,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(287, 310);
+            this.label8.Location = new System.Drawing.Point(409, 302);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 30);
             this.label8.TabIndex = 66;
@@ -93,7 +102,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(228, 289);
+            this.label9.Location = new System.Drawing.Point(350, 281);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 30);
             this.label9.TabIndex = 65;
@@ -104,7 +113,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(160, 321);
+            this.label10.Location = new System.Drawing.Point(282, 313);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(63, 15);
             this.label10.TabIndex = 64;
@@ -115,7 +124,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(166, 345);
+            this.label11.Location = new System.Drawing.Point(288, 337);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 15);
             this.label11.TabIndex = 63;
@@ -127,7 +136,7 @@
             this.roundTrumbler_bpch_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bpch_1.BackgroundImage")));
             this.roundTrumbler_bpch_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.roundTrumbler_bpch_1.CurrentIndex = 0;
-            this.roundTrumbler_bpch_1.Location = new System.Drawing.Point(231, 344);
+            this.roundTrumbler_bpch_1.Location = new System.Drawing.Point(353, 336);
             this.roundTrumbler_bpch_1.Name = "roundTrumbler_bpch_1";
             this.roundTrumbler_bpch_1.Size = new System.Drawing.Size(49, 69);
             this.roundTrumbler_bpch_1.TabIndex = 62;
@@ -228,6 +237,78 @@
             this.label3.TabIndex = 78;
             this.label3.Text = "27В";
             // 
+            // tumbler21
+            // 
+            this.tumbler21.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler21.BackgroundImage")));
+            this.tumbler21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumbler21.Location = new System.Drawing.Point(57, 141);
+            this.tumbler21.Name = "tumbler21";
+            this.tumbler21.Size = new System.Drawing.Size(32, 39);
+            this.tumbler21.TabIndex = 79;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Green;
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Location = new System.Drawing.Point(156, 115);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(76, 43);
+            this.panel1.TabIndex = 80;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Yellow;
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Location = new System.Drawing.Point(156, 179);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(76, 43);
+            this.panel2.TabIndex = 81;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(42, 108);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 15);
+            this.label6.TabIndex = 84;
+            this.label6.Text = "РАБОТА";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(42, 203);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 15);
+            this.label4.TabIndex = 85;
+            this.label4.Text = "КОНТУР";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(8, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 15);
+            this.label5.TabIndex = 86;
+            this.label5.Text = "РАБОТА";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.Location = new System.Drawing.Point(10, 14);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(52, 15);
+            this.label12.TabIndex = 87;
+            this.label12.Text = "ГОТОВ";
+            // 
             // bpr021
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,6 +316,11 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 744);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.tumbler21);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel7);
@@ -255,6 +341,10 @@
             this.Text = "bpr02";
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +368,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private Controls.Tumbler2 tumbler21;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
     }
 }
