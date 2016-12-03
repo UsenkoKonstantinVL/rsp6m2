@@ -95,7 +95,7 @@ namespace rsp6m2.HelpClass
 
             cCollection.Clear();
 
-            foreach(Control c in list)
+            foreach(Control c in newListControls)
             {
                 cCollection.Add(c);
             }

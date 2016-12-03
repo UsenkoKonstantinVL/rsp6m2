@@ -54,10 +54,10 @@ namespace rsp6m2.Managers
         public static void ClickToButton(Control control)
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
+            ManagerHelpForm.GetHelp(ID);
 
 
-
-            if(control is Button)
+            if (control is Button)
             {
                 Button b = (Button)control;
 
@@ -131,7 +131,7 @@ namespace rsp6m2.Managers
         public static void ChangeInstance(List<string> list)
         {
             if (AllControlls != null) {
-
+                ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
 
                 foreach (string controlName in list)

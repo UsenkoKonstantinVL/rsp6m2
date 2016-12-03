@@ -40,7 +40,7 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            if (form.isOpened == true)
+            if (form != null && form.isOpened == true)
                 form.Close();
             form = null;
             //SaveInstanceControls = null;
@@ -50,6 +50,7 @@ namespace rsp6m2.Managers
         public static void ClickToButton(Control control)
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
+            ManagerHelpForm.GetHelp(ID);
 
 
 
@@ -73,7 +74,7 @@ namespace rsp6m2.Managers
         {
             if (AllControlls != null)
             {
-
+                ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
 
                 foreach (string controlName in list)

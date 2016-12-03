@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using rsp6m2.Controls;
 using rsp6m2.HelpClass;
 using rsp6m2.Manager;
-
+using rsp6m2.Managers;
 
 namespace rsp6m2
 {
@@ -29,6 +29,46 @@ namespace rsp6m2
         {
             InitializeComponent();
             Initialize();
+
+            if (ManagerBpApch.AllControlls == null)
+            {
+                List<Control> lc = new List<Control>();
+                List<Control> ilc = new List<Control>();
+
+                foreach (Control c in Controls)
+                {
+                    if (c is Button)
+                    {
+                        lc.Add(c);
+                    }
+                    else if (c is Tumbler)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is RoundTrumbler)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is Light)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                    else if (c is Voltmetr)
+                    {
+                        lc.Add(c);
+                        ilc.Add(c);
+                    }
+                }
+
+                ManagerPrlPwr.SetControls(ilc, lc);
+            }
+            else
+            {
+                HelpClass.Helper.ReplaceControls(ManagerBpApch.SaveInstanceControls, Controls);
+            }
         }
 
         private void Initialize()

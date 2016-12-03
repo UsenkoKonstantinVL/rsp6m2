@@ -51,6 +51,7 @@ namespace rsp6m2.Managers
         public static void ClickToButton(Control control)
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
+            ManagerHelpForm.GetHelp(ID);
         }
 
         public static void ShowOffForm()
@@ -67,7 +68,7 @@ namespace rsp6m2.Managers
         {
             if (AllControlls != null)
             {
-
+                ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
 
                 foreach (string controlName in list)

@@ -93,7 +93,7 @@ namespace rsp6m2.Tests
 
             cName = new List<string>();
             cName.Add("tumblerPowerDrl");
-            cName.Add("button15_prl");
+            cName.Add("button15_drl");
             cName.Add("buttonDRL");
 
             q.ListOfHelp = helpDictionary;
@@ -189,7 +189,7 @@ namespace rsp6m2.Tests
             t.HelpText = "Включите автомат ВЕНТИЛЯЦИЯ ПРАВОГО БОРТА" +
                     Environment.NewLine + "Положение вверху.";
             t.NeedClick = "Включить " + txt;
-            helpDictionary.Add(23, t);
+            helpDictionary.Add(21, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на нижнюю правую часть щитка";
@@ -212,6 +212,377 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            #region Quize6
+            q = new Quize();
+            q.ListOfConditions = Quiz6IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат АППАРАТУРА ПРЛ";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите автомат АППАРАТУРА ПРЛ" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerprl_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize7
+            q = new Quize();
+            q.ListOfConditions = Quiz7IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат АНТЕННЫ";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите автомат АНТЕННЫ" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerantenna_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize8
+            q = new Quize();
+            q.ListOfConditions = Quiz8IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат ИНДИКАТОРЫ";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите автомат ИНДИКАТОРЫ" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(23, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на верхнюю левую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerIndicate_drltop");
+            cName.Add("button4");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            
+
+            #region Quize9
+            q = new Quize();
+            q.ListOfConditions = Quiz9IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БСФ-1";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БСФ-1" +
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbsf1_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize10
+            q = new Quize();
+            q.ListOfConditions = Quiz10IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БСФ-2";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БСФ-2" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbsf2_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize11
+            q = new Quize();
+            q.ListOfConditions = Quiz11IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БРН-1";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БРН-1" +
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbrn1_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize12
+            q = new Quize();
+            q.ListOfConditions = Quiz12IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БРН-2";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БРН-2" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbrn2_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize13
+            q = new Quize();
+            q.ListOfConditions = Quiz13IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер КУ";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер КУ" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerku_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize14
+            q = new Quize();
+            q.ListOfConditions = Quiz14IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БПР-Н";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БПР-Н" +
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbpr_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize15
+            q = new Quize();
+            q.ListOfConditions = Quiz15IsNotDone_PRLOn;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = " автомат тумблер БОП";
+
+            t = new TextForHelpForm();
+            t.HelpText = "Включите тумблер БОП" + 
+                Environment.NewLine + "Положение вверху.";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(21, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbop_prlpwr");
+            cName.Add("button7");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
 
             return list;
         }

@@ -300,6 +300,7 @@
     <Compile Include="HelpClass\Helper.cs" />
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
     <Compile Include="Managers\Managerbp142.cs" />
+    <Compile Include="Managers\ManagerBpApch.cs" />
     <Compile Include="Managers\ManagerDrlPwr.cs" />
     <Compile Include="Managers\ManagerDrlStack.cs" />
     <Compile Include="Managers\ManagerDrlTop.cs" />

@@ -53,6 +53,7 @@ namespace rsp6m2.EmulatorManager
                 {
                     //QuizeIsDone(GetListOfLightedControls());
                     SendMassageThatQuizeIsDone();
+                    ManagerHelpForm.SetHelp(Test[currentQuize].ListOfHelp);
                 }
             }
 

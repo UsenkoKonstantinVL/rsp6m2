@@ -47,16 +47,16 @@ namespace rsp6m2.Managers
         public static void ClickToButton(Control control)
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
-
+            ManagerHelpForm.GetHelp(ID);
 
 
             if (control is Button)
             {
                 Button b = (Button)control;
 
-                if (b.Name == "button15")
+                if (b.Name == "button28_drl")
                 {
-                    //Managerbp142.Initialize();
+                    ManagerBpApch.Initialize();
                     return;
                 }
 
@@ -116,7 +116,7 @@ namespace rsp6m2.Managers
         {
             if (AllControlls != null)
             {
-
+                ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
 
                 foreach (string controlName in list)
