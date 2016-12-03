@@ -70,7 +70,8 @@ namespace rsp6m2.Managers
                 if(b.Name == "buttonIKO")
                 {
 
-
+                    indikator_rsp_6m2.Form1 form = new indikator_rsp_6m2.Form1();
+                    form.ShowDialog();
                     return;
                 }
 

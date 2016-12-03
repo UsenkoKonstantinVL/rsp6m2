@@ -191,6 +191,8 @@
             this.button18 = new System.Windows.Forms.Button();
             this.ikoDispControl1 = new indikator_rsp_6m2.ikoDispControl();
             this.ikoPasControl1 = new indikator_rsp_6m2.ikoPasControl();
+            this.UnderPRLblocks = new System.Windows.Forms.Button();
+            this.UnderDRLblocks = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -256,7 +258,7 @@
             this.panel1.Controls.Add(this.tumbler1);
             this.panel1.Controls.Add(this.nPosSwitch1);
             this.panel1.Controls.Add(this.voltmetr1);
-            this.panel1.Location = new System.Drawing.Point(510, 3);
+            this.panel1.Location = new System.Drawing.Point(510, 6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(511, 578);
             this.panel1.TabIndex = 0;
@@ -1467,7 +1469,7 @@
             this.panel3.Controls.Add(this.tumbler17);
             this.panel3.Controls.Add(this.potenzhiomert19);
             this.panel3.Controls.Add(this.potenzhiomert18);
-            this.panel3.Location = new System.Drawing.Point(177, 410);
+            this.panel3.Location = new System.Drawing.Point(201, 395);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(263, 162);
             this.panel3.TabIndex = 81;
@@ -1603,7 +1605,7 @@
             this.panel4.Controls.Add(this.tumbler20);
             this.panel4.Controls.Add(this.tumbler19);
             this.panel4.Controls.Add(this.tumbler18);
-            this.panel4.Location = new System.Drawing.Point(157, 434);
+            this.panel4.Location = new System.Drawing.Point(141, 330);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(344, 88);
             this.panel4.TabIndex = 107;
@@ -1775,7 +1777,7 @@
             this.panel5.Controls.Add(this.button20);
             this.panel5.Controls.Add(this.button21);
             this.panel5.Controls.Add(this.button18);
-            this.panel5.Location = new System.Drawing.Point(419, 320);
+            this.panel5.Location = new System.Drawing.Point(365, 261);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(243, 248);
             this.panel5.TabIndex = 112;
@@ -2034,6 +2036,26 @@
             this.ikoPasControl1.Size = new System.Drawing.Size(524, 516);
             this.ikoPasControl1.TabIndex = 84;
             // 
+            // UnderPRLblocks
+            // 
+            this.UnderPRLblocks.Location = new System.Drawing.Point(728, 548);
+            this.UnderPRLblocks.Name = "UnderPRLblocks";
+            this.UnderPRLblocks.Size = new System.Drawing.Size(194, 23);
+            this.UnderPRLblocks.TabIndex = 113;
+            this.UnderPRLblocks.Text = "Блоки под столечницей";
+            this.UnderPRLblocks.UseVisualStyleBackColor = true;
+            this.UnderPRLblocks.Click += new System.EventHandler(this.UnderPRLblocks_Click);
+            // 
+            // UnderDRLblocks
+            // 
+            this.UnderDRLblocks.Location = new System.Drawing.Point(219, 548);
+            this.UnderDRLblocks.Name = "UnderDRLblocks";
+            this.UnderDRLblocks.Size = new System.Drawing.Size(194, 23);
+            this.UnderDRLblocks.TabIndex = 114;
+            this.UnderDRLblocks.Text = "Блоки под столечницей";
+            this.UnderDRLblocks.UseVisualStyleBackColor = true;
+            this.UnderDRLblocks.Click += new System.EventHandler(this.UnderDRLblocks_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2047,13 +2069,15 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.ikoDispControl1);
             this.Controls.Add(this.ikoPasControl1);
             this.Controls.Add(this.button17);
+            this.Controls.Add(this.UnderDRLblocks);
+            this.Controls.Add(this.UnderPRLblocks);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
@@ -2240,6 +2264,8 @@
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label67;
         private tumbler tumbler25;
+        private System.Windows.Forms.Button UnderPRLblocks;
+        private System.Windows.Forms.Button UnderDRLblocks;
     }
 }
 

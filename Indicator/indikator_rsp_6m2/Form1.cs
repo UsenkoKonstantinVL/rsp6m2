@@ -121,6 +121,17 @@ namespace indikator_rsp_6m2
         private void tumbler17_Click(object sender, EventArgs e)
         {
             ikoDispControl1.onMarker = tumbler17.State;
-        } 
+        }
+
+        private void UnderPRLblocks_Click(object sender, EventArgs e)
+        {
+            indikator_rsp_6m2.UnderPRLBlocks form = new UnderPRLBlocks();
+            form.Show();
+        }
+
+        private void UnderDRLblocks_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
