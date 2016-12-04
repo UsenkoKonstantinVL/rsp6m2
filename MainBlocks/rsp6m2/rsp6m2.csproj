@@ -209,6 +209,12 @@
     <Compile Include="bvm011.Designer.cs">
       <DependentUpon>bvm011.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Bigbutton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Bigbutton.Designer.cs">
+      <DependentUpon>Bigbutton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\IHighlight.cs" />
     <Compile Include="Controls\IHighlightControl.cs" />
     <Compile Include="Controls\IResponseForClick.cs" />
@@ -217,6 +223,12 @@
     </Compile>
     <Compile Include="Controls\Light.Designer.cs">
       <DependentUpon>Light.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Littlebutton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Littlebutton.Designer.cs">
+      <DependentUpon>Littlebutton.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\RoundTrumbler.cs">
       <SubType>UserControl</SubType>
@@ -241,6 +253,12 @@
     </Compile>
     <Compile Include="Controls\Tumbler2.Designer.cs">
       <DependentUpon>Tumbler2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\tumbler3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\tumbler3.Designer.cs">
+      <DependentUpon>tumbler3.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\Voltmetr.cs">
       <SubType>UserControl</SubType>
@@ -462,8 +480,14 @@
     <EmbeddedResource Include="bvm011.resx">
       <DependentUpon>bvm011.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Bigbutton.resx">
+      <DependentUpon>Bigbutton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Light.resx">
       <DependentUpon>Light.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Littlebutton.resx">
+      <DependentUpon>Littlebutton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\RoundTrumbler.resx">
       <DependentUpon>RoundTrumbler.cs</DependentUpon>
@@ -476,6 +500,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Tumbler2.resx">
       <DependentUpon>Tumbler2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\tumbler3.resx">
+      <DependentUpon>tumbler3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Voltmetr.resx">
       <DependentUpon>Voltmetr.cs</DependentUpon>
@@ -626,7 +653,9 @@
   <ItemGroup>
     <None Include="Image\Controls\БольшаяКраснаяКнопка.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Image\Controls\iron_middle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
