@@ -74,14 +74,16 @@ namespace rsp6m2.Managers
                     return;
                 }
 
-                if (b.Name == "button4")
+                if (b.Name == "button21_prl")
                 {
+                    ManagerBpr021.Initialize();
                     //drlTop1
                     return;
                 }
 
-                if (b.Name == "button5")
+                if (b.Name == "button13_prl")
                 {
+                    ManagerBvm011.Initialize();
                     //prlTop1
                     return;
                 }

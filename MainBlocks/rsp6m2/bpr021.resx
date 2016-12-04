@@ -214,7 +214,7 @@
   <data name="light1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACw0AAAsNAe0HwCwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfcAwYGHwri4cjK
+        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfcAwYGHwri4cjK
         AACK/UlEQVR4Xu39B7Tl61XdiQrdW7lOnZxzzjnnnHPOOecc6sTKVTfqKllCIghMcngk0xhwt18Dz+ON
         ft2NH21DG3u0jaHBJLcxGLAQ0urf/PapC9jYjUkWWHuMb+wTd/ivueaac31hf+Rrt6/d/srd/tVP/fdv
         fvZjr7zefu9V6LvvvMh88eyq/vHV2RBj+enTi4MXLy8vX7y6fPHyradvv/XO83devfXs7Xfee/n83fde
@@ -11226,10 +11226,10 @@
         N7/9M58t6PX/4u8LX/i/ALQb3r0ZxMYbAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="roundTrumbler1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="roundTrumbler_bpr021.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfcBAcOCCLWWA5r
+        YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfcBAcOCCLWWA5r
         AACAmUlEQVR4Xu39B3iV19Xtj37pMaYjhIQKQr333nvvvffeK6iAQCCEhBAdIQSiCIHp7rjESewUJy4p
         jhM7sWPHTuy4xd2xHRfmHWNtbWx/8f/ce8495/yx887nWc+7JW3tvQXr94451pprrf/SQgsttNBCCy20
         0EILLbTQQgsttNBCCy200EILLbTQQgsttNBCCy200EILLbTQQgsttNBCCy200EILLbTQQgsttNBCi/+l

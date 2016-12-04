@@ -135,8 +135,9 @@ namespace rsp6m2
 
         private void bp_apch_FormClosing(object sender, FormClosingEventArgs e)
         {
-          /*  f.Enabled = true;
-            p.DeleteInfo();*/
+            /*  f.Enabled = true;
+              p.DeleteInfo();*/
+            ManagerBpApch.ShowOffForm();
             
         }
 

@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using rsp6m2.Controls;
 using rsp6m2.HelpClass;
 using rsp6m2.Manager;
+using rsp6m2.Managers;
 
 namespace rsp6m2
 {
@@ -28,15 +29,32 @@ namespace rsp6m2
         {
             InitializeComponent();
             Initialize();
+
+            if (ManagerBpr021.AllControlls == null)
+            {
+                List<Control> lc = new List<Control>();
+                List<Control> ilc = new List<Control>();
+
+                HelpClass.Helper.ListsOfControls(lc, ilc, Controls);
+
+                ManagerBpr021.SetControls(ilc, lc);
+            }
+            else
+            {
+                HelpClass.Helper.ReplaceControls(ManagerBpr021.SaveInstanceControls, Controls);
+            }
         }
 
         private void Initialize()
         {
-           /* roundTrumbler_bpch_1.MaxIndex = 5;
-            roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);*/
+            /* roundTrumbler_bpch_1.MaxIndex = 5;
+             roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);*/
 
             //roundTrumbler_bpch_1.MaxIndex = 5;
-           // roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);
+            // roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);
+
+            roundTrumbler_bpr021.MaxIndex = 5;
+            roundTrumbler_bpr021.setDrawRoundTumbler(transformPicture);
 
             List<Control> Controls = new List<Control>();
 
@@ -48,7 +66,7 @@ namespace rsp6m2
             holder.listOfFrom = this;
             holder.listOfControl = Controls;
 
-            voltmetr1.Set_Center_str = "mA";
+            //voltmetr1.Set_Center_str = "mA";
         }
 
 
@@ -60,7 +78,7 @@ namespace rsp6m2
             switch (currentIndex)
             {
                 case 0:
-                    alfa = -50;
+                    alfa = -70;
                     break;
                 case 1:
                     alfa = -30;
@@ -72,15 +90,25 @@ namespace rsp6m2
                     alfa = 30;
                     break;
                 case 4:
-                    alfa = 50;
+                    alfa = 70;
                     break;
                 default:
-                    alfa = 50;
+                    alfa = 70;
                     break;
             }
             tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);
             tumbler.Invalidate();
         }
         #endregion
+
+        private void tumbler21_Click(object sender, EventArgs e)
+        {
+            ManagerBpr021.ClickToButton((Control)sender);
+        }
+
+        private void roundTrumbler1_Click(object sender, EventArgs e)
+        {
+            ManagerBpr021.ClickToButton((Control)sender);
+        }
     }
 }

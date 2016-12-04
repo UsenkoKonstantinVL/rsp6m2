@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
-using rsp6m2.BlockForms;
 
 namespace rsp6m2.Managers
 {
-    static class ManagerBg021
+    public static class ManagerBpr021
     {
-        static BlockForms.bg021 form = null;
+        static bpr021 form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 424;
+        static int ID = 421;
 
         public static void Initialize()
         {
             //if (form == null)
             {
-                form = new BlockForms.bg021();
+                form = new bpr021();
             }
 
             form.Show();
@@ -62,7 +61,7 @@ namespace rsp6m2.Managers
             {
                 Button b = (Button)control;
 
-               
+
 
 
 

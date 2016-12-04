@@ -49,7 +49,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.roundTrumbler_bpch_1 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bvm011_2 = new rsp6m2.Controls.RoundTrumbler();
             this.light3 = new rsp6m2.Controls.Light();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -66,7 +66,7 @@
             this.light6 = new rsp6m2.Controls.Light();
             this.light5 = new rsp6m2.Controls.Light();
             this.light4 = new rsp6m2.Controls.Light();
-            this.roundTrumbler1 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bvm011_1 = new rsp6m2.Controls.RoundTrumbler();
             this.light2 = new rsp6m2.Controls.Light();
             this.light1 = new rsp6m2.Controls.Light();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -296,16 +296,17 @@
             this.label9.TabIndex = 115;
             this.label9.Text = "0.16А";
             // 
-            // roundTrumbler_bpch_1
+            // roundTrumbler_bvm011_2
             // 
-            this.roundTrumbler_bpch_1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_bpch_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bpch_1.BackgroundImage")));
-            this.roundTrumbler_bpch_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler_bpch_1.CurrentIndex = 0;
-            this.roundTrumbler_bpch_1.Location = new System.Drawing.Point(76, 352);
-            this.roundTrumbler_bpch_1.Name = "roundTrumbler_bpch_1";
-            this.roundTrumbler_bpch_1.Size = new System.Drawing.Size(49, 69);
-            this.roundTrumbler_bpch_1.TabIndex = 80;
+            this.roundTrumbler_bvm011_2.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bvm011_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bvm011_2.BackgroundImage")));
+            this.roundTrumbler_bvm011_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bvm011_2.CurrentIndex = 0;
+            this.roundTrumbler_bvm011_2.Location = new System.Drawing.Point(76, 352);
+            this.roundTrumbler_bvm011_2.Name = "roundTrumbler_bvm011_2";
+            this.roundTrumbler_bvm011_2.Size = new System.Drawing.Size(49, 69);
+            this.roundTrumbler_bvm011_2.TabIndex = 80;
+            this.roundTrumbler_bvm011_2.Click += new System.EventHandler(this.roundTrumbler_bvm011_2_Click);
             // 
             // light3
             // 
@@ -465,16 +466,17 @@
             this.light4.Size = new System.Drawing.Size(50, 50);
             this.light4.TabIndex = 93;
             // 
-            // roundTrumbler1
+            // roundTrumbler_bvm011_1
             // 
-            this.roundTrumbler1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler1.BackgroundImage")));
-            this.roundTrumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler1.CurrentIndex = 0;
-            this.roundTrumbler1.Location = new System.Drawing.Point(375, 363);
-            this.roundTrumbler1.Name = "roundTrumbler1";
-            this.roundTrumbler1.Size = new System.Drawing.Size(49, 69);
-            this.roundTrumbler1.TabIndex = 86;
+            this.roundTrumbler_bvm011_1.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bvm011_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bvm011_1.BackgroundImage")));
+            this.roundTrumbler_bvm011_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bvm011_1.CurrentIndex = 0;
+            this.roundTrumbler_bvm011_1.Location = new System.Drawing.Point(375, 363);
+            this.roundTrumbler_bvm011_1.Name = "roundTrumbler_bvm011_1";
+            this.roundTrumbler_bvm011_1.Size = new System.Drawing.Size(49, 69);
+            this.roundTrumbler_bvm011_1.TabIndex = 86;
+            this.roundTrumbler_bvm011_1.Click += new System.EventHandler(this.roundTrumbler_bvm011_1_Click);
             // 
             // light2
             // 
@@ -527,14 +529,15 @@
             this.voltmetr2.Location = new System.Drawing.Point(325, 105);
             this.voltmetr2.Name = "voltmetr2";
             this.voltmetr2.Set_Bar_min = 0;
-            this.voltmetr2.Set_Bar_N_bolt = 10;
-            this.voltmetr2.Set_Bar_N_not_bolt = 50;
-            this.voltmetr2.Set_Bar_N_tzhifra = 10;
-            this.voltmetr2.Set_Bar_step = 10D;
-            this.voltmetr2.Set_Center_str = "V";
+            this.voltmetr2.Set_Bar_N_bolt = 20;
+            this.voltmetr2.Set_Bar_N_not_bolt = 100;
+            this.voltmetr2.Set_Bar_N_tzhifra = 20;
+            this.voltmetr2.Set_Bar_step = 1D;
+            this.voltmetr2.Set_Center_str = "kV";
             this.voltmetr2.Set_Value = 0;
             this.voltmetr2.Size = new System.Drawing.Size(160, 160);
             this.voltmetr2.TabIndex = 1;
+            this.voltmetr2.Load += new System.EventHandler(this.voltmetr2_Load);
             // 
             // voltmetr1
             // 
@@ -545,11 +548,11 @@
             this.voltmetr1.Location = new System.Drawing.Point(16, 105);
             this.voltmetr1.Name = "voltmetr1";
             this.voltmetr1.Set_Bar_min = 0;
-            this.voltmetr1.Set_Bar_N_bolt = 10;
-            this.voltmetr1.Set_Bar_N_not_bolt = 50;
-            this.voltmetr1.Set_Bar_N_tzhifra = 10;
-            this.voltmetr1.Set_Bar_step = 10D;
-            this.voltmetr1.Set_Center_str = "V";
+            this.voltmetr1.Set_Bar_N_bolt = 50;
+            this.voltmetr1.Set_Bar_N_not_bolt = 10;
+            this.voltmetr1.Set_Bar_N_tzhifra = 25;
+            this.voltmetr1.Set_Bar_step = 1D;
+            this.voltmetr1.Set_Center_str = "kV";
             this.voltmetr1.Set_Value = 0;
             this.voltmetr1.Size = new System.Drawing.Size(160, 160);
             this.voltmetr1.TabIndex = 0;
@@ -563,7 +566,7 @@
             this.ClientSize = new System.Drawing.Size(527, 744);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.roundTrumbler_bpch_1);
+            this.Controls.Add(this.roundTrumbler_bvm011_2);
             this.Controls.Add(this.light3);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
@@ -594,7 +597,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.roundTrumbler1);
+            this.Controls.Add(this.roundTrumbler_bvm011_1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
@@ -607,6 +610,7 @@
             this.DoubleBuffered = true;
             this.Name = "bvm011";
             this.Text = "bvm011";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bvm011_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);
@@ -626,12 +630,12 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private Controls.RoundTrumbler roundTrumbler_bpch_1;
+        private Controls.RoundTrumbler roundTrumbler_bvm011_2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Controls.RoundTrumbler roundTrumbler1;
+        private Controls.RoundTrumbler roundTrumbler_bvm011_1;
         private Controls.Light light3;
         private Controls.Light light4;
         private Controls.Light light5;

@@ -51,7 +51,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.light1 = new rsp6m2.Controls.Light();
             this.voltmetr1 = new rsp6m2.Controls.Voltmetr();
-            this.roundTrumbler1 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bpr021 = new rsp6m2.Controls.RoundTrumbler();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -227,6 +227,7 @@
             this.tumbler21.Name = "tumbler21";
             this.tumbler21.Size = new System.Drawing.Size(27, 42);
             this.tumbler21.TabIndex = 79;
+            this.tumbler21.Click += new System.EventHandler(this.tumbler21_Click);
             // 
             // panel7
             // 
@@ -292,22 +293,23 @@
             this.voltmetr1.Set_Bar_N_bolt = 10;
             this.voltmetr1.Set_Bar_N_not_bolt = 50;
             this.voltmetr1.Set_Bar_N_tzhifra = 10;
-            this.voltmetr1.Set_Bar_step = 10D;
-            this.voltmetr1.Set_Center_str = "V";
+            this.voltmetr1.Set_Bar_step = 0.5D;
+            this.voltmetr1.Set_Center_str = "mA";
             this.voltmetr1.Set_Value = 0;
             this.voltmetr1.Size = new System.Drawing.Size(170, 164);
             this.voltmetr1.TabIndex = 0;
             // 
-            // roundTrumbler1
+            // roundTrumbler_bpr021
             // 
-            this.roundTrumbler1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler1.BackgroundImage")));
-            this.roundTrumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler1.CurrentIndex = 0;
-            this.roundTrumbler1.Location = new System.Drawing.Point(337, 331);
-            this.roundTrumbler1.Name = "roundTrumbler1";
-            this.roundTrumbler1.Size = new System.Drawing.Size(94, 87);
-            this.roundTrumbler1.TabIndex = 86;
+            this.roundTrumbler_bpr021.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bpr021.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bpr021.BackgroundImage")));
+            this.roundTrumbler_bpr021.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bpr021.CurrentIndex = 0;
+            this.roundTrumbler_bpr021.Location = new System.Drawing.Point(337, 331);
+            this.roundTrumbler_bpr021.Name = "roundTrumbler_bpr021";
+            this.roundTrumbler_bpr021.Size = new System.Drawing.Size(94, 87);
+            this.roundTrumbler_bpr021.TabIndex = 86;
+            this.roundTrumbler_bpr021.Click += new System.EventHandler(this.roundTrumbler1_Click);
             // 
             // bpr021
             // 
@@ -335,7 +337,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.voltmetr1);
-            this.Controls.Add(this.roundTrumbler1);
+            this.Controls.Add(this.roundTrumbler_bpr021);
             this.DoubleBuffered = true;
             this.Name = "bpr021";
             this.Text = "bpr02";
@@ -374,6 +376,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
-        private Controls.RoundTrumbler roundTrumbler1;
+        private Controls.RoundTrumbler roundTrumbler_bpr021;
     }
 }
