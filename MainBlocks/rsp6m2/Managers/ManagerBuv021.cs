@@ -17,6 +17,12 @@ namespace rsp6m2.Managers
 
             form = new BlockForms.buv_021();
 
+            if(EmulatorManager.GlobalManager.IsLampBuv021Light == true)
+            {
+                form.IsLampLighting(true);
+
+            }
+                    
 
             form.Show();
 

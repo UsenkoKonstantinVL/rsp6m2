@@ -297,6 +297,7 @@
       <DependentUpon>drlTop.cs</DependentUpon>
     </Compile>
     <Compile Include="EmulatorManager\EmulatorManager.cs" />
+    <Compile Include="EmulatorManager\GlobalManager.cs" />
     <Compile Include="FormDesk.cs">
       <SubType>Form</SubType>
     </Compile>

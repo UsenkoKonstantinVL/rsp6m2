@@ -40,5 +40,14 @@ namespace rsp6m2.BlockForms
         {
             ManagerBuv021.ShowOffForm();
         }
+
+        public void IsLampLighting(bool res)
+        {
+            if(res)
+            {
+                light_buv021_1.SetLight(res);
+            }
+                    
+        }
     }
 }

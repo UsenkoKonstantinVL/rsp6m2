@@ -39,7 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.light1 = new rsp6m2.Controls.Light();
+            this.light_buv021_1 = new rsp6m2.Controls.Light();
             this.light2 = new rsp6m2.Controls.Light();
             this.light4 = new rsp6m2.Controls.Light();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -141,7 +141,7 @@
             this.light3.BackColor = System.Drawing.Color.Transparent;
             this.light3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light3.BackgroundImage")));
             this.light3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light3.Location = new System.Drawing.Point(210, 278);
+            this.light3.Location = new System.Drawing.Point(206, 278);
             this.light3.Name = "light3";
             this.light3.Size = new System.Drawing.Size(50, 50);
             this.light3.TabIndex = 94;
@@ -187,21 +187,21 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::rsp6m2.Properties.Resources.fuse;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(58, 284);
+            this.pictureBox4.Location = new System.Drawing.Point(48, 284);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(45, 45);
             this.pictureBox4.TabIndex = 97;
             this.pictureBox4.TabStop = false;
             // 
-            // light1
+            // light_buv021_1
             // 
-            this.light1.BackColor = System.Drawing.Color.Transparent;
-            this.light1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light1.BackgroundImage")));
-            this.light1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light1.Location = new System.Drawing.Point(367, 281);
-            this.light1.Name = "light1";
-            this.light1.Size = new System.Drawing.Size(50, 50);
-            this.light1.TabIndex = 98;
+            this.light_buv021_1.BackColor = System.Drawing.Color.Transparent;
+            this.light_buv021_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light_buv021_1.BackgroundImage")));
+            this.light_buv021_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.light_buv021_1.Location = new System.Drawing.Point(371, 281);
+            this.light_buv021_1.Name = "light_buv021_1";
+            this.light_buv021_1.Size = new System.Drawing.Size(50, 50);
+            this.light_buv021_1.TabIndex = 98;
             // 
             // light2
             // 
@@ -270,7 +270,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(201, 345);
+            this.label4.Location = new System.Drawing.Point(195, 345);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 15);
             this.label4.TabIndex = 105;
@@ -281,7 +281,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(349, 345);
+            this.label5.Location = new System.Drawing.Point(353, 345);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 30);
             this.label5.TabIndex = 106;
@@ -376,7 +376,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.light4);
             this.Controls.Add(this.light2);
-            this.Controls.Add(this.light1);
+            this.Controls.Add(this.light_buv021_1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -411,7 +411,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private Controls.Light light1;
+        private Controls.Light light_buv021_1;
         private Controls.Light light2;
         private Controls.Light light4;
         private System.Windows.Forms.PictureBox pictureBox1;
