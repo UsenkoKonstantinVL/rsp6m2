@@ -162,8 +162,6 @@
     <None Include="Resources\Pup.png" />
     <None Include="Resources\UnderDRLblocks.png" />
     <None Include="Resources\UnderPRLBlocks.png" />
-    <Content Include="res\UnderDRLblocks.png" />
-    <Content Include="res\UnderPRLblocks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
