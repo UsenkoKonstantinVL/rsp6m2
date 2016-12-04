@@ -14,19 +14,27 @@ namespace rsp6m2.HelpClass
 
         public static Bitmap RotateImage(Bitmap input, int angle)
         {
-            Console.WriteLine(input.Height.ToString() + " : " + input.Width.ToString());
-            Bitmap result = input.Clone() as Bitmap;//new Bitmap(input.Width, input.Height);
-            //result.si = result.Size;
+            /* Console.WriteLine(input.Height.ToString() + " : " + input.Width.ToString());
+             Bitmap result = input.Clone() as Bitmap;//new Bitmap(input.Width, input.Height);
+             //result.si = result.Size;
+             Graphics g = Graphics.FromImage(result);
+             g.Clear(Color.Transparent);
+             g.TranslateTransform((float)input.Width / 2, (float)input.Height / 2);
+             g.RotateTransform(angle);
+             g.TranslateTransform(-(float)input.Width / 2, -(float)input.Height / 2);
+             g.DrawImage(Properties.Resources.tumbler_round, new Point(0, 0));
+             //g.DrawImageUnscaled(input, 0, 0);
+
+             Console.WriteLine(input.Height.ToString() + " : " + input.Width.ToString());
+             //g.DrawImage(i, x - pictureBox1.Width / 2, y - pictureBox1.Height / 2, w, h);*/
+            input = Properties.Resources.tumbler_round1;
+            Bitmap result = new Bitmap(input.Width, input.Height);
             Graphics g = Graphics.FromImage(result);
-            g.Clear(Color.Transparent);
             g.TranslateTransform((float)input.Width / 2, (float)input.Height / 2);
             g.RotateTransform(angle);
             g.TranslateTransform(-(float)input.Width / 2, -(float)input.Height / 2);
-            g.DrawImage(Properties.Resources.tumbler_round, new Point(0, 0));
-            //g.DrawImageUnscaled(input, 0, 0);
+            g.DrawImage(input, new Point(0, 0));
 
-            Console.WriteLine(input.Height.ToString() + " : " + input.Width.ToString());
-            //g.DrawImage(i, x - pictureBox1.Width / 2, y - pictureBox1.Height / 2, w, h);
 
             return result;
         }

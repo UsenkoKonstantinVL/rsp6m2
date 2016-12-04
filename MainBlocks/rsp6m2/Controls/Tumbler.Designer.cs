@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tumbler));
             this.SuspendLayout();
+
             // 
             // Tumbler
             // 
@@ -36,6 +38,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Controls.Add(this.tumbler11);
             this.Name = "Tumbler";
             this.Size = new System.Drawing.Size(105, 96);
             this.Click += new System.EventHandler(this.Tumbler_Click);
@@ -44,5 +47,7 @@
         }
 
         #endregion
+
+        private Tumbler1 tumbler11;
     }
 }

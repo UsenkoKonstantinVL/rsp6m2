@@ -34,7 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Name = "Tumbler2";
+            this.Size = new System.Drawing.Size(36, 38);
             this.Load += new System.EventHandler(this.Tumbler2_Load);
             this.Click += new System.EventHandler(this.Tumbler2_Click);
             this.ResumeLayout(false);

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace rsp6m2.Managers
 {
-    class Managerbp142
+    static class Managerbp142
     {
 
 

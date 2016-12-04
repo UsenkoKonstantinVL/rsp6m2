@@ -94,22 +94,23 @@
             // 
             this.tumblerPowerDrl.BackColor = System.Drawing.Color.Transparent;
             this.tumblerPowerDrl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerPowerDrl.BackgroundImage")));
-            this.tumblerPowerDrl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerPowerDrl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerPowerDrl.Location = new System.Drawing.Point(127, 125);
             this.tumblerPowerDrl.Name = "tumblerPowerDrl";
-            this.tumblerPowerDrl.Size = new System.Drawing.Size(27, 42);
+            this.tumblerPowerDrl.Size = new System.Drawing.Size(35, 35);
             this.tumblerPowerDrl.TabIndex = 0;
             this.tumblerPowerDrl.Load += new System.EventHandler(this.tumblerPowerDrl_Load);
             this.tumblerPowerDrl.Click += new System.EventHandler(this.tumblerPowerDrl_Click);
+            this.tumblerPowerDrl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tumblerPowerDrl_MouseClick);
             // 
             // tumblerPowerPrl
             // 
             this.tumblerPowerPrl.BackColor = System.Drawing.Color.Transparent;
             this.tumblerPowerPrl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerPowerPrl.BackgroundImage")));
-            this.tumblerPowerPrl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerPowerPrl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerPowerPrl.Location = new System.Drawing.Point(384, 125);
             this.tumblerPowerPrl.Name = "tumblerPowerPrl";
-            this.tumblerPowerPrl.Size = new System.Drawing.Size(27, 42);
+            this.tumblerPowerPrl.Size = new System.Drawing.Size(35, 35);
             this.tumblerPowerPrl.TabIndex = 1;
             this.tumblerPowerPrl.Load += new System.EventHandler(this.tumblerPowerPrl_Load);
             this.tumblerPowerPrl.Click += new System.EventHandler(this.tumblerPowerPrl_Click);

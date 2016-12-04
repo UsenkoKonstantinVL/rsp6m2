@@ -112,7 +112,6 @@
             this.tumblerprmp1_prlpwr = new rsp6m2.Controls.Tumbler2();
             this.tumblerbop_prlpwr = new rsp6m2.Controls.Tumbler2();
             this.tumblerbpr_prlpwr = new rsp6m2.Controls.Tumbler2();
-            this.tumblerku_prlpwr = new rsp6m2.Controls.Tumbler2();
             this.tumblerbrn2_prlpwr = new rsp6m2.Controls.Tumbler2();
             this.tumblerbrn1_prlpwr = new rsp6m2.Controls.Tumbler2();
             this.tumblerbsf2_prlpwr = new rsp6m2.Controls.Tumbler2();
@@ -123,6 +122,7 @@
             this.tumblerprl_prlpwr = new rsp6m2.Controls.Tumbler1();
             this.tumblerventilate_prlpwr = new rsp6m2.Controls.Tumbler1();
             this.light1 = new rsp6m2.Controls.Light();
+            this.tumblerku_prlpwr = new rsp6m2.Controls.Tumbler2();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -955,10 +955,10 @@
             // 
             this.tumblerprmp2_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerprmp2_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerprmp2_prlpwr.BackgroundImage")));
-            this.tumblerprmp2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerprmp2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerprmp2_prlpwr.Location = new System.Drawing.Point(303, 570);
             this.tumblerprmp2_prlpwr.Name = "tumblerprmp2_prlpwr";
-            this.tumblerprmp2_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerprmp2_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerprmp2_prlpwr.TabIndex = 66;
             this.tumblerprmp2_prlpwr.Load += new System.EventHandler(this.tumblerprmp2_prlpwr_Load);
             this.tumblerprmp2_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -967,10 +967,10 @@
             // 
             this.tumblerprmp1_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerprmp1_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerprmp1_prlpwr.BackgroundImage")));
-            this.tumblerprmp1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerprmp1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerprmp1_prlpwr.Location = new System.Drawing.Point(210, 570);
             this.tumblerprmp1_prlpwr.Name = "tumblerprmp1_prlpwr";
-            this.tumblerprmp1_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerprmp1_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerprmp1_prlpwr.TabIndex = 64;
             this.tumblerprmp1_prlpwr.Load += new System.EventHandler(this.tumblerprmp1_prlpwr_Load);
             this.tumblerprmp1_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -979,10 +979,10 @@
             // 
             this.tumblerbop_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbop_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbop_prlpwr.BackgroundImage")));
-            this.tumblerbop_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerbop_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerbop_prlpwr.Location = new System.Drawing.Point(114, 570);
             this.tumblerbop_prlpwr.Name = "tumblerbop_prlpwr";
-            this.tumblerbop_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbop_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbop_prlpwr.TabIndex = 62;
             this.tumblerbop_prlpwr.Load += new System.EventHandler(this.tumblerbop_prlpwr_Load);
             this.tumblerbop_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -991,34 +991,22 @@
             // 
             this.tumblerbpr_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbpr_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbpr_prlpwr.BackgroundImage")));
-            this.tumblerbpr_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerbpr_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerbpr_prlpwr.Location = new System.Drawing.Point(41, 570);
             this.tumblerbpr_prlpwr.Name = "tumblerbpr_prlpwr";
-            this.tumblerbpr_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbpr_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbpr_prlpwr.TabIndex = 60;
             this.tumblerbpr_prlpwr.Load += new System.EventHandler(this.tumblerbpr_prlpwr_Load);
             this.tumblerbpr_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
-            // 
-            // tumblerku_prlpwr
-            // 
-            this.tumblerku_prlpwr.BackColor = System.Drawing.Color.Transparent;
-            this.tumblerku_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerku_prlpwr.BackgroundImage")));
-            this.tumblerku_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tumblerku_prlpwr.Location = new System.Drawing.Point(384, 442);
-            this.tumblerku_prlpwr.Name = "tumblerku_prlpwr";
-            this.tumblerku_prlpwr.Size = new System.Drawing.Size(27, 42);
-            this.tumblerku_prlpwr.TabIndex = 47;
-            this.tumblerku_prlpwr.Load += new System.EventHandler(this.tumblerku_prlpwr_Load);
-            this.tumblerku_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
             // 
             // tumblerbrn2_prlpwr
             // 
             this.tumblerbrn2_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbrn2_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbrn2_prlpwr.BackgroundImage")));
-            this.tumblerbrn2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerbrn2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerbrn2_prlpwr.Location = new System.Drawing.Point(285, 442);
             this.tumblerbrn2_prlpwr.Name = "tumblerbrn2_prlpwr";
-            this.tumblerbrn2_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbrn2_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbrn2_prlpwr.TabIndex = 46;
             this.tumblerbrn2_prlpwr.Load += new System.EventHandler(this.tumblerbrn2_prlpwr_Load);
             this.tumblerbrn2_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -1027,10 +1015,10 @@
             // 
             this.tumblerbrn1_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbrn1_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbrn1_prlpwr.BackgroundImage")));
-            this.tumblerbrn1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tumblerbrn1_prlpwr.Location = new System.Drawing.Point(207, 442);
+            this.tumblerbrn1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumblerbrn1_prlpwr.Location = new System.Drawing.Point(199, 442);
             this.tumblerbrn1_prlpwr.Name = "tumblerbrn1_prlpwr";
-            this.tumblerbrn1_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbrn1_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbrn1_prlpwr.TabIndex = 45;
             this.tumblerbrn1_prlpwr.Load += new System.EventHandler(this.tumblerbrn1_prlpwr_Load);
             this.tumblerbrn1_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -1039,10 +1027,10 @@
             // 
             this.tumblerbsf2_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbsf2_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbsf2_prlpwr.BackgroundImage")));
-            this.tumblerbsf2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerbsf2_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerbsf2_prlpwr.Location = new System.Drawing.Point(116, 442);
             this.tumblerbsf2_prlpwr.Name = "tumblerbsf2_prlpwr";
-            this.tumblerbsf2_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbsf2_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbsf2_prlpwr.TabIndex = 44;
             this.tumblerbsf2_prlpwr.Load += new System.EventHandler(this.tumblerbsf2_prlpwr_Load);
             this.tumblerbsf2_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -1051,10 +1039,10 @@
             // 
             this.tumblerbsf1_prlpwr.BackColor = System.Drawing.Color.Transparent;
             this.tumblerbsf1_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerbsf1_prlpwr.BackgroundImage")));
-            this.tumblerbsf1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tumblerbsf1_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tumblerbsf1_prlpwr.Location = new System.Drawing.Point(44, 442);
             this.tumblerbsf1_prlpwr.Name = "tumblerbsf1_prlpwr";
-            this.tumblerbsf1_prlpwr.Size = new System.Drawing.Size(27, 42);
+            this.tumblerbsf1_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbsf1_prlpwr.TabIndex = 43;
             this.tumblerbsf1_prlpwr.Load += new System.EventHandler(this.tumblerbsf1_prlpwr_Load);
             this.tumblerbsf1_prlpwr.Click += new System.EventHandler(this.tumblerventilate_prlpwr_Click);
@@ -1130,12 +1118,23 @@
             this.light1.Size = new System.Drawing.Size(50, 50);
             this.light1.TabIndex = 130;
             // 
+            // tumblerku_prlpwr
+            // 
+            this.tumblerku_prlpwr.BackColor = System.Drawing.Color.Transparent;
+            this.tumblerku_prlpwr.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumblerku_prlpwr.BackgroundImage")));
+            this.tumblerku_prlpwr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumblerku_prlpwr.Location = new System.Drawing.Point(378, 442);
+            this.tumblerku_prlpwr.Name = "tumblerku_prlpwr";
+            this.tumblerku_prlpwr.Size = new System.Drawing.Size(35, 35);
+            this.tumblerku_prlpwr.TabIndex = 131;
+            // 
             // prlPwr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(449, 692);
+            this.Controls.Add(this.tumblerku_prlpwr);
             this.Controls.Add(this.light1);
             this.Controls.Add(this.label58);
             this.Controls.Add(this.pictureBox25);
@@ -1215,7 +1214,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.tumblerku_prlpwr);
             this.Controls.Add(this.tumblerbrn2_prlpwr);
             this.Controls.Add(this.tumblerbrn1_prlpwr);
             this.Controls.Add(this.tumblerbsf2_prlpwr);
@@ -1278,7 +1276,6 @@
         private Controls.Tumbler2 tumblerbsf2_prlpwr;
         private Controls.Tumbler2 tumblerbrn1_prlpwr;
         private Controls.Tumbler2 tumblerbrn2_prlpwr;
-        private Controls.Tumbler2 tumblerku_prlpwr;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -1358,5 +1355,6 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.PictureBox pictureBox25;
         private Controls.Light light1;
+        private Controls.Tumbler2 tumblerku_prlpwr;
     }
 }

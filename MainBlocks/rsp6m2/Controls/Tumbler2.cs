@@ -23,8 +23,8 @@ namespace rsp6m2.Controls
         public Tumbler2(Position pos)
         {
             InitializeComponent();
-            width = Properties.Resources.Tumbler2Off.Width;
-            height = Properties.Resources.Tumbler2Off.Height;
+            width = Properties.Resources.Tumbler2On.Width;
+            height = Properties.Resources.Tumbler2On.Height;
             base.TumblerPosition = pos;
 
             //Добавить картинку
@@ -46,8 +46,8 @@ namespace rsp6m2.Controls
 
         private void Tumbler2_Load(object sender, EventArgs e)
         {
-            base.Width = width;
-            base.Height = height;
+            /*base.Width = width;
+            base.Height = height;*/
         }
 
         #endregion
@@ -55,6 +55,7 @@ namespace rsp6m2.Controls
         #region Public func
         public void RedrawControl(Tumbler tumbler, Position pos)
         {
+            tumbler.BackgroundImageLayout = ImageLayout.Stretch;
             if (pos == Position.Up)
             {
                 tumbler.BackgroundImage = Properties.Resources.Tumbler2On;

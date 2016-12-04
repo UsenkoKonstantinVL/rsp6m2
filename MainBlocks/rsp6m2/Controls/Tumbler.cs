@@ -32,8 +32,8 @@ namespace rsp6m2.Controls
         public Tumbler(Bitmap b)
         {
             InitializeComponent();
-            tumblerPosition = Position.Down;
-            bmp = b;
+            /*tumblerPosition = Position.Down;
+            bmp = b;*/
         }
 
 
@@ -66,10 +66,21 @@ namespace rsp6m2.Controls
 
         public void Highlight()
         {
-            Graphics g = Graphics.FromImage(this.BackgroundImage);
-            Rectangle r1 = new Rectangle(0, 0, BackgroundImage.Width - 1, BackgroundImage.Height - 1);
-            g.DrawRectangle(new Pen(Color.Red, 3), r1);
-            this.Invalidate();
+            if (this is Tumbler2)
+            {
+                var t = (Tumbler2)this;
+                Graphics g = Graphics.FromImage(this.BackgroundImage);
+                Rectangle r1 = new Rectangle(0, 0, BackgroundImage.Width - 1, BackgroundImage.Height - 1);
+                g.DrawRectangle(new Pen(Color.Red, 20), r1);
+                this.Invalidate();
+            }
+            else
+            {
+                Graphics g = Graphics.FromImage(this.BackgroundImage);
+                Rectangle r1 = new Rectangle(0, 0, BackgroundImage.Width - 1, BackgroundImage.Height - 1);
+                g.DrawRectangle(new Pen(Color.Red, 3), r1);
+                this.Invalidate();
+            }
         }
 
         public void UnHighlight()

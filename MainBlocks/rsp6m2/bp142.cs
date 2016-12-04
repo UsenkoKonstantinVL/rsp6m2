@@ -162,5 +162,10 @@ namespace rsp6m2
         {
 
         }
+
+        private void tumblerPowerDrl_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
