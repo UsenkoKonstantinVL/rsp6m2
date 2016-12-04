@@ -154,5 +154,72 @@ namespace rsp6m2
              p.GetInfo();*/
             ManagerBpApch.ClickToButton((Control)sender);
         }
+
+        private void roundTrumbler_bpch_1_Click(object sender, EventArgs e)
+        {
+            ManagerBpApch.ClickToButton((Control)sender);
+            
+
+            if(sender is RoundTrumbler)
+            {
+                var t = (RoundTrumbler)sender;
+
+                if(t.Name == "roundTrumbler_bpch_1")
+                {
+                    if(t.CurrentIndex == 0)
+                    {
+                        voltmetr1.Set_Value = 0;
+
+                    }
+
+                    if (t.CurrentIndex == 1)
+                    {
+                        voltmetr1.Set_Value = 12;
+                    }
+
+                    if (t.CurrentIndex == 2)
+                    {
+                        voltmetr1.Set_Value = 12;
+                    }
+
+                    if (t.CurrentIndex == 3)
+                    {
+                        voltmetr1.Set_Value = 25;
+                    }
+
+                    if (t.CurrentIndex == 4)
+                    {
+                        voltmetr1.Set_Value = 10;
+                    }
+                }
+                else
+                {
+                    if (t.CurrentIndex == 0)
+                    {
+                        voltmetr2.Set_Value = 0;
+                    }
+
+                    if (t.CurrentIndex == 1)
+                    {
+                        voltmetr2.Set_Value = 2;
+                    }
+
+                    if (t.CurrentIndex == 2)
+                    {
+                        voltmetr2.Set_Value = 3;
+                    }
+
+                    if (t.CurrentIndex == 3)
+                    {
+                        voltmetr2.Set_Value = 0;
+                    }
+
+                    if (t.CurrentIndex == 4)
+                    {
+                        voltmetr2.Set_Value = 0;
+                    }
+                }
+            }
+        }
     }
 }

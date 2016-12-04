@@ -119,6 +119,7 @@
             this.roundTrumbler_bpch_1.Name = "roundTrumbler_bpch_1";
             this.roundTrumbler_bpch_1.Size = new System.Drawing.Size(49, 68);
             this.roundTrumbler_bpch_1.TabIndex = 2;
+            this.roundTrumbler_bpch_1.Click += new System.EventHandler(this.roundTrumbler_bpch_1_Click);
             this.roundTrumbler_bpch_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.roundTrumbler_bpch_1_MouseClick);
             // 
             // roundTrumbler_bpch_2
@@ -131,6 +132,7 @@
             this.roundTrumbler_bpch_2.Name = "roundTrumbler_bpch_2";
             this.roundTrumbler_bpch_2.Size = new System.Drawing.Size(49, 69);
             this.roundTrumbler_bpch_2.TabIndex = 3;
+            this.roundTrumbler_bpch_2.Click += new System.EventHandler(this.roundTrumbler_bpch_1_Click);
             this.roundTrumbler_bpch_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.roundTrumbler_bpch_2_MouseClick);
             // 
             // light1
