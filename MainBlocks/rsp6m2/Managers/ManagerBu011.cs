@@ -5,17 +5,18 @@ using System.Windows.Forms;
 
 namespace rsp6m2.Managers
 {
-    public static class ManagerPrlStack
+    public static class ManagerBu011
     {
-        static prlStack form = null;
+        static bu011 form = null;
         public static List<Control> AllControlls = null;
-        static int ID = 4;
+        public static List<Control> SaveInstanceControls = null;
+        static int ID = 406;
 
         public static void Initialize()
         {
             //if (form == null)
             {
-                form = new prlStack();
+                form = new bu011();
             }
 
             form.Show();
@@ -28,17 +29,23 @@ namespace rsp6m2.Managers
             ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
         }
 
-        public static void SetControls(List<Control> _AllControlls)
+        public static void SetControls(List<Control> _SaveInstanceControls, List<Control> _AllControlls)
         {
-
+            SaveInstanceControls = _SaveInstanceControls;
             AllControlls = _AllControlls;
             ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
         }
 
 
+
+
         public static void Dispose()
         {
-            form.Close();
+            if (form != null && form.isOpened)
+            {
+                form.Close();
+            }
+            // form.Close();
             form = null;
             //SaveInstanceControls = null;
             AllControlls = null;
@@ -49,65 +56,12 @@ namespace rsp6m2.Managers
             EmulatorManager.EmulatorManager.CheckQuize(control);
             ManagerHelpForm.GetHelp(ID);
 
-
-            if (control is Button)
-            {
-                Button b = (Button)control;
-
-                if (b.Name == "button28_drl")
-                {
-                    ManagerBpApch.Initialize();
-                    return;
-                }
-
-                if (b.Name == "button6_drl")
-                {
-
-
-                    return;
-                }
-
-                if (b.Name == "buttonPRL")
-                {
-
-
-                    return;
-                }
-
-                if (b.Name == "button4")
-                {
-                    //drlTop1
-                    return;
-                }
-
-                if (b.Name == "button5")
-                {
-                    //prlTop1
-                    return;
-                }
-
-                if (b.Name == "button7")
-                {
-                    //drlPwr1
-                    return;
-                }
-
-                if (b.Name == "buttonIKO")
-                {
-                    //prlPwr1
-                    return;
-                }
-
-
-
-            }
         }
 
         public static void ShowOffForm()
         {
             UnlightControls();
-            EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
-            ManagerHelpForm.GetHelp(0);
+            ManagerHelpForm.GetHelp(4);
         }
 
 

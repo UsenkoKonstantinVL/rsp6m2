@@ -80,154 +80,185 @@ namespace rsp6m2
 
         private void button17_Click(object sender, EventArgs e)
         {
-           // bp1271.Show();
+            // bp1271.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-          //  bop1.Show();
+            //  bop1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-           // bsf1.Show();
+            // bsf1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-           // bksg1.Show();
+            // bksg1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-          //  bchv0211.Show();
+            //  bchv0211.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-          //  bchk0111.Show();
+            //  bchk0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-           /// bu0111.Show();
+            /// bu0111.Show();
+            /// ManagerPrlStack.ClickToButton((Control)sender);
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             ///bki0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             //sp021.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-           // sp021.Show();
+            // sp021.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             //bprn0211.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-           // buv0111.Show();
+            // buv0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-          //  bpm0111.Show();
+            //  bpm0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-           // bvm0111.Show();
+            // bvm0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-           // bp1351.Show();
+            // bp1351.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-           // buv0111.Show();
+            // buv0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-           // bpm0111.Show();
+            // bpm0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             //bvm0111.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
             //uvch1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
             //uvch1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
             /*bpr021 bpr021 = new bpr021(p, this);
             bpr021.Show();*/
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
             //bpr021.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            bp_apch bp = new bp_apch(p, this);
-            bp.Show();
+            /*bp_apch bp = new bp_apch(p, this);
+            bp.Show();*/
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
             //bp_apch1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-           // bf021.Show();
+            // bf021.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-           // bf021.Show();
+            // bf021.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-           // pun1.Show();
+            // pun1.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-           // bg0211.Show();
+            // bg0211.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-           // bg0211.Show();
+            // bg0211.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-           // brn011.Show();
+            // brn011.Show();
+            ManagerPrlStack.ClickToButton((Control)sender);
         }
 
         private void prlStack_Load(object sender, EventArgs e)

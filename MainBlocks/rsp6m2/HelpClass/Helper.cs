@@ -63,6 +63,44 @@ namespace rsp6m2.HelpClass
         }
 
 
+        public static void ListsOfControls(List<Control> AllControls, List<Control> SpecialControl, 
+            Control.ControlCollection cCollection)
+        {
+            foreach (Control c in cCollection)
+            {
+                AllControls.Add(c);
+               
+                if (c is Tumbler)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is RoundTrumbler)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is Light)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is Voltmetr)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is GreenElement)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is YellowElement)
+                {
+                    SpecialControl.Add(c);
+                }
+                else if (c is tumbler3)
+                {
+                    SpecialControl.Add(c);
+                }
+            }
+        }
+
         public static void ReplaceControls(List<Control> list, Control.ControlCollection cCollection )
         {
             var controls = cCollection.GetEnumerator();

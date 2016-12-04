@@ -109,6 +109,7 @@
             this.tumbler31.Position = 1;
             this.tumbler31.Size = new System.Drawing.Size(35, 35);
             this.tumbler31.TabIndex = 4;
+            this.tumbler31.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tumbler31_MouseClick);
             // 
             // label10
             // 
@@ -403,6 +404,7 @@
             this.DoubleBuffered = true;
             this.Name = "bu011";
             this.Text = "bu011";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bu011_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);

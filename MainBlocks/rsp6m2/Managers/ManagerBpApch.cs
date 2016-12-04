@@ -10,7 +10,7 @@ namespace rsp6m2.Managers
         static bp_apch form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 401;
+        static int ID = 428;
 
         public static void Initialize()
         {
