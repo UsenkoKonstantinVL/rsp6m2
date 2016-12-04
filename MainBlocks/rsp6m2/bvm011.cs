@@ -16,6 +16,7 @@ namespace rsp6m2
         public bvm011()
         {
             InitializeComponent();
+            Initialize();
 
             if (ManagerBvm011.AllControlls == null)
             {

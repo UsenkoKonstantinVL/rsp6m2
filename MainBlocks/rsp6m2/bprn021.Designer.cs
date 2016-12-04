@@ -41,11 +41,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.roundTrumbler1 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bprn021_2 = new rsp6m2.Controls.RoundTrumbler();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.roundTrumbler2 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bprn021_1 = new rsp6m2.Controls.RoundTrumbler();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -150,7 +150,7 @@
             this.light2.BackColor = System.Drawing.Color.Transparent;
             this.light2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light2.BackgroundImage")));
             this.light2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light2.Location = new System.Drawing.Point(303, 139);
+            this.light2.Location = new System.Drawing.Point(299, 139);
             this.light2.Name = "light2";
             this.light2.Size = new System.Drawing.Size(20, 20);
             this.light2.TabIndex = 5;
@@ -232,16 +232,16 @@
             this.label11.TabIndex = 87;
             this.label11.Text = "ВЫКЛ.";
             // 
-            // roundTrumbler1
+            // roundTrumbler_bprn021_2
             // 
-            this.roundTrumbler1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler1.BackgroundImage")));
-            this.roundTrumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler1.CurrentIndex = 0;
-            this.roundTrumbler1.Location = new System.Drawing.Point(67, 326);
-            this.roundTrumbler1.Name = "roundTrumbler1";
-            this.roundTrumbler1.Size = new System.Drawing.Size(94, 87);
-            this.roundTrumbler1.TabIndex = 92;
+            this.roundTrumbler_bprn021_2.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bprn021_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bprn021_2.BackgroundImage")));
+            this.roundTrumbler_bprn021_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bprn021_2.CurrentIndex = 0;
+            this.roundTrumbler_bprn021_2.Location = new System.Drawing.Point(67, 326);
+            this.roundTrumbler_bprn021_2.Name = "roundTrumbler_bprn021_2";
+            this.roundTrumbler_bprn021_2.Size = new System.Drawing.Size(94, 87);
+            this.roundTrumbler_bprn021_2.TabIndex = 92;
             // 
             // label3
             // 
@@ -276,16 +276,16 @@
             this.label5.TabIndex = 94;
             this.label5.Text = "ВЫКЛ.";
             // 
-            // roundTrumbler2
+            // roundTrumbler_bprn021_1
             // 
-            this.roundTrumbler2.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler2.BackgroundImage")));
-            this.roundTrumbler2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler2.CurrentIndex = 0;
-            this.roundTrumbler2.Location = new System.Drawing.Point(372, 311);
-            this.roundTrumbler2.Name = "roundTrumbler2";
-            this.roundTrumbler2.Size = new System.Drawing.Size(94, 87);
-            this.roundTrumbler2.TabIndex = 98;
+            this.roundTrumbler_bprn021_1.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bprn021_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bprn021_1.BackgroundImage")));
+            this.roundTrumbler_bprn021_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bprn021_1.CurrentIndex = 0;
+            this.roundTrumbler_bprn021_1.Location = new System.Drawing.Point(372, 311);
+            this.roundTrumbler_bprn021_1.Name = "roundTrumbler_bprn021_1";
+            this.roundTrumbler_bprn021_1.Size = new System.Drawing.Size(94, 87);
+            this.roundTrumbler_bprn021_1.TabIndex = 98;
             // 
             // label1
             // 
@@ -303,7 +303,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(285, 109);
+            this.label6.Location = new System.Drawing.Point(283, 108);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 15);
             this.label6.TabIndex = 100;
@@ -314,7 +314,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(161, 452);
+            this.label12.Location = new System.Drawing.Point(160, 453);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(15, 15);
             this.label12.TabIndex = 104;
@@ -325,7 +325,7 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(114, 452);
+            this.label13.Location = new System.Drawing.Point(115, 453);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(15, 15);
             this.label13.TabIndex = 103;
@@ -356,7 +356,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(246, 451);
+            this.label14.Location = new System.Drawing.Point(244, 453);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(15, 15);
             this.label14.TabIndex = 108;
@@ -367,7 +367,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(199, 451);
+            this.label15.Location = new System.Drawing.Point(201, 453);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(15, 15);
             this.label15.TabIndex = 107;
@@ -750,13 +750,13 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.roundTrumbler2);
+            this.Controls.Add(this.roundTrumbler_bprn021_1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.roundTrumbler1);
+            this.Controls.Add(this.roundTrumbler_bprn021_2);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.light2);
             this.Controls.Add(this.light1);
@@ -787,11 +787,11 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private Controls.RoundTrumbler roundTrumbler1;
+        private Controls.RoundTrumbler roundTrumbler_bprn021_2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private Controls.RoundTrumbler roundTrumbler2;
+        private Controls.RoundTrumbler roundTrumbler_bprn021_1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label12;

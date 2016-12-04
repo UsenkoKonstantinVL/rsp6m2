@@ -299,12 +299,12 @@
             // roundTrumbler_bvm011_2
             // 
             this.roundTrumbler_bvm011_2.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_bvm011_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bvm011_2.BackgroundImage")));
+            this.roundTrumbler_bvm011_2.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round;
             this.roundTrumbler_bvm011_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.roundTrumbler_bvm011_2.CurrentIndex = 0;
-            this.roundTrumbler_bvm011_2.Location = new System.Drawing.Point(76, 352);
+            this.roundTrumbler_bvm011_2.Location = new System.Drawing.Point(65, 346);
             this.roundTrumbler_bvm011_2.Name = "roundTrumbler_bvm011_2";
-            this.roundTrumbler_bvm011_2.Size = new System.Drawing.Size(49, 69);
+            this.roundTrumbler_bvm011_2.Size = new System.Drawing.Size(68, 69);
             this.roundTrumbler_bvm011_2.TabIndex = 80;
             this.roundTrumbler_bvm011_2.Click += new System.EventHandler(this.roundTrumbler_bvm011_2_Click);
             // 
@@ -469,12 +469,12 @@
             // roundTrumbler_bvm011_1
             // 
             this.roundTrumbler_bvm011_1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_bvm011_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bvm011_1.BackgroundImage")));
+            this.roundTrumbler_bvm011_1.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round;
             this.roundTrumbler_bvm011_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.roundTrumbler_bvm011_1.CurrentIndex = 0;
-            this.roundTrumbler_bvm011_1.Location = new System.Drawing.Point(375, 363);
+            this.roundTrumbler_bvm011_1.Location = new System.Drawing.Point(370, 357);
             this.roundTrumbler_bvm011_1.Name = "roundTrumbler_bvm011_1";
-            this.roundTrumbler_bvm011_1.Size = new System.Drawing.Size(49, 69);
+            this.roundTrumbler_bvm011_1.Size = new System.Drawing.Size(67, 69);
             this.roundTrumbler_bvm011_1.TabIndex = 86;
             this.roundTrumbler_bvm011_1.Click += new System.EventHandler(this.roundTrumbler_bvm011_1_Click);
             // 

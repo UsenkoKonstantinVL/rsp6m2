@@ -342,9 +342,12 @@
     <Compile Include="HelpClass\Helper.cs" />
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
     <Compile Include="Managers\ManagerBg012.cs" />
+    <Compile Include="Managers\ManagerBop.cs" />
     <Compile Include="Managers\Managerbp142.cs" />
     <Compile Include="Managers\ManagerBpApch.cs" />
     <Compile Include="Managers\ManagerBpr021.cs" />
+    <Compile Include="Managers\ManagerBprn021.cs" />
+    <Compile Include="Managers\ManagerBSF.cs" />
     <Compile Include="Managers\ManagerBu011.cs" />
     <Compile Include="Managers\ManagerBuv021.cs" />
     <Compile Include="Managers\ManagerBvm011.cs" />
