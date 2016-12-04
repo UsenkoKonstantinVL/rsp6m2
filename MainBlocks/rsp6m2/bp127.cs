@@ -14,5 +14,15 @@ namespace rsp6m2
         {
             InitializeComponent();
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bp127_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
