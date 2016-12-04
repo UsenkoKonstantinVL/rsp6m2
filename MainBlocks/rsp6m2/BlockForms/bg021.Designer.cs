@@ -53,6 +53,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -192,6 +194,7 @@
             this.roundTrumbler_bg021_1.Name = "roundTrumbler_bg021_1";
             this.roundTrumbler_bg021_1.Size = new System.Drawing.Size(94, 87);
             this.roundTrumbler_bg021_1.TabIndex = 62;
+            this.roundTrumbler_bg021_1.Click += new System.EventHandler(this.roundTrumbler_bg021_1_Click);
             // 
             // label3
             // 
@@ -247,6 +250,7 @@
             this.roundTrumbler_bg021_2.Name = "roundTrumbler_bg021_2";
             this.roundTrumbler_bg021_2.Size = new System.Drawing.Size(94, 87);
             this.roundTrumbler_bg021_2.TabIndex = 67;
+            this.roundTrumbler_bg021_2.Click += new System.EventHandler(this.roundTrumbler_bg021_1_Click);
             // 
             // pictureBox14
             // 
@@ -336,12 +340,30 @@
             this.label7.TabIndex = 98;
             this.label7.Text = "0.5А";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.panel2.Location = new System.Drawing.Point(235, 131);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(55, 3);
+            this.panel2.TabIndex = 99;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DarkRed;
+            this.panel3.Location = new System.Drawing.Point(253, 122);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(19, 3);
+            this.panel3.TabIndex = 100;
+            // 
             // bg021
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(481, 621);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -405,5 +427,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

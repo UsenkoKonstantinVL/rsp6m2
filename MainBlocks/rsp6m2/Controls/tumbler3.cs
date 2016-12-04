@@ -27,13 +27,13 @@ namespace rsp6m2.Controls
 
             if(cond < 0)
             {
-                cond = 0;
+                cond = 1;
                 pl = 1;
             }
 
             if(cond > 2)
             {
-                cond = 2;
+                cond = 1;
                 pl = -1;
             }
 

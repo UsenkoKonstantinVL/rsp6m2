@@ -56,7 +56,7 @@ namespace rsp6m2.Managers
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
             ManagerHelpForm.GetHelp(ID);
-
+            ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
 
             if (control is Button)
             {

@@ -99,5 +99,35 @@ namespace rsp6m2.BlockForms
         {
             ManagerBg021.ShowOffForm();
         }
+
+        private void roundTrumbler_bg021_1_Click(object sender, EventArgs e)
+        {
+            ManagerBg021.ClickToButton((Control)sender);
+
+            if(sender is RoundTrumbler)
+            {
+                var t = (RoundTrumbler)sender;
+
+                if(t.Name == "roundTrumbler_bg021_1")
+                {
+                    if (t.CurrentIndex == 0)
+                    {
+                        voltmetr1.Set_Value = 12;
+                    }
+                    if (t.CurrentIndex == 1)
+                    {
+                        voltmetr1.Set_Value = 15;
+                    }
+                    if (t.CurrentIndex == 2)
+                    {
+                        voltmetr1.Set_Value = 25;
+                    }
+                }
+                else
+                {
+
+                }
+            }
+        }
     }
 }

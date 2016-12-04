@@ -59,7 +59,48 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
-          
+
+            #region Quize2
+             q = new Quize();
+            q.ListOfConditions = Condition2;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+             t = new TextForHelpForm();
+
+
+             txt = "Переключатель РАБОТА-КОНТРОЛЬ" + Environment.NewLine +
+                " установить в положение «РАБОТА»";
+            t = new TextForHelpForm();
+            t.HelpText = "";
+            t.NeedClick = txt;
+            helpDictionary.Add(424, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте БУ-011";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bg021_1");
+            cName.Add("button24_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
 
             return list;
         }
@@ -76,6 +117,24 @@ namespace rsp6m2.Tests
                 {
                     Console.WriteLine("Правильно нажал");
                     return true;
+                }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize2
+
+        public static bool Condition2(Control c)
+        {
+            if (c.Name == "roundTrumbler_bg021_1")
+            {
+                var t = (RoundTrumbler)c;
+                if (t.CurrentIndex == 0)
+                {
+                    Console.WriteLine("Правильно нажал");
+                    //return true;
                 }
             }
             return false;
