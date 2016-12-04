@@ -15,5 +15,10 @@ namespace rsp6m2
         {
             InitializeComponent();
         }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
