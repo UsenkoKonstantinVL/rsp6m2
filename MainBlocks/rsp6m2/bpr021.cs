@@ -110,5 +110,10 @@ namespace rsp6m2
         {
             ManagerBpr021.ClickToButton((Control)sender);
         }
+
+        private void bpr021_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerBpr021.ShowOffForm();
+        }
     }
 }

@@ -45,7 +45,6 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.radioButton2);
@@ -61,7 +60,7 @@
             this.button2.BackgroundImage = global::rsp6m2.Properties.Resources.Close;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(342, 4);
+            this.button2.Location = new System.Drawing.Point(575, 0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(24, 25);
             this.button2.TabIndex = 2;
@@ -85,7 +84,8 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Items.AddRange(new object[] {
             "1. Включение аппаратуры ПРЛ",
-            "2. Включение и проверка работоспособности аппаратуры отображения ПРЛ"});
+            "2. Включение и проверка работоспособности аппаратуры отображения ПРЛ",
+            "3. Включение и проверка работоспособности приемопередатчиков ППП-1, ППП-II"});
             this.listBox1.Location = new System.Drawing.Point(3, 77);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(565, 134);
@@ -126,6 +126,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(57)))), ((int)(((byte)(181)))));
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);

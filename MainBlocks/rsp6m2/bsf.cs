@@ -30,5 +30,10 @@ namespace rsp6m2
                 HelpClass.Helper.ReplaceControls(ManagerBSF.SaveInstanceControls, Controls);
             }
         }
+
+        private void bsf_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerBSF.ShowOffForm();
+        }
     }
 }

@@ -766,6 +766,7 @@
             this.DoubleBuffered = true;
             this.Name = "bprn021";
             this.Text = "bprn021";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bprn021_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);

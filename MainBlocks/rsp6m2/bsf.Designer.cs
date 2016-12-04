@@ -415,6 +415,7 @@
             this.DoubleBuffered = true;
             this.Name = "bsf";
             this.Text = "bsf";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bsf_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);

@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.yellowElement1 = new rsp6m2.Controls.YellowElement();
             this.label2 = new System.Windows.Forms.Label();
-            this.tumbler31 = new rsp6m2.Controls.tumbler3();
+            this.tumbler_bu011_1 = new rsp6m2.Controls.tumbler3();
             this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.light1 = new rsp6m2.Controls.Light();
@@ -99,17 +99,17 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "ГОТОВ";
             // 
-            // tumbler31
+            // tumbler_bu011_1
             // 
-            this.tumbler31.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler31.BackgroundImage")));
-            this.tumbler31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler31.Location = new System.Drawing.Point(306, 93);
-            this.tumbler31.Name = "tumbler31";
-            this.tumbler31.Position = 1;
-            this.tumbler31.Size = new System.Drawing.Size(35, 35);
-            this.tumbler31.TabIndex = 4;
-            this.tumbler31.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tumbler31_MouseClick);
+            this.tumbler_bu011_1.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler_bu011_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler_bu011_1.BackgroundImage")));
+            this.tumbler_bu011_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler_bu011_1.Location = new System.Drawing.Point(306, 93);
+            this.tumbler_bu011_1.Name = "tumbler_bu011_1";
+            this.tumbler_bu011_1.Position = 1;
+            this.tumbler_bu011_1.Size = new System.Drawing.Size(35, 35);
+            this.tumbler_bu011_1.TabIndex = 4;
+            this.tumbler_bu011_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tumbler31_MouseClick);
             // 
             // label10
             // 
@@ -395,7 +395,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.tumbler31);
+            this.Controls.Add(this.tumbler_bu011_1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.yellowElement1);
             this.Controls.Add(this.label1);
@@ -418,7 +418,7 @@
         private System.Windows.Forms.Label label1;
         private Controls.YellowElement yellowElement1;
         private System.Windows.Forms.Label label2;
-        private Controls.tumbler3 tumbler31;
+        private Controls.tumbler3 tumbler_bu011_1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
         private Controls.Light light1;

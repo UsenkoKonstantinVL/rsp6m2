@@ -103,5 +103,10 @@ namespace rsp6m2
         {
 
         }
+
+        private void bprn021_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerBprn021.ShowOffForm(); 
+        }
     }
 }

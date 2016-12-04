@@ -5,19 +5,18 @@ using System.Windows.Forms;
 
 namespace rsp6m2.Managers
 {
-    public static class ManagerBu011
+    public static class ManagerBp127
     {
-        static bu011 form = null;
+        static bp127 form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 406;
+        static int ID = 401;
 
         public static void Initialize()
         {
-            //if (form == null)
-            {
-                form = new bu011();
-            }
+
+            form = new bp127();
+
 
             form.Show();
 
@@ -55,7 +54,7 @@ namespace rsp6m2.Managers
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
             ManagerHelpForm.GetHelp(ID);
-            ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
+
 
         }
 

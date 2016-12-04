@@ -117,7 +117,15 @@ namespace rsp6m2.Managers
                     ManagerBprn021.Initialize();
                     return;
                 }
+                if (b.Name == "button17_prl")
+                {
+                    //prlPwr1
+                    ManagerBp127.Initialize();
+                    return;
+                }
+
                 
+
             }
         }
 

@@ -40,7 +40,7 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            if(form.isOpened == true)
+            if (form != null &&  form.isOpened == true)
                 form.Close();
             form = null;
             //SaveInstanceControls = null;

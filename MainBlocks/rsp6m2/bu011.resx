@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tumbler31.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tumbler_bu011_1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAGYktHRACCAHoAetvTLSkAAAAHdElNRQfgDAQNHSEr3yRl
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAGYktHRACCAHoAetvTLSkAAAAHdElNRQfgDAQNHSEr3yRl
         AAD/gElEQVR4Xuz9Z5Bk2XmmCc6fXbOx2Z3dFoQolK5KnZE6MiIztNZaa6211lprrSMzIyMjtValFVAg
         CAIFECAJkGiAIEGym2RTGMdm/+yPtXef73oUyLbh9PRw2GySXWH22XX38PDw8DjPed/3nnPP+R/+qXxJ
         +n9S/xP1r6j/eb8+v/0rlH3v3+4f7b49/q/3j/97z/0fqf8X9X/f/zVffH3x9cXXP+Wvj95/+D9+8O6D

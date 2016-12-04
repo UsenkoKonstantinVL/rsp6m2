@@ -89,9 +89,9 @@
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(1, 0);
+            this.button4.Location = new System.Drawing.Point(2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 114);
+            this.button4.Size = new System.Drawing.Size(121, 110);
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -104,9 +104,9 @@
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(121, 3);
+            this.button5.Location = new System.Drawing.Point(125, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(122, 111);
+            this.button5.Size = new System.Drawing.Size(118, 109);
             this.button5.TabIndex = 5;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -122,7 +122,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(1, 114);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 206);
+            this.button6.Size = new System.Drawing.Size(121, 206);
             this.button6.TabIndex = 6;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -135,9 +135,9 @@
             this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(119, 115);
+            this.button7.Location = new System.Drawing.Point(125, 113);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(122, 206);
+            this.button7.Size = new System.Drawing.Size(118, 208);
             this.button7.TabIndex = 7;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);

@@ -23,9 +23,18 @@ namespace rsp6m2.EmulatorManager
         {
             Test = null;
             currentQuize = 0;
+            numTest = 1;
 
-            Test = Tests.Test1.GetQuize();
-            TestName = Tests.Test1.TestName;
+            if (numTest == 0)
+            {
+                Test = Tests.Test1.GetQuize();
+                TestName = Tests.Test1.TestName;
+            }
+            else if(numTest == 1)
+            {
+                Test = Tests.Test2.GetQuize();
+                TestName = Tests.Test2.TestName;
+            }
 
             withHelp = _withHelp;
 
@@ -70,7 +79,7 @@ namespace rsp6m2.EmulatorManager
 
         public static List<string> GetListOfLightedControls()
         {
-            if(withHelp && currentQuize < Test.Count)
+            if(withHelp && Test != null && currentQuize < Test.Count)
             {
                 return Test[currentQuize].NameOfLightedControls;
             }
@@ -85,7 +94,7 @@ namespace rsp6m2.EmulatorManager
         {
             ManagerHelpForm.CloseHelp();
             Forms.CompleteForm f = new Forms.CompleteForm();
-            f.GetName(TestName, "Тест окончен");
+            f.GetName("Пройден тест: " + Environment.NewLine + "\"" +  TestName + "\"", "Тест окончен");
             f.ShowDialog();
             Managers.ManagerMainForm.FormShow();
 

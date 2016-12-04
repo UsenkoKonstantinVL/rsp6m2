@@ -30,6 +30,11 @@ namespace rsp6m2.HelpClass
                 t.Highlight();
                 return;
             }
+            if(c is tumbler3)
+            {
+                var t = (tumbler3)c;
+                t.Highlight();
+            }
 
 
         }

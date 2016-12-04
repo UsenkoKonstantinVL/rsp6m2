@@ -343,6 +343,7 @@
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
     <Compile Include="Managers\ManagerBg012.cs" />
     <Compile Include="Managers\ManagerBop.cs" />
+    <Compile Include="Managers\ManagerBp127.cs" />
     <Compile Include="Managers\Managerbp142.cs" />
     <Compile Include="Managers\ManagerBpApch.cs" />
     <Compile Include="Managers\ManagerBpr021.cs" />
@@ -409,6 +410,7 @@
       <DependentUpon>sp02.cs</DependentUpon>
     </Compile>
     <Compile Include="Tests\Test1.cs" />
+    <Compile Include="Tests\Test2.cs" />
     <Compile Include="uvch.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -184,6 +184,21 @@ namespace rsp6m2
                      light1.LightOff();
                  }
              }*/
+             if (sender is Tumbler1 )
+            {
+                var t = (Tumbler1)sender;
+                if(t.Name == "tumblerprl_prlpwr")
+                {
+                    if(t.CurrentTumblerPosition() == Position.Up)
+                    {
+                        light1.SetLight(true);
+                    }
+                    else
+                    {
+                        light1.SetLight(false);
+                    }
+                }
+            }
             ManagerPrlPwr.ClickToButton((Control)sender);
         }
 

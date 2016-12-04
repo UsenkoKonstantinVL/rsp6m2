@@ -1127,6 +1127,7 @@
             this.tumblerku_prlpwr.Name = "tumblerku_prlpwr";
             this.tumblerku_prlpwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerku_prlpwr.TabIndex = 131;
+            this.tumblerku_prlpwr.Click += new System.EventHandler(this.tumbler11_Click);
             // 
             // prlPwr
             // 

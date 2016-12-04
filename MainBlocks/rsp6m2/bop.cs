@@ -101,5 +101,10 @@ namespace rsp6m2
             tumbler.Invalidate();
         }
         #endregion
+
+        private void bop_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerBop.ShowOffForm();
+        }
     }
 }
