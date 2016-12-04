@@ -53,8 +53,8 @@ namespace rsp6m2
             //roundTrumbler_bpch_1.MaxIndex = 5;
             // roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);
 
-            roundTrumbler_bpr021.MaxIndex = 5;
-            roundTrumbler_bpr021.setDrawRoundTumbler(transformPicture);
+            roundTumbler_bpr021.MaxIndex = 5;
+            roundTumbler_bpr021.setDrawRoundTumbler(transformPicture);
 
             List<Control> Controls = new List<Control>();
 
@@ -83,13 +83,11 @@ namespace rsp6m2
                 case 1:
                     alfa = -30;
                     break;
+
                 case 2:
-                    alfa = 0;
-                    break;
-                case 3:
                     alfa = 30;
                     break;
-                case 4:
+                case 3:
                     alfa = 70;
                     break;
                 default:
@@ -109,11 +107,37 @@ namespace rsp6m2
         private void roundTrumbler1_Click(object sender, EventArgs e)
         {
             ManagerBpr021.ClickToButton((Control)sender);
+
+            if(roundTumbler_bpr021.CurrentIndex == 0)
+            {
+                voltmetr1.Set_Value = 23;
+            }
+
+            if (roundTumbler_bpr021.CurrentIndex == 1)
+            {
+                voltmetr1.Set_Value = 23;
+            }
+
+            if (roundTumbler_bpr021.CurrentIndex == 2)
+            {
+                voltmetr1.Set_Value = 23;
+            }
+
+            if (roundTumbler_bpr021.CurrentIndex == 3)
+            {
+                voltmetr1.Set_Value = 23;
+            }
+
         }
 
         private void bpr021_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerBpr021.ShowOffForm();
+        }
+
+        private void bpr021_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

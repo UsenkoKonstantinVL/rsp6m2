@@ -112,12 +112,12 @@
             // roundTrumbler_bpch_1
             // 
             this.roundTrumbler_bpch_1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_bpch_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bpch_1.BackgroundImage")));
+            this.roundTrumbler_bpch_1.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round;
             this.roundTrumbler_bpch_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.roundTrumbler_bpch_1.CurrentIndex = 0;
-            this.roundTrumbler_bpch_1.Location = new System.Drawing.Point(91, 321);
+            this.roundTrumbler_bpch_1.Location = new System.Drawing.Point(84, 322);
             this.roundTrumbler_bpch_1.Name = "roundTrumbler_bpch_1";
-            this.roundTrumbler_bpch_1.Size = new System.Drawing.Size(49, 68);
+            this.roundTrumbler_bpch_1.Size = new System.Drawing.Size(75, 68);
             this.roundTrumbler_bpch_1.TabIndex = 2;
             this.roundTrumbler_bpch_1.Click += new System.EventHandler(this.roundTrumbler_bpch_1_Click);
             this.roundTrumbler_bpch_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.roundTrumbler_bpch_1_MouseClick);
@@ -125,12 +125,12 @@
             // roundTrumbler_bpch_2
             // 
             this.roundTrumbler_bpch_2.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_bpch_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundTrumbler_bpch_2.BackgroundImage")));
+            this.roundTrumbler_bpch_2.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round;
             this.roundTrumbler_bpch_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.roundTrumbler_bpch_2.CurrentIndex = 0;
-            this.roundTrumbler_bpch_2.Location = new System.Drawing.Point(377, 320);
+            this.roundTrumbler_bpch_2.Location = new System.Drawing.Point(367, 320);
             this.roundTrumbler_bpch_2.Name = "roundTrumbler_bpch_2";
-            this.roundTrumbler_bpch_2.Size = new System.Drawing.Size(49, 69);
+            this.roundTrumbler_bpch_2.Size = new System.Drawing.Size(79, 69);
             this.roundTrumbler_bpch_2.TabIndex = 3;
             this.roundTrumbler_bpch_2.Click += new System.EventHandler(this.roundTrumbler_bpch_1_Click);
             this.roundTrumbler_bpch_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.roundTrumbler_bpch_2_MouseClick);

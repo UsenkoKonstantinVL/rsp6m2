@@ -34,6 +34,7 @@ namespace rsp6m2.HelpClass
             {
                 var t = (tumbler3)c;
                 t.Highlight();
+                return;
             }
 
 
