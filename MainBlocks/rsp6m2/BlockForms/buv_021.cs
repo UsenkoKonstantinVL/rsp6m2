@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace rsp6m2.BlockForms
 {
-    public partial class buv_021 : Form
+    public partial class buv_021 : genericForm
     {
         public buv_021()
         {

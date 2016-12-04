@@ -39,12 +39,12 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.roundTrumbler_drltop = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bg021_1 = new rsp6m2.Controls.RoundTrumbler();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.roundTrumbler1 = new rsp6m2.Controls.RoundTrumbler();
+            this.roundTrumbler_bg021_2 = new rsp6m2.Controls.RoundTrumbler();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -90,11 +90,11 @@
             this.voltmetr2.Location = new System.Drawing.Point(195, 87);
             this.voltmetr2.Name = "voltmetr2";
             this.voltmetr2.Set_Bar_min = 0;
-            this.voltmetr2.Set_Bar_N_bolt = 10;
-            this.voltmetr2.Set_Bar_N_not_bolt = 50;
-            this.voltmetr2.Set_Bar_N_tzhifra = 10;
-            this.voltmetr2.Set_Bar_step = 10D;
-            this.voltmetr2.Set_Center_str = "V";
+            this.voltmetr2.Set_Bar_N_bolt = 20;
+            this.voltmetr2.Set_Bar_N_not_bolt = 5;
+            this.voltmetr2.Set_Bar_N_tzhifra = 20;
+            this.voltmetr2.Set_Bar_step = 1D;
+            this.voltmetr2.Set_Center_str = "mA";
             this.voltmetr2.Set_Value = 0;
             this.voltmetr2.Size = new System.Drawing.Size(132, 136);
             this.voltmetr2.TabIndex = 32;
@@ -111,7 +111,7 @@
             this.voltmetr1.Set_Bar_N_bolt = 10;
             this.voltmetr1.Set_Bar_N_not_bolt = 50;
             this.voltmetr1.Set_Bar_N_tzhifra = 10;
-            this.voltmetr1.Set_Bar_step = 10D;
+            this.voltmetr1.Set_Bar_step = 100D;
             this.voltmetr1.Set_Center_str = "V";
             this.voltmetr1.Set_Value = 0;
             this.voltmetr1.Size = new System.Drawing.Size(132, 136);
@@ -182,16 +182,16 @@
             this.label23.TabIndex = 63;
             this.label23.Text = "-125В";
             // 
-            // roundTrumbler_drltop
+            // roundTrumbler_bg021_1
             // 
-            this.roundTrumbler_drltop.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler_drltop.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round1;
-            this.roundTrumbler_drltop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler_drltop.CurrentIndex = 0;
-            this.roundTrumbler_drltop.Location = new System.Drawing.Point(41, 298);
-            this.roundTrumbler_drltop.Name = "roundTrumbler_drltop";
-            this.roundTrumbler_drltop.Size = new System.Drawing.Size(94, 87);
-            this.roundTrumbler_drltop.TabIndex = 62;
+            this.roundTrumbler_bg021_1.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bg021_1.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round1;
+            this.roundTrumbler_bg021_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bg021_1.CurrentIndex = 0;
+            this.roundTrumbler_bg021_1.Location = new System.Drawing.Point(41, 298);
+            this.roundTrumbler_bg021_1.Name = "roundTrumbler_bg021_1";
+            this.roundTrumbler_bg021_1.Size = new System.Drawing.Size(94, 87);
+            this.roundTrumbler_bg021_1.TabIndex = 62;
             // 
             // label3
             // 
@@ -237,16 +237,16 @@
             this.label6.TabIndex = 68;
             this.label6.Text = "Ток ПР. \r\nУМН.";
             // 
-            // roundTrumbler1
+            // roundTrumbler_bg021_2
             // 
-            this.roundTrumbler1.BackColor = System.Drawing.Color.Transparent;
-            this.roundTrumbler1.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round1;
-            this.roundTrumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.roundTrumbler1.CurrentIndex = 0;
-            this.roundTrumbler1.Location = new System.Drawing.Point(213, 299);
-            this.roundTrumbler1.Name = "roundTrumbler1";
-            this.roundTrumbler1.Size = new System.Drawing.Size(94, 87);
-            this.roundTrumbler1.TabIndex = 67;
+            this.roundTrumbler_bg021_2.BackColor = System.Drawing.Color.Transparent;
+            this.roundTrumbler_bg021_2.BackgroundImage = global::rsp6m2.Properties.Resources.tumbler_round1;
+            this.roundTrumbler_bg021_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundTrumbler_bg021_2.CurrentIndex = 0;
+            this.roundTrumbler_bg021_2.Location = new System.Drawing.Point(213, 299);
+            this.roundTrumbler_bg021_2.Name = "roundTrumbler_bg021_2";
+            this.roundTrumbler_bg021_2.Size = new System.Drawing.Size(94, 87);
+            this.roundTrumbler_bg021_2.TabIndex = 67;
             // 
             // pictureBox14
             // 
@@ -354,11 +354,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.roundTrumbler1);
+            this.Controls.Add(this.roundTrumbler_bg021_2);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.roundTrumbler_drltop);
+            this.Controls.Add(this.roundTrumbler_bg021_1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.tumblerku_prlpwr);
@@ -391,12 +391,12 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
-        private Controls.RoundTrumbler roundTrumbler_drltop;
+        private Controls.RoundTrumbler roundTrumbler_bg021_1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Controls.RoundTrumbler roundTrumbler1;
+        private Controls.RoundTrumbler roundTrumbler_bg021_2;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox8;

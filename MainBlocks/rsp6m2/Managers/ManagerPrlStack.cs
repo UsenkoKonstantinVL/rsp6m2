@@ -54,22 +54,22 @@ namespace rsp6m2.Managers
             {
                 Button b = (Button)control;
 
-                if (b.Name == "button28_drl")
+                if (b.Name == "button28_prl")
                 {
                     ManagerBpApch.Initialize();
                     return;
                 }
 
-                if (b.Name == "button6_drl")
+                if (b.Name == "button6_prl")
                 {
-
+                    ManagerBu011.Initialize();
 
                     return;
                 }
 
-                if (b.Name == "buttonPRL")
+                if (b.Name == "button24_prl")
                 {
-
+                    ManagerBg021.Initialize();
 
                     return;
                 }

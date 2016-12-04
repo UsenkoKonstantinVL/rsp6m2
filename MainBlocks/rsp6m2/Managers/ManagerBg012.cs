@@ -8,16 +8,16 @@ namespace rsp6m2.Managers
 {
     static class ManagerBg021
     {
-        static bg021 form = null;
+        static BlockForms.bg021 form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 101;
+        static int ID = 424;
 
         public static void Initialize()
         {
             if (form == null)
             {
-                form = new bg021();
+                form = new BlockForms.bg021();
             }
 
             form.Show();
@@ -72,7 +72,7 @@ namespace rsp6m2.Managers
         public static void ShowOffForm()
         {
             UnlightControls();
-            ManagerHelpForm.GetHelp(1);
+            ManagerHelpForm.GetHelp(4);
         }
 
 

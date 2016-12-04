@@ -16,18 +16,18 @@ namespace rsp6m2
         {
             InitializeComponent();
 
-            if (ManagerPrlPwr.AllControlls == null)
+            if (ManagerBu011.AllControlls == null)
             {
                 List<Control> lc = new List<Control>();
                 List<Control> ilc = new List<Control>();
 
                 HelpClass.Helper.ListsOfControls(lc, ilc, Controls);
 
-                ManagerPrlPwr.SetControls(ilc, lc);
+                ManagerBu011.SetControls(ilc, lc);
             }
             else
             {
-                HelpClass.Helper.ReplaceControls(ManagerPrlPwr.SaveInstanceControls, Controls);
+                HelpClass.Helper.ReplaceControls(ManagerBu011.SaveInstanceControls, Controls);
             }
         }
 
@@ -50,17 +50,17 @@ namespace rsp6m2
                 if(t.Position == 2)
                 {
                     yellowElement1.IsLighting = true;
-                    greenElement1.isLight = false;
+                    greenElement1.IlLighting = false;
                 }
                 else if(t.Position == 0)
                 {
                     yellowElement1.IsLighting = false;
-                    greenElement1.isLight = true;
+                    greenElement1.IlLighting = true;
                 }
                 else
                 {
                     yellowElement1.IsLighting = false;
-                    greenElement1.isLight = false;
+                    greenElement1.IlLighting = false;
                 }
             }
         }

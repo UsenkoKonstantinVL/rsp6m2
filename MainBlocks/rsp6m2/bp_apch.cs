@@ -35,35 +35,10 @@ namespace rsp6m2
                 List<Control> lc = new List<Control>();
                 List<Control> ilc = new List<Control>();
 
-                foreach (Control c in Controls)
-                {
-                    if (c is Button)
-                    {
-                        lc.Add(c);
-                    }
-                    else if (c is Tumbler)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is RoundTrumbler)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is Light)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is Voltmetr)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                }
+                HelpClass.Helper.ListsOfControls(lc, ilc, Controls);
 
-                ManagerPrlPwr.SetControls(ilc, lc);
+
+                ManagerBpApch.SetControls(ilc, lc);
             }
             else
             {
@@ -98,7 +73,7 @@ namespace rsp6m2
             switch (currentIndex)
             {
                 case 0:
-                    alfa = -50;
+                    alfa = -70;
                     break;
                 case 1:
                     alfa = -30;
@@ -110,10 +85,10 @@ namespace rsp6m2
                     alfa = 30;
                     break;
                 case 4:
-                    alfa = 50;
+                    alfa = 70;
                     break;
                 default:
-                    alfa = 50;
+                    alfa = 70;
                     break;
             }
             tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);
@@ -126,7 +101,7 @@ namespace rsp6m2
             switch (currentIndex)
             {
                 case 0:
-                    alfa = -50;
+                    alfa = -70;
                     break;
                 case 1:
                     alfa = -30;
@@ -138,10 +113,10 @@ namespace rsp6m2
                     alfa = 30;
                     break;
                 case 4:
-                    alfa = 50;
+                    alfa = 70;
                     break;
                 default:
-                    alfa = 50;
+                    alfa = 70;
                     break;
             }
             tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);
@@ -167,14 +142,16 @@ namespace rsp6m2
 
         private void roundTrumbler_bpch_2_MouseClick(object sender, MouseEventArgs e)
         {
-          /*  p.CheckClick((Control)sender);
-            p.GetInfo();*/
+            /*  p.CheckClick((Control)sender);
+              p.GetInfo();*/
+            ManagerBpApch.ClickToButton((Control)sender);
         }
 
         private void roundTrumbler_bpch_1_MouseClick(object sender, MouseEventArgs e)
         {
-           /* p.CheckClick((Control)sender);
-            p.GetInfo();*/
+            /* p.CheckClick((Control)sender);
+             p.GetInfo();*/
+            ManagerBpApch.ClickToButton((Control)sender);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using rsp6m2.Controls;
+using rsp6m2.HelpClass;
 using rsp6m2.Managers;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace rsp6m2.BlockForms
 {
-    public partial class bg021 : Form
+    public partial class bg021 : genericForm
     {
         public bg021()
         {
@@ -22,33 +23,7 @@ namespace rsp6m2.BlockForms
                 List<Control> lc = new List<Control>();
                 List<Control> ilc = new List<Control>();
 
-                foreach (Control c in Controls)
-                {
-                    if (c is Button)
-                    {
-                        lc.Add(c);
-                    }
-                    else if (c is Tumbler)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is RoundTrumbler)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is Light)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                    else if (c is Voltmetr)
-                    {
-                        lc.Add(c);
-                        ilc.Add(c);
-                    }
-                }
+                HelpClass.Helper.ListsOfControls(lc, ilc, Controls);
 
                 ManagerBg021.SetControls(ilc, lc);
             }
@@ -56,7 +31,69 @@ namespace rsp6m2.BlockForms
             {
                 HelpClass.Helper.ReplaceControls(ManagerBg021.SaveInstanceControls, Controls);
             }
+            Initialize();
         }
+
+        void Initialize()
+        {
+            roundTrumbler_bg021_1.MaxIndex = 3;
+            roundTrumbler_bg021_1.setDrawRoundTumbler(transformPicture);
+
+            roundTrumbler_bg021_2.MaxIndex = 4;
+            roundTrumbler_bg021_2.setDrawRoundTumbler(transformPicture2);
+        }
+
+        #region Delegate for RoundTumblers
+
+        public void transformPicture(RoundTrumbler tumbler, int currentIndex)
+        {
+            int alfa = 0;
+            switch (currentIndex)
+            {
+                case 0:
+                    alfa = -40;
+                    break;
+
+                case 1:
+                    alfa = 0;
+                    break;
+                case 2:
+                    alfa = 40;
+                    break;
+
+                    alfa = 40;
+                    break;
+            }
+            tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);
+            tumbler.Invalidate();
+        }
+
+        public void transformPicture2(RoundTrumbler tumbler, int currentIndex)
+        {
+            int alfa = 0;
+            switch (currentIndex)
+            {
+                case 0:
+                    alfa = -70;
+                    break;
+                case 1:
+                    alfa = -30;
+                    break;
+
+                case 2:
+                    alfa = 30;
+                    break;
+                case 3:
+                    alfa = 70;
+                    break;
+                default:
+                    alfa = 70;
+                    break;
+            }
+            tumbler.BackgroundImage = HelpFunctionClass.RotateImage(tumbler.BackgroundImage as Bitmap, alfa);
+            tumbler.Invalidate();
+        }
+        #endregion
 
         private void bg021_FormClosing(object sender, FormClosingEventArgs e)
         {

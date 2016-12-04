@@ -85,7 +85,7 @@
             this.voltmetr1.Set_Bar_N_bolt = 10;
             this.voltmetr1.Set_Bar_N_not_bolt = 50;
             this.voltmetr1.Set_Bar_N_tzhifra = 10;
-            this.voltmetr1.Set_Bar_step = 10D;
+            this.voltmetr1.Set_Bar_step = 100D;
             this.voltmetr1.Set_Center_str = "V";
             this.voltmetr1.Set_Value = 0;
             this.voltmetr1.Size = new System.Drawing.Size(160, 160);
@@ -103,8 +103,8 @@
             this.voltmetr2.Set_Bar_N_bolt = 10;
             this.voltmetr2.Set_Bar_N_not_bolt = 50;
             this.voltmetr2.Set_Bar_N_tzhifra = 10;
-            this.voltmetr2.Set_Bar_step = 10D;
-            this.voltmetr2.Set_Center_str = "V";
+            this.voltmetr2.Set_Bar_step = 0.5D;
+            this.voltmetr2.Set_Center_str = "mA";
             this.voltmetr2.Set_Value = 0;
             this.voltmetr2.Size = new System.Drawing.Size(160, 160);
             this.voltmetr2.TabIndex = 1;
