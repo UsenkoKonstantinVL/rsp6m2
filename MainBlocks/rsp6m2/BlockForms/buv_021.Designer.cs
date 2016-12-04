@@ -388,6 +388,7 @@
             this.Controls.Add(this.voltmetr1);
             this.Name = "buv_021";
             this.Text = "buv_021";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.buv_021_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

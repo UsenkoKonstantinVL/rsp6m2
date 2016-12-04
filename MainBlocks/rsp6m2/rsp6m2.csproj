@@ -346,6 +346,7 @@
     <Compile Include="Managers\ManagerBpApch.cs" />
     <Compile Include="Managers\ManagerBpr021.cs" />
     <Compile Include="Managers\ManagerBu011.cs" />
+    <Compile Include="Managers\ManagerBuv021.cs" />
     <Compile Include="Managers\ManagerBvm011.cs" />
     <Compile Include="Managers\ManagerDrlPwr.cs" />
     <Compile Include="Managers\ManagerDrlStack.cs" />
