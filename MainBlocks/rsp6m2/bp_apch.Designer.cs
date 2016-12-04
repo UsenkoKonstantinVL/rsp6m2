@@ -33,7 +33,6 @@
             this.voltmetr2 = new rsp6m2.Controls.Voltmetr();
             this.roundTrumbler_bpch_1 = new rsp6m2.Controls.RoundTrumbler();
             this.roundTrumbler_bpch_2 = new rsp6m2.Controls.RoundTrumbler();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.light1 = new rsp6m2.Controls.Light();
             this.light2 = new rsp6m2.Controls.Light();
             this.light3 = new rsp6m2.Controls.Light();
@@ -70,6 +69,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.bigbutton1 = new rsp6m2.Controls.Bigbutton();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,16 +132,6 @@
             this.roundTrumbler_bpch_2.Size = new System.Drawing.Size(49, 69);
             this.roundTrumbler_bpch_2.TabIndex = 3;
             this.roundTrumbler_bpch_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.roundTrumbler_bpch_2_MouseClick);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::rsp6m2.Properties.Resources.БольшаяКраснаяКнопка;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Location = new System.Drawing.Point(226, 130);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(75, 66);
-            this.panel1.TabIndex = 4;
             // 
             // light1
             // 
@@ -525,6 +515,16 @@
             this.label21.TabIndex = 71;
             this.label21.Text = "0.5А";
             // 
+            // bigbutton1
+            // 
+            this.bigbutton1.BackColor = System.Drawing.Color.Transparent;
+            this.bigbutton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1.BackgroundImage")));
+            this.bigbutton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bigbutton1.Location = new System.Drawing.Point(234, 128);
+            this.bigbutton1.Name = "bigbutton1";
+            this.bigbutton1.Size = new System.Drawing.Size(50, 50);
+            this.bigbutton1.TabIndex = 72;
+            // 
             // bp_apch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -532,6 +532,7 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 744);
+            this.Controls.Add(this.bigbutton1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
@@ -567,7 +568,6 @@
             this.Controls.Add(this.light3);
             this.Controls.Add(this.light2);
             this.Controls.Add(this.light1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.roundTrumbler_bpch_2);
             this.Controls.Add(this.roundTrumbler_bpch_1);
             this.Controls.Add(this.voltmetr2);
@@ -590,7 +590,6 @@
         private Controls.Voltmetr voltmetr2;
         private Controls.RoundTrumbler roundTrumbler_bpch_1;
         private Controls.RoundTrumbler roundTrumbler_bpch_2;
-        private System.Windows.Forms.Panel panel1;
         private Controls.Light light1;
         private Controls.Light light2;
         private Controls.Light light3;
@@ -627,5 +626,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private Controls.Bigbutton bigbutton1;
     }
 }

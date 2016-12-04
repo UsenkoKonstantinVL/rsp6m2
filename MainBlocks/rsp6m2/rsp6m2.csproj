@@ -215,6 +215,12 @@
     <Compile Include="Controls\Bigbutton.Designer.cs">
       <DependentUpon>Bigbutton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\GreenElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GreenElement.Designer.cs">
+      <DependentUpon>GreenElement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\IHighlight.cs" />
     <Compile Include="Controls\IHighlightControl.cs" />
     <Compile Include="Controls\IResponseForClick.cs" />
@@ -265,6 +271,12 @@
     </Compile>
     <Compile Include="Controls\Voltmetr.designer.cs">
       <DependentUpon>Voltmetr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\YellowElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\YellowElement.Designer.cs">
+      <DependentUpon>YellowElement.cs</DependentUpon>
     </Compile>
     <Compile Include="drlPwr.cs">
       <SubType>Form</SubType>
@@ -483,6 +495,9 @@
     <EmbeddedResource Include="Controls\Bigbutton.resx">
       <DependentUpon>Bigbutton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GreenElement.resx">
+      <DependentUpon>GreenElement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Light.resx">
       <DependentUpon>Light.cs</DependentUpon>
     </EmbeddedResource>
@@ -506,6 +521,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Voltmetr.resx">
       <DependentUpon>Voltmetr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\YellowElement.resx">
+      <DependentUpon>YellowElement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="drlPwr.resx">
       <DependentUpon>drlPwr.cs</DependentUpon>
