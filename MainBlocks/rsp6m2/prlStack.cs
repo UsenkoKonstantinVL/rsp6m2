@@ -15,8 +15,8 @@ namespace rsp6m2
     public partial class prlStack : genericForm
     {
         /*br009 br0091 = new br009();
-        bp213 bp2131 = new bp213();
-        bp135 bp1351 = new bp135();
+        bp213 bp2131 = new bp213();*/
+        bp135 bp1351 = new bp135();/*
         brn01 brn011 = new brn01();
         bost bost1 = new bost();
         buv011 buv0111 = new buv011();
@@ -148,10 +148,6 @@ namespace rsp6m2
            // bvm0111.Show();
         }
 
-        private void button18_Click(object sender, EventArgs e)
-        {
-           // bp1351.Show();
-        }
 
         private void button16_Click(object sender, EventArgs e)
         {
@@ -260,6 +256,12 @@ namespace rsp6m2
                     p.GetInfo(holder);
                 }
             }*/
+        }
+
+        private void bp135Button_Click(object sender, EventArgs e)
+        {
+            //TODO: change this
+            bp1351.Show();
         }
     }
 }

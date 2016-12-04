@@ -173,6 +173,12 @@
     <Compile Include="brn01.Designer.cs">
       <DependentUpon>brn01.cs</DependentUpon>
     </Compile>
+    <Compile Include="brn021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="brn021.Designer.cs">
+      <DependentUpon>brn021.cs</DependentUpon>
+    </Compile>
     <Compile Include="bsf.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -491,6 +497,9 @@
     <EmbeddedResource Include="brn01.resx">
       <DependentUpon>brn01.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="brn021.resx">
+      <DependentUpon>brn021.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bsf.resx">
       <DependentUpon>bsf.cs</DependentUpon>
     </EmbeddedResource>
@@ -703,6 +712,7 @@
     <None Include="Indiacator\res\tmb.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\brn021.JPG" />
     <None Include="Resources\UnderPRLblocks.png" />
     <None Include="Resources\UnderDRLblocks.png" />
     <None Include="Resources\Pup.png" />
