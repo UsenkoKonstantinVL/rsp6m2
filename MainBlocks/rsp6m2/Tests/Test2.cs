@@ -68,8 +68,8 @@ namespace rsp6m2.Tests
              t = new TextForHelpForm();
 
 
-             txt = "Переключатель РАБОТА-КОНТРОЛЬ" + Environment.NewLine +
-                " установить в положение «РАБОТА»";
+             txt = "Переключатель в положение" + Environment.NewLine +
+                " -125В";
             t = new TextForHelpForm();
             t.HelpText = "";
             t.NeedClick = txt;
@@ -81,7 +81,91 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БУ-011";
+            t.HelpText = "Откройте БГ-021";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bg021_1");
+            cName.Add("button24_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize3
+            q = new Quize();
+            q.ListOfConditions = Condition3;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Переключатель в положение" + Environment.NewLine +
+               "150В";
+            t = new TextForHelpForm();
+            t.HelpText = "";
+            t.NeedClick = txt;
+            helpDictionary.Add(424, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте БГ-021";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bg021_1");
+            cName.Add("button24_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize4
+            q = new Quize();
+            q.ListOfConditions = Condition4;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Переключатель в положение" + Environment.NewLine +
+               "250В";
+            t = new TextForHelpForm();
+            t.HelpText = "";
+            t.NeedClick = txt;
+            helpDictionary.Add(424, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте БГ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -134,7 +218,43 @@ namespace rsp6m2.Tests
                 if (t.CurrentIndex == 0)
                 {
                     Console.WriteLine("Правильно нажал");
-                    //return true;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize3
+
+        public static bool Condition3(Control c)
+        {
+            if (c.Name == "roundTrumbler_bg021_1")
+            {
+                var t = (RoundTrumbler)c;
+                if (t.CurrentIndex == 1)
+                {
+                    Console.WriteLine("Правильно нажал");
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize3
+
+        public static bool Condition4(Control c)
+        {
+            if (c.Name == "roundTrumbler_bg021_1")
+            {
+                var t = (RoundTrumbler)c;
+                if (t.CurrentIndex == 2)
+                {
+                    Console.WriteLine("Правильно нажал");
+                    return true;
                 }
             }
             return false;

@@ -125,7 +125,22 @@ namespace rsp6m2.BlockForms
                 }
                 else
                 {
-
+                    if (t.CurrentIndex == 0)
+                    {
+                        voltmetr2.Set_Value = 48/2;
+                    }
+                    if (t.CurrentIndex == 1)
+                    {
+                        voltmetr2.Set_Value = 49/2;
+                    }
+                    if (t.CurrentIndex == 2)
+                    {
+                        voltmetr2.Set_Value = 51/2;
+                    }
+                    if (t.CurrentIndex == 3)
+                    {
+                        voltmetr2.Set_Value = 52/2;
+                    }
                 }
             }
         }
