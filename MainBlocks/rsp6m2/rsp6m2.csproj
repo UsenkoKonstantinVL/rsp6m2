@@ -342,6 +342,12 @@
     <Compile Include="Indiacator\tumb.Designer.cs">
       <DependentUpon>tumb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Indiacator\UnderDRLBlocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indiacator\UnderDRLBlocks.Designer.cs">
+      <DependentUpon>UnderDRLBlocks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Indiacator\UnderPRLBlocks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -566,6 +572,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Indiacator\tumb.resx">
       <DependentUpon>tumb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\UnderDRLBlocks.resx">
+      <DependentUpon>UnderDRLBlocks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Indiacator\UnderPRLBlocks.resx">
       <DependentUpon>UnderPRLBlocks.cs</DependentUpon>

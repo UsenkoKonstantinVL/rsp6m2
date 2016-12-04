@@ -13,11 +13,19 @@ namespace indikator_rsp_6m2
         public UnderPRLBlocks()
         {
             InitializeComponent();
+            
         }
 
         private void PupBlock_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void UnderPRLBlocks_Load(object sender, EventArgs e)
+        {
+            bi45Tumbler.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            boimTumbler.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            buoTumbler.SetTumblerPosition(rsp6m2.Controls.Position.Down);
         }
     }
 }

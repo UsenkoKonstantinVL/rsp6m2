@@ -131,7 +131,8 @@ namespace indikator_rsp_6m2
 
         private void UnderDRLblocks_Click(object sender, EventArgs e)
         {
-
+            rsp6m2.Indiacator.UnderDRLBlocks form = new rsp6m2.Indiacator.UnderDRLBlocks();
+            form.Show();
         }
     }
 }

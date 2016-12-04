@@ -29,67 +29,82 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UnderPRLBlocks));
-            this.PupBlock = new System.Windows.Forms.Button();
-            this.PupPanel = new System.Windows.Forms.Panel();
-            this.bi45 = new rsp6m2.Controls.Light();
-            this.light2 = new rsp6m2.Controls.Light();
-            this.light3 = new rsp6m2.Controls.Light();
-            this.PupPanel.SuspendLayout();
+            this.bi45light = new rsp6m2.Controls.Light();
+            this.buoLight = new rsp6m2.Controls.Light();
+            this.boimLight = new rsp6m2.Controls.Light();
+            this.bi45Tumbler = new rsp6m2.Controls.Tumbler2();
+            this.buoTumbler = new rsp6m2.Controls.Tumbler2();
+            this.boimTumbler = new rsp6m2.Controls.Tumbler2();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // PupBlock
+            // bi45light
             // 
-            this.PupBlock.BackColor = System.Drawing.Color.Transparent;
-            this.PupBlock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PupBlock.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.PupBlock.Location = new System.Drawing.Point(453, 0);
-            this.PupBlock.Name = "PupBlock";
-            this.PupBlock.Size = new System.Drawing.Size(130, 370);
-            this.PupBlock.TabIndex = 0;
-            this.PupBlock.UseVisualStyleBackColor = false;
-            this.PupBlock.Click += new System.EventHandler(this.PupBlock_Click);
+            this.bi45light.BackColor = System.Drawing.Color.Transparent;
+            this.bi45light.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bi45light.BackgroundImage")));
+            this.bi45light.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bi45light.Location = new System.Drawing.Point(453, 0);
+            this.bi45light.Name = "bi45light";
+            this.bi45light.Size = new System.Drawing.Size(38, 36);
+            this.bi45light.TabIndex = 0;
             // 
-            // PupPanel
+            // buoLight
             // 
-            this.PupPanel.BackgroundImage = global::rsp6m2.Properties.Resources.Pup;
-            this.PupPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PupPanel.Controls.Add(this.light3);
-            this.PupPanel.Controls.Add(this.light2);
-            this.PupPanel.Controls.Add(this.bi45);
-            this.PupPanel.Location = new System.Drawing.Point(365, 12);
-            this.PupPanel.Name = "PupPanel";
-            this.PupPanel.Size = new System.Drawing.Size(154, 346);
-            this.PupPanel.TabIndex = 1;
+            this.buoLight.BackColor = System.Drawing.Color.Transparent;
+            this.buoLight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buoLight.BackgroundImage")));
+            this.buoLight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buoLight.Location = new System.Drawing.Point(496, 0);
+            this.buoLight.Name = "buoLight";
+            this.buoLight.Size = new System.Drawing.Size(38, 36);
+            this.buoLight.TabIndex = 1;
             // 
-            // bi45
+            // boimLight
             // 
-            this.bi45.BackColor = System.Drawing.Color.Transparent;
-            this.bi45.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bi45.BackgroundImage")));
-            this.bi45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bi45.Location = new System.Drawing.Point(21, 0);
-            this.bi45.Name = "bi45";
-            this.bi45.Size = new System.Drawing.Size(38, 36);
-            this.bi45.TabIndex = 0;
+            this.boimLight.BackColor = System.Drawing.Color.Transparent;
+            this.boimLight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boimLight.BackgroundImage")));
+            this.boimLight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boimLight.Location = new System.Drawing.Point(540, 0);
+            this.boimLight.Name = "boimLight";
+            this.boimLight.Size = new System.Drawing.Size(38, 36);
+            this.boimLight.TabIndex = 2;
             // 
-            // light2
+            // bi45Tumbler
             // 
-            this.light2.BackColor = System.Drawing.Color.Transparent;
-            this.light2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light2.BackgroundImage")));
-            this.light2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light2.Location = new System.Drawing.Point(65, 0);
-            this.light2.Name = "light2";
-            this.light2.Size = new System.Drawing.Size(38, 36);
-            this.light2.TabIndex = 1;
+            this.bi45Tumbler.BackColor = System.Drawing.Color.Transparent;
+            this.bi45Tumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bi45Tumbler.BackgroundImage")));
+            this.bi45Tumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bi45Tumbler.Location = new System.Drawing.Point(464, 57);
+            this.bi45Tumbler.Name = "bi45Tumbler";
+            this.bi45Tumbler.Size = new System.Drawing.Size(27, 42);
+            this.bi45Tumbler.TabIndex = 3;
             // 
-            // light3
+            // buoTumbler
             // 
-            this.light3.BackColor = System.Drawing.Color.Transparent;
-            this.light3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light3.BackgroundImage")));
-            this.light3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light3.Location = new System.Drawing.Point(109, 0);
-            this.light3.Name = "light3";
-            this.light3.Size = new System.Drawing.Size(38, 36);
-            this.light3.TabIndex = 2;
+            this.buoTumbler.BackColor = System.Drawing.Color.Transparent;
+            this.buoTumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buoTumbler.BackgroundImage")));
+            this.buoTumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buoTumbler.Location = new System.Drawing.Point(507, 57);
+            this.buoTumbler.Name = "buoTumbler";
+            this.buoTumbler.Size = new System.Drawing.Size(27, 42);
+            this.buoTumbler.TabIndex = 4;
+            // 
+            // boimTumbler
+            // 
+            this.boimTumbler.BackColor = System.Drawing.Color.Transparent;
+            this.boimTumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boimTumbler.BackgroundImage")));
+            this.boimTumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boimTumbler.Location = new System.Drawing.Point(540, 57);
+            this.boimTumbler.Name = "boimTumbler";
+            this.boimTumbler.Size = new System.Drawing.Size(27, 42);
+            this.boimTumbler.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Location = new System.Drawing.Point(453, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(125, 358);
+            this.panel1.TabIndex = 6;
             // 
             // UnderPRLBlocks
             // 
@@ -98,22 +113,28 @@
             this.BackgroundImage = global::rsp6m2.Properties.Resources.UnderPRLblocks;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 370);
-            this.Controls.Add(this.PupPanel);
-            this.Controls.Add(this.PupBlock);
+            this.Controls.Add(this.bi45light);
+            this.Controls.Add(this.buoLight);
+            this.Controls.Add(this.boimLight);
+            this.Controls.Add(this.bi45Tumbler);
+            this.Controls.Add(this.buoTumbler);
+            this.Controls.Add(this.boimTumbler);
+            this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "UnderPRLBlocks";
             this.Text = "UnderPRLBlocks";
-            this.PupPanel.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.UnderPRLBlocks_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button PupBlock;
-        private System.Windows.Forms.Panel PupPanel;
-        private rsp6m2.Controls.Light light3;
-        private rsp6m2.Controls.Light light2;
-        private rsp6m2.Controls.Light bi45;
+        private rsp6m2.Controls.Light boimLight;
+        private rsp6m2.Controls.Light buoLight;
+        private rsp6m2.Controls.Light bi45light;
+        private rsp6m2.Controls.Tumbler2 bi45Tumbler;
+        private rsp6m2.Controls.Tumbler2 boimTumbler;
+        private rsp6m2.Controls.Tumbler2 buoTumbler;
+        private System.Windows.Forms.Panel panel1;
     }
 }
