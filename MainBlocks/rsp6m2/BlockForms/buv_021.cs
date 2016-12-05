@@ -49,5 +49,10 @@ namespace rsp6m2.BlockForms
             }
                     
         }
+
+        public void SetValueToVoltmatre3(int value)
+        {
+            voltmetr3.Set_Value = value;
+        }
     }
 }

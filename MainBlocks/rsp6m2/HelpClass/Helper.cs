@@ -36,6 +36,12 @@ namespace rsp6m2.HelpClass
                 t.Highlight();
                 return;
             }
+            if(c is Bigbutton)
+            {
+                var t = (Bigbutton)c;
+                t.Highlight();
+                return;
+            }
 
 
         }

@@ -14,5 +14,15 @@ namespace rsp6m2.Controls
         {
             InitializeComponent();
         }
+
+        public void Highlight()
+        {
+            
+                Graphics g = Graphics.FromImage(this.BackgroundImage);
+                Rectangle r1 = new Rectangle(0, 0, BackgroundImage.Width - 1, BackgroundImage.Height - 1);
+                g.DrawRectangle(new Pen(Color.Red, 10), r1);
+                this.Invalidate();
+            
+        }
     }
 }

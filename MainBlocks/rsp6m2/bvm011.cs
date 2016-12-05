@@ -111,16 +111,66 @@ namespace rsp6m2
         private void roundTrumbler_bvm011_1_Click(object sender, EventArgs e)
         {
             ManagerBvm011.ClickToButton((Control)sender);
+            if (roundTrumbler_bvm011_2.CurrentIndex == 0)
+            {
+                voltmetr2.Set_Value = 1;
+            }
+            if (roundTrumbler_bvm011_2.CurrentIndex == 1)
+            {
+                voltmetr2.Set_Value = 3;
+            }
+
+            if (roundTrumbler_bvm011_2.CurrentIndex == 2)
+            {
+                voltmetr2.Set_Value = 5;
+            }
+
+            if (roundTrumbler_bvm011_2.CurrentIndex == 3)
+            {
+                voltmetr2.Set_Value = 10;
+            }
         }
 
         private void roundTrumbler_bvm011_2_Click(object sender, EventArgs e)
         {
+            if(((Control)sender).Name == "roundTrumbler_bvm011_2")
+            {
+                if (roundTrumbler_bvm011_2.CurrentIndex == 0)
+                {
+                    voltmetr1.Set_Value = 2;
+                }
+                if (roundTrumbler_bvm011_2.CurrentIndex == 1)
+                {
+                    voltmetr1.Set_Value = 8;
+                }
+
+                if (roundTrumbler_bvm011_2.CurrentIndex == 2)
+                {
+                    voltmetr1.Set_Value = 15;
+                }
+
+                if (roundTrumbler_bvm011_2.CurrentIndex == 3)
+                {
+                    voltmetr1.Set_Value = 30;
+                }
+
+            }
             ManagerBvm011.ClickToButton((Control)sender);
         }
 
         private void bvm011_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerBvm011.ShowOffForm();
+        }
+
+        private void panel8_Click(object sender, EventArgs e)
+        {
+            ManagerBvm011.ClickToButton((Control)sender);
+        }
+
+        private void bigbutton1_bvm011_1_Click(object sender, EventArgs e)
+        {
+            ManagerBvm011.ClickToButton((Control)sender);
         }
     }
 }

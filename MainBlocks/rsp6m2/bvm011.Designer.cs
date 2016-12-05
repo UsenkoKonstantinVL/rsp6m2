@@ -52,7 +52,6 @@
             this.roundTrumbler_bvm011_2 = new rsp6m2.Controls.RoundTrumbler();
             this.light3 = new rsp6m2.Controls.Light();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -73,6 +72,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.voltmetr2 = new rsp6m2.Controls.Voltmetr();
             this.voltmetr1 = new rsp6m2.Controls.Voltmetr();
+            this.bigbutton1_bvm011_1 = new rsp6m2.Controls.Bigbutton();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -327,15 +327,6 @@
             this.panel9.Size = new System.Drawing.Size(40, 40);
             this.panel9.TabIndex = 113;
             // 
-            // panel8
-            // 
-            this.panel8.BackgroundImage = global::rsp6m2.Properties.Resources.БольшаяКраснаяКнопка;
-            this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel8.Location = new System.Drawing.Point(206, 95);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(40, 40);
-            this.panel8.TabIndex = 112;
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Transparent;
@@ -549,13 +540,24 @@
             this.voltmetr1.Name = "voltmetr1";
             this.voltmetr1.Set_Bar_min = 0;
             this.voltmetr1.Set_Bar_N_bolt = 50;
-            this.voltmetr1.Set_Bar_N_not_bolt = 10;
-            this.voltmetr1.Set_Bar_N_tzhifra = 25;
+            this.voltmetr1.Set_Bar_N_not_bolt = 1;
+            this.voltmetr1.Set_Bar_N_tzhifra = 2;
             this.voltmetr1.Set_Bar_step = 1D;
             this.voltmetr1.Set_Center_str = "kV";
             this.voltmetr1.Set_Value = 0;
             this.voltmetr1.Size = new System.Drawing.Size(160, 160);
             this.voltmetr1.TabIndex = 0;
+            // 
+            // bigbutton1_bvm011_1
+            // 
+            this.bigbutton1_bvm011_1.BackColor = System.Drawing.Color.Transparent;
+            this.bigbutton1_bvm011_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_1.BackgroundImage")));
+            this.bigbutton1_bvm011_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bigbutton1_bvm011_1.Location = new System.Drawing.Point(205, 95);
+            this.bigbutton1_bvm011_1.Name = "bigbutton1_bvm011_1";
+            this.bigbutton1_bvm011_1.Size = new System.Drawing.Size(40, 40);
+            this.bigbutton1_bvm011_1.TabIndex = 116;
+            this.bigbutton1_bvm011_1.Click += new System.EventHandler(this.bigbutton1_bvm011_1_Click);
             // 
             // bvm011
             // 
@@ -564,6 +566,7 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 744);
+            this.Controls.Add(this.bigbutton1_bvm011_1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.roundTrumbler_bvm011_2);
@@ -571,7 +574,6 @@
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel8);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -658,11 +660,11 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
+        private Controls.Bigbutton bigbutton1_bvm011_1;
     }
 }

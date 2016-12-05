@@ -20,9 +20,11 @@ namespace rsp6m2.Managers
             if(EmulatorManager.GlobalManager.IsLampBuv021Light == true)
             {
                 form.IsLampLighting(true);
-
             }
-                    
+            if(EmulatorManager.GlobalManager.Buv021Voltmeter3 != 0)
+            {
+                form.SetValueToVoltmatre3(EmulatorManager.GlobalManager.Buv021Voltmeter3);
+            } 
 
             form.Show();
 

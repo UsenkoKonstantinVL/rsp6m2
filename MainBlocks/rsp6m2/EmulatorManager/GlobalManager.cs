@@ -7,5 +7,6 @@ namespace rsp6m2.EmulatorManager
     public static class GlobalManager
     {
         public static bool IsLampBuv021Light = false;
+        public static int Buv021Voltmeter3 = 0;
     }
 }
