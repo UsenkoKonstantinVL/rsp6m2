@@ -86,8 +86,8 @@ namespace rsp6m2.Forms
 
             form1.Show();
             Console.WriteLine("Выбранный индекс - " + a);*/
-
-            EmulatorManager.EmulatorManager.InitializeManager(1, true);
+            var a = listBox1.SelectedIndex;
+            EmulatorManager.EmulatorManager.InitializeManager(a, true);
         }
 
         public void Finish()

@@ -79,6 +79,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HelpForm";
             this.Text = "HelpForm";
+            this.TopMost = true;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

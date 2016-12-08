@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
+using rsp6m2.Controls;
 
 namespace rsp6m2.Managers
 {
@@ -112,6 +113,11 @@ namespace rsp6m2.Managers
                         Button b = (Button)c;
                         b.FlatStyle = FlatStyle.Flat;
                         b.FlatAppearance.BorderSize = 0;
+                    }
+                    if(c is Bigbutton)
+                    {
+                        Bigbutton b = (Bigbutton)c;
+                        b.UnHighlight();
                     }
                 }
 

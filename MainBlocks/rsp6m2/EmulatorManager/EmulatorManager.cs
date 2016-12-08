@@ -23,14 +23,16 @@ namespace rsp6m2.EmulatorManager
         {
             Test = null;
             currentQuize = 0;
-            numTest = 1;
+            //numTest = 1;
 
             if (numTest == 0)
             {
                 Test = Tests.Test1.GetQuize();
                 TestName = Tests.Test1.TestName;
             }
-            else if(numTest == 1)
+
+
+            else 
             {
                 Test = Tests.Test2.GetQuize();
                 TestName = Tests.Test2.TestName;

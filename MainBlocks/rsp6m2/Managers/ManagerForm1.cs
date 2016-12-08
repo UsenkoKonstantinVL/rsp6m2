@@ -118,7 +118,7 @@ namespace rsp6m2.Managers
         {
             UnlightControls();
             EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
-            if (selfClosing)
+            if (!selfClosing)
             {
                 EmulatorManager.EmulatorManager.TestCancel();
             }
