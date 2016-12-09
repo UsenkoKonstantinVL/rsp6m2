@@ -233,6 +233,16 @@ namespace rsp6m2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rsp_all_stack_V4 {
+            get {
+                object obj = ResourceManager.GetObject("rsp_all_stack_V4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rsp6m {
             get {
                 object obj = ResourceManager.GetObject("rsp6m", resourceCulture);

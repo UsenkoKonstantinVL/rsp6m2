@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(prlStack));
             this.button17_prl = new System.Windows.Forms.Button();
             this.button1_prl = new System.Windows.Forms.Button();
             this.button2_prl = new System.Windows.Forms.Button();
@@ -65,13 +64,13 @@
             // 
             this.button17_prl.BackColor = System.Drawing.Color.Transparent;
             this.button17_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17_prl.FlatAppearance.BorderSize = 0;
+            this.button17_prl.FlatAppearance.BorderSize = 2;
             this.button17_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button17_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button17_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17_prl.Location = new System.Drawing.Point(2, 2);
+            this.button17_prl.Location = new System.Drawing.Point(3, 4);
             this.button17_prl.Name = "button17_prl";
-            this.button17_prl.Size = new System.Drawing.Size(100, 145);
+            this.button17_prl.Size = new System.Drawing.Size(96, 140);
             this.button17_prl.TabIndex = 18;
             this.button17_prl.UseVisualStyleBackColor = false;
             this.button17_prl.Click += new System.EventHandler(this.button17_Click);
@@ -80,13 +79,13 @@
             // 
             this.button1_prl.BackColor = System.Drawing.Color.Transparent;
             this.button1_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1_prl.FlatAppearance.BorderSize = 0;
+            this.button1_prl.FlatAppearance.BorderSize = 2;
             this.button1_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1_prl.Location = new System.Drawing.Point(3, 149);
+            this.button1_prl.Location = new System.Drawing.Point(4, 145);
             this.button1_prl.Name = "button1_prl";
-            this.button1_prl.Size = new System.Drawing.Size(99, 141);
+            this.button1_prl.Size = new System.Drawing.Size(96, 141);
             this.button1_prl.TabIndex = 19;
             this.button1_prl.UseVisualStyleBackColor = false;
             this.button1_prl.Click += new System.EventHandler(this.button1_Click);
@@ -95,13 +94,13 @@
             // 
             this.button2_prl.BackColor = System.Drawing.Color.Transparent;
             this.button2_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2_prl.FlatAppearance.BorderSize = 0;
+            this.button2_prl.FlatAppearance.BorderSize = 2;
             this.button2_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2_prl.Location = new System.Drawing.Point(3, 296);
+            this.button2_prl.Location = new System.Drawing.Point(5, 288);
             this.button2_prl.Name = "button2_prl";
-            this.button2_prl.Size = new System.Drawing.Size(97, 143);
+            this.button2_prl.Size = new System.Drawing.Size(95, 140);
             this.button2_prl.TabIndex = 20;
             this.button2_prl.UseVisualStyleBackColor = false;
             this.button2_prl.Click += new System.EventHandler(this.button2_Click);
@@ -110,13 +109,13 @@
             // 
             this.button3_prl.BackColor = System.Drawing.Color.Transparent;
             this.button3_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3_prl.FlatAppearance.BorderSize = 0;
+            this.button3_prl.FlatAppearance.BorderSize = 2;
             this.button3_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button3_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3_prl.Location = new System.Drawing.Point(1, 448);
+            this.button3_prl.Location = new System.Drawing.Point(5, 431);
             this.button3_prl.Name = "button3_prl";
-            this.button3_prl.Size = new System.Drawing.Size(103, 143);
+            this.button3_prl.Size = new System.Drawing.Size(94, 139);
             this.button3_prl.TabIndex = 21;
             this.button3_prl.UseVisualStyleBackColor = false;
             this.button3_prl.Click += new System.EventHandler(this.button3_Click);
@@ -125,13 +124,13 @@
             // 
             this.button4_prl.BackColor = System.Drawing.Color.Transparent;
             this.button4_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4_prl.FlatAppearance.BorderSize = 0;
+            this.button4_prl.FlatAppearance.BorderSize = 2;
             this.button4_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button4_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4_prl.Location = new System.Drawing.Point(104, 3);
+            this.button4_prl.Location = new System.Drawing.Point(102, 4);
             this.button4_prl.Name = "button4_prl";
-            this.button4_prl.Size = new System.Drawing.Size(102, 144);
+            this.button4_prl.Size = new System.Drawing.Size(94, 140);
             this.button4_prl.TabIndex = 22;
             this.button4_prl.UseVisualStyleBackColor = false;
             this.button4_prl.Click += new System.EventHandler(this.button4_Click);
@@ -140,13 +139,13 @@
             // 
             this.button5_prl.BackColor = System.Drawing.Color.Transparent;
             this.button5_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5_prl.FlatAppearance.BorderSize = 0;
+            this.button5_prl.FlatAppearance.BorderSize = 2;
             this.button5_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button5_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button5_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5_prl.Location = new System.Drawing.Point(107, 153);
+            this.button5_prl.Location = new System.Drawing.Point(102, 145);
             this.button5_prl.Name = "button5_prl";
-            this.button5_prl.Size = new System.Drawing.Size(98, 136);
+            this.button5_prl.Size = new System.Drawing.Size(94, 141);
             this.button5_prl.TabIndex = 23;
             this.button5_prl.UseVisualStyleBackColor = false;
             this.button5_prl.Click += new System.EventHandler(this.button5_Click);
@@ -155,13 +154,13 @@
             // 
             this.button6_prl.BackColor = System.Drawing.Color.Transparent;
             this.button6_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6_prl.FlatAppearance.BorderSize = 0;
+            this.button6_prl.FlatAppearance.BorderSize = 2;
             this.button6_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button6_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button6_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6_prl.Location = new System.Drawing.Point(106, 298);
+            this.button6_prl.Location = new System.Drawing.Point(102, 289);
             this.button6_prl.Name = "button6_prl";
-            this.button6_prl.Size = new System.Drawing.Size(101, 140);
+            this.button6_prl.Size = new System.Drawing.Size(94, 139);
             this.button6_prl.TabIndex = 24;
             this.button6_prl.UseVisualStyleBackColor = false;
             this.button6_prl.Click += new System.EventHandler(this.button6_Click);
@@ -170,13 +169,13 @@
             // 
             this.button7_prl.BackColor = System.Drawing.Color.Transparent;
             this.button7_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7_prl.FlatAppearance.BorderSize = 0;
+            this.button7_prl.FlatAppearance.BorderSize = 2;
             this.button7_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button7_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button7_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7_prl.Location = new System.Drawing.Point(109, 446);
+            this.button7_prl.Location = new System.Drawing.Point(102, 431);
             this.button7_prl.Name = "button7_prl";
-            this.button7_prl.Size = new System.Drawing.Size(96, 147);
+            this.button7_prl.Size = new System.Drawing.Size(96, 139);
             this.button7_prl.TabIndex = 25;
             this.button7_prl.UseVisualStyleBackColor = false;
             this.button7_prl.Click += new System.EventHandler(this.button7_Click);
@@ -185,13 +184,13 @@
             // 
             this.button8_prl.BackColor = System.Drawing.Color.Transparent;
             this.button8_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8_prl.FlatAppearance.BorderSize = 0;
+            this.button8_prl.FlatAppearance.BorderSize = 2;
             this.button8_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button8_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button8_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8_prl.Location = new System.Drawing.Point(207, 0);
+            this.button8_prl.Location = new System.Drawing.Point(202, 5);
             this.button8_prl.Name = "button8_prl";
-            this.button8_prl.Size = new System.Drawing.Size(212, 219);
+            this.button8_prl.Size = new System.Drawing.Size(282, 565);
             this.button8_prl.TabIndex = 26;
             this.button8_prl.UseVisualStyleBackColor = false;
             this.button8_prl.Click += new System.EventHandler(this.button8_Click);
@@ -200,13 +199,13 @@
             // 
             this.button9_prl.BackColor = System.Drawing.Color.Transparent;
             this.button9_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9_prl.FlatAppearance.BorderSize = 0;
+            this.button9_prl.FlatAppearance.BorderSize = 2;
             this.button9_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button9_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button9_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9_prl.Location = new System.Drawing.Point(522, 0);
+            this.button9_prl.Location = new System.Drawing.Point(591, 4);
             this.button9_prl.Name = "button9_prl";
-            this.button9_prl.Size = new System.Drawing.Size(212, 219);
+            this.button9_prl.Size = new System.Drawing.Size(282, 565);
             this.button9_prl.TabIndex = 27;
             this.button9_prl.UseVisualStyleBackColor = false;
             this.button9_prl.Click += new System.EventHandler(this.button9_Click);
@@ -215,13 +214,13 @@
             // 
             this.button10_prl.BackColor = System.Drawing.Color.Transparent;
             this.button10_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10_prl.FlatAppearance.BorderSize = 0;
+            this.button10_prl.FlatAppearance.BorderSize = 2;
             this.button10_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button10_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button10_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10_prl.Location = new System.Drawing.Point(421, 5);
+            this.button10_prl.Location = new System.Drawing.Point(488, 5);
             this.button10_prl.Name = "button10_prl";
-            this.button10_prl.Size = new System.Drawing.Size(99, 141);
+            this.button10_prl.Size = new System.Drawing.Size(99, 139);
             this.button10_prl.TabIndex = 28;
             this.button10_prl.UseVisualStyleBackColor = false;
             this.button10_prl.Click += new System.EventHandler(this.button10_Click);
@@ -230,13 +229,13 @@
             // 
             this.button11_prl.BackColor = System.Drawing.Color.Transparent;
             this.button11_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11_prl.FlatAppearance.BorderSize = 0;
+            this.button11_prl.FlatAppearance.BorderSize = 2;
             this.button11_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button11_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button11_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11_prl.Location = new System.Drawing.Point(422, 152);
+            this.button11_prl.Location = new System.Drawing.Point(489, 146);
             this.button11_prl.Name = "button11_prl";
-            this.button11_prl.Size = new System.Drawing.Size(97, 137);
+            this.button11_prl.Size = new System.Drawing.Size(97, 140);
             this.button11_prl.TabIndex = 29;
             this.button11_prl.UseVisualStyleBackColor = false;
             this.button11_prl.Click += new System.EventHandler(this.button11_Click);
@@ -245,13 +244,13 @@
             // 
             this.button12_prl.BackColor = System.Drawing.Color.Transparent;
             this.button12_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12_prl.FlatAppearance.BorderSize = 0;
+            this.button12_prl.FlatAppearance.BorderSize = 2;
             this.button12_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button12_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button12_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12_prl.Location = new System.Drawing.Point(422, 298);
+            this.button12_prl.Location = new System.Drawing.Point(489, 289);
             this.button12_prl.Name = "button12_prl";
-            this.button12_prl.Size = new System.Drawing.Size(100, 142);
+            this.button12_prl.Size = new System.Drawing.Size(96, 140);
             this.button12_prl.TabIndex = 30;
             this.button12_prl.UseVisualStyleBackColor = false;
             this.button12_prl.Click += new System.EventHandler(this.button12_Click);
@@ -260,13 +259,13 @@
             // 
             this.button13_prl.BackColor = System.Drawing.Color.Transparent;
             this.button13_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13_prl.FlatAppearance.BorderSize = 0;
+            this.button13_prl.FlatAppearance.BorderSize = 2;
             this.button13_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button13_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button13_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13_prl.Location = new System.Drawing.Point(422, 447);
+            this.button13_prl.Location = new System.Drawing.Point(489, 429);
             this.button13_prl.Name = "button13_prl";
-            this.button13_prl.Size = new System.Drawing.Size(99, 146);
+            this.button13_prl.Size = new System.Drawing.Size(96, 141);
             this.button13_prl.TabIndex = 31;
             this.button13_prl.UseVisualStyleBackColor = false;
             this.button13_prl.Click += new System.EventHandler(this.button13_Click);
@@ -275,13 +274,13 @@
             // 
             this.button14_prl.BackColor = System.Drawing.Color.Transparent;
             this.button14_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14_prl.FlatAppearance.BorderSize = 0;
+            this.button14_prl.FlatAppearance.BorderSize = 2;
             this.button14_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button14_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button14_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14_prl.Location = new System.Drawing.Point(737, 448);
+            this.button14_prl.Location = new System.Drawing.Point(877, 430);
             this.button14_prl.Name = "button14_prl";
-            this.button14_prl.Size = new System.Drawing.Size(99, 144);
+            this.button14_prl.Size = new System.Drawing.Size(99, 140);
             this.button14_prl.TabIndex = 35;
             this.button14_prl.UseVisualStyleBackColor = false;
             this.button14_prl.Click += new System.EventHandler(this.button14_Click);
@@ -290,13 +289,13 @@
             // 
             this.button15_prl.BackColor = System.Drawing.Color.Transparent;
             this.button15_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15_prl.FlatAppearance.BorderSize = 0;
+            this.button15_prl.FlatAppearance.BorderSize = 2;
             this.button15_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button15_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button15_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15_prl.Location = new System.Drawing.Point(735, 297);
+            this.button15_prl.Location = new System.Drawing.Point(878, 289);
             this.button15_prl.Name = "button15_prl";
-            this.button15_prl.Size = new System.Drawing.Size(102, 143);
+            this.button15_prl.Size = new System.Drawing.Size(96, 139);
             this.button15_prl.TabIndex = 34;
             this.button15_prl.UseVisualStyleBackColor = false;
             this.button15_prl.Click += new System.EventHandler(this.button15_Click);
@@ -305,13 +304,13 @@
             // 
             this.button16_prl.BackColor = System.Drawing.Color.Transparent;
             this.button16_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16_prl.FlatAppearance.BorderSize = 0;
+            this.button16_prl.FlatAppearance.BorderSize = 2;
             this.button16_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button16_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button16_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16_prl.Location = new System.Drawing.Point(736, 153);
+            this.button16_prl.Location = new System.Drawing.Point(876, 147);
             this.button16_prl.Name = "button16_prl";
-            this.button16_prl.Size = new System.Drawing.Size(99, 135);
+            this.button16_prl.Size = new System.Drawing.Size(98, 140);
             this.button16_prl.TabIndex = 33;
             this.button16_prl.UseVisualStyleBackColor = false;
             this.button16_prl.Click += new System.EventHandler(this.button16_Click);
@@ -320,13 +319,13 @@
             // 
             this.button18_prl.BackColor = System.Drawing.Color.Transparent;
             this.button18_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18_prl.FlatAppearance.BorderSize = 0;
+            this.button18_prl.FlatAppearance.BorderSize = 2;
             this.button18_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button18_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button18_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18_prl.Location = new System.Drawing.Point(734, 4);
+            this.button18_prl.Location = new System.Drawing.Point(874, 5);
             this.button18_prl.Name = "button18_prl";
-            this.button18_prl.Size = new System.Drawing.Size(104, 143);
+            this.button18_prl.Size = new System.Drawing.Size(100, 139);
             this.button18_prl.TabIndex = 32;
             this.button18_prl.UseVisualStyleBackColor = false;
             this.button18_prl.Click += new System.EventHandler(this.button18_Click);
@@ -335,13 +334,13 @@
             // 
             this.button19_prl.BackColor = System.Drawing.Color.Transparent;
             this.button19_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19_prl.FlatAppearance.BorderSize = 0;
+            this.button19_prl.FlatAppearance.BorderSize = 2;
             this.button19_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button19_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button19_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19_prl.Location = new System.Drawing.Point(842, 449);
+            this.button19_prl.Location = new System.Drawing.Point(975, 430);
             this.button19_prl.Name = "button19_prl";
-            this.button19_prl.Size = new System.Drawing.Size(100, 144);
+            this.button19_prl.Size = new System.Drawing.Size(97, 140);
             this.button19_prl.TabIndex = 39;
             this.button19_prl.UseVisualStyleBackColor = false;
             this.button19_prl.Click += new System.EventHandler(this.button19_Click);
@@ -350,13 +349,13 @@
             // 
             this.button20_prl.BackColor = System.Drawing.Color.Transparent;
             this.button20_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20_prl.FlatAppearance.BorderSize = 0;
+            this.button20_prl.FlatAppearance.BorderSize = 2;
             this.button20_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button20_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button20_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20_prl.Location = new System.Drawing.Point(844, 299);
+            this.button20_prl.Location = new System.Drawing.Point(976, 289);
             this.button20_prl.Name = "button20_prl";
-            this.button20_prl.Size = new System.Drawing.Size(96, 139);
+            this.button20_prl.Size = new System.Drawing.Size(95, 139);
             this.button20_prl.TabIndex = 38;
             this.button20_prl.UseVisualStyleBackColor = false;
             this.button20_prl.Click += new System.EventHandler(this.button20_Click);
@@ -365,13 +364,13 @@
             // 
             this.button21_prl.BackColor = System.Drawing.Color.Transparent;
             this.button21_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21_prl.FlatAppearance.BorderSize = 0;
+            this.button21_prl.FlatAppearance.BorderSize = 2;
             this.button21_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button21_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button21_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21_prl.Location = new System.Drawing.Point(842, 154);
+            this.button21_prl.Location = new System.Drawing.Point(976, 146);
             this.button21_prl.Name = "button21_prl";
-            this.button21_prl.Size = new System.Drawing.Size(98, 137);
+            this.button21_prl.Size = new System.Drawing.Size(95, 140);
             this.button21_prl.TabIndex = 37;
             this.button21_prl.UseVisualStyleBackColor = false;
             this.button21_prl.Click += new System.EventHandler(this.button21_Click);
@@ -380,13 +379,13 @@
             // 
             this.button22_prl.BackColor = System.Drawing.Color.Transparent;
             this.button22_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22_prl.FlatAppearance.BorderSize = 0;
+            this.button22_prl.FlatAppearance.BorderSize = 2;
             this.button22_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button22_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button22_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22_prl.Location = new System.Drawing.Point(843, 6);
+            this.button22_prl.Location = new System.Drawing.Point(974, 5);
             this.button22_prl.Name = "button22_prl";
-            this.button22_prl.Size = new System.Drawing.Size(100, 141);
+            this.button22_prl.Size = new System.Drawing.Size(97, 140);
             this.button22_prl.TabIndex = 36;
             this.button22_prl.UseVisualStyleBackColor = false;
             this.button22_prl.Click += new System.EventHandler(this.button22_Click);
@@ -395,13 +394,13 @@
             // 
             this.button23_prl.BackColor = System.Drawing.Color.Transparent;
             this.button23_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23_prl.FlatAppearance.BorderSize = 0;
+            this.button23_prl.FlatAppearance.BorderSize = 2;
             this.button23_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button23_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button23_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23_prl.Location = new System.Drawing.Point(1056, 446);
+            this.button23_prl.Location = new System.Drawing.Point(1170, 430);
             this.button23_prl.Name = "button23_prl";
-            this.button23_prl.Size = new System.Drawing.Size(91, 145);
+            this.button23_prl.Size = new System.Drawing.Size(94, 140);
             this.button23_prl.TabIndex = 47;
             this.button23_prl.UseVisualStyleBackColor = false;
             this.button23_prl.Click += new System.EventHandler(this.button23_Click);
@@ -410,13 +409,13 @@
             // 
             this.button24_prl.BackColor = System.Drawing.Color.Transparent;
             this.button24_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24_prl.FlatAppearance.BorderSize = 0;
+            this.button24_prl.FlatAppearance.BorderSize = 2;
             this.button24_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button24_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button24_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24_prl.Location = new System.Drawing.Point(1056, 298);
+            this.button24_prl.Location = new System.Drawing.Point(1170, 289);
             this.button24_prl.Name = "button24_prl";
-            this.button24_prl.Size = new System.Drawing.Size(89, 142);
+            this.button24_prl.Size = new System.Drawing.Size(95, 140);
             this.button24_prl.TabIndex = 46;
             this.button24_prl.UseVisualStyleBackColor = false;
             this.button24_prl.Click += new System.EventHandler(this.button24_Click);
@@ -425,13 +424,13 @@
             // 
             this.button25_prl.BackColor = System.Drawing.Color.Transparent;
             this.button25_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button25_prl.FlatAppearance.BorderSize = 0;
+            this.button25_prl.FlatAppearance.BorderSize = 2;
             this.button25_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button25_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button25_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25_prl.Location = new System.Drawing.Point(1053, 155);
+            this.button25_prl.Location = new System.Drawing.Point(1170, 147);
             this.button25_prl.Name = "button25_prl";
-            this.button25_prl.Size = new System.Drawing.Size(93, 134);
+            this.button25_prl.Size = new System.Drawing.Size(95, 139);
             this.button25_prl.TabIndex = 45;
             this.button25_prl.UseVisualStyleBackColor = false;
             this.button25_prl.Click += new System.EventHandler(this.button25_Click);
@@ -440,13 +439,13 @@
             // 
             this.button26_prl.BackColor = System.Drawing.Color.Transparent;
             this.button26_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button26_prl.FlatAppearance.BorderSize = 0;
+            this.button26_prl.FlatAppearance.BorderSize = 2;
             this.button26_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button26_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button26_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26_prl.Location = new System.Drawing.Point(1053, 5);
+            this.button26_prl.Location = new System.Drawing.Point(1170, 5);
             this.button26_prl.Name = "button26_prl";
-            this.button26_prl.Size = new System.Drawing.Size(95, 145);
+            this.button26_prl.Size = new System.Drawing.Size(96, 140);
             this.button26_prl.TabIndex = 44;
             this.button26_prl.UseVisualStyleBackColor = false;
             // 
@@ -454,13 +453,13 @@
             // 
             this.button27_prl.BackColor = System.Drawing.Color.Transparent;
             this.button27_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27_prl.FlatAppearance.BorderSize = 0;
+            this.button27_prl.FlatAppearance.BorderSize = 2;
             this.button27_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button27_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button27_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27_prl.Location = new System.Drawing.Point(947, 444);
+            this.button27_prl.Location = new System.Drawing.Point(1073, 430);
             this.button27_prl.Name = "button27_prl";
-            this.button27_prl.Size = new System.Drawing.Size(98, 147);
+            this.button27_prl.Size = new System.Drawing.Size(96, 141);
             this.button27_prl.TabIndex = 43;
             this.button27_prl.UseVisualStyleBackColor = false;
             this.button27_prl.Click += new System.EventHandler(this.button27_Click);
@@ -469,13 +468,13 @@
             // 
             this.button28_prl.BackColor = System.Drawing.Color.Transparent;
             this.button28_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28_prl.FlatAppearance.BorderSize = 0;
+            this.button28_prl.FlatAppearance.BorderSize = 2;
             this.button28_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button28_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button28_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28_prl.Location = new System.Drawing.Point(947, 297);
+            this.button28_prl.Location = new System.Drawing.Point(1073, 289);
             this.button28_prl.Name = "button28_prl";
-            this.button28_prl.Size = new System.Drawing.Size(99, 143);
+            this.button28_prl.Size = new System.Drawing.Size(96, 139);
             this.button28_prl.TabIndex = 42;
             this.button28_prl.UseVisualStyleBackColor = false;
             this.button28_prl.Click += new System.EventHandler(this.button28_Click);
@@ -484,13 +483,13 @@
             // 
             this.button29_prl.BackColor = System.Drawing.Color.Transparent;
             this.button29_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button29_prl.FlatAppearance.BorderSize = 0;
+            this.button29_prl.FlatAppearance.BorderSize = 2;
             this.button29_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button29_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button29_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29_prl.Location = new System.Drawing.Point(947, 154);
+            this.button29_prl.Location = new System.Drawing.Point(1073, 146);
             this.button29_prl.Name = "button29_prl";
-            this.button29_prl.Size = new System.Drawing.Size(98, 137);
+            this.button29_prl.Size = new System.Drawing.Size(95, 140);
             this.button29_prl.TabIndex = 41;
             this.button29_prl.UseVisualStyleBackColor = false;
             this.button29_prl.Click += new System.EventHandler(this.button29_Click);
@@ -499,13 +498,13 @@
             // 
             this.button30_prl.BackColor = System.Drawing.Color.Transparent;
             this.button30_prl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button30_prl.FlatAppearance.BorderSize = 0;
+            this.button30_prl.FlatAppearance.BorderSize = 2;
             this.button30_prl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button30_prl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button30_prl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30_prl.Location = new System.Drawing.Point(947, 4);
+            this.button30_prl.Location = new System.Drawing.Point(1073, 5);
             this.button30_prl.Name = "button30_prl";
-            this.button30_prl.Size = new System.Drawing.Size(99, 144);
+            this.button30_prl.Size = new System.Drawing.Size(96, 139);
             this.button30_prl.TabIndex = 40;
             this.button30_prl.UseVisualStyleBackColor = false;
             this.button30_prl.Click += new System.EventHandler(this.button30_Click);
@@ -514,8 +513,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1151, 595);
+            this.BackgroundImage = global::rsp6m2.Properties.Resources.prl_stack;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1272, 576);
             this.Controls.Add(this.button23_prl);
             this.Controls.Add(this.button24_prl);
             this.Controls.Add(this.button25_prl);
@@ -546,6 +546,7 @@
             this.Controls.Add(this.button2_prl);
             this.Controls.Add(this.button1_prl);
             this.Controls.Add(this.button17_prl);
+            this.DoubleBuffered = true;
             this.Name = "prlStack";
             this.Text = "prlStack";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.prlStack_FormClosing);

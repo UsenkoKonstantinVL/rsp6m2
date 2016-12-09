@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::rsp6m2.Properties.Resources.rsp_all_stack_V3;
+            this.BackgroundImage = global::rsp6m2.Properties.Resources.rsp_all_stack_V4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(996, 147);
             this.Controls.Add(this.button7);
