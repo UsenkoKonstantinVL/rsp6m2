@@ -684,6 +684,18 @@
   <ItemGroup>
     <None Include="Image\Controls\iron_middle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\drl_stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\prl_stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\rsp_all_stack_V2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\rsp_all_stack_V3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -83,6 +83,16 @@ namespace rsp6m2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap drl_stack {
+            get {
+                object obj = ResourceManager.GetObject("drl_stack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit {
             get {
                 object obj = ResourceManager.GetObject("exit", resourceCulture);
@@ -193,9 +203,29 @@ namespace rsp6m2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap prl_stack {
+            get {
+                object obj = ResourceManager.GetObject("prl_stack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PWRPanel {
             get {
                 object obj = ResourceManager.GetObject("PWRPanel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsp_all_stack_V3 {
+            get {
+                object obj = ResourceManager.GetObject("rsp_all_stack_V3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

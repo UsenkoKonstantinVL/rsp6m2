@@ -42,13 +42,13 @@ namespace rsp6m2
                     }
                 }
 
-                foreach(Control c in panel1.Controls)
+                /*oreach(Control c in panel1.Controls)
                 {
                     if (c is Button)
                     {
                         lc.Add(c);
                     }
-                }
+                }*/
 
                 ManagerForm1.SetControls(null, lc);
             }
