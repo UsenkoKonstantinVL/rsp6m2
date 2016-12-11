@@ -40,11 +40,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.light_buv021_1 = new rsp6m2.Controls.Light();
-            this.light2 = new rsp6m2.Controls.Light();
+            this.light_buv021_vn = new rsp6m2.Controls.Light();
             this.light4 = new rsp6m2.Controls.Light();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.tumbler21 = new rsp6m2.Controls.Tumbler2();
+            this.tumbler_buc021_1 = new rsp6m2.Controls.Tumbler2();
             this.tumbler22 = new rsp6m2.Controls.Tumbler2();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -203,15 +203,15 @@
             this.light_buv021_1.Size = new System.Drawing.Size(50, 50);
             this.light_buv021_1.TabIndex = 98;
             // 
-            // light2
+            // light_buv021_vn
             // 
-            this.light2.BackColor = System.Drawing.Color.Transparent;
-            this.light2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light2.BackgroundImage")));
-            this.light2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light2.Location = new System.Drawing.Point(274, 424);
-            this.light2.Name = "light2";
-            this.light2.Size = new System.Drawing.Size(50, 50);
-            this.light2.TabIndex = 99;
+            this.light_buv021_vn.BackColor = System.Drawing.Color.Transparent;
+            this.light_buv021_vn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light_buv021_vn.BackgroundImage")));
+            this.light_buv021_vn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.light_buv021_vn.Location = new System.Drawing.Point(274, 424);
+            this.light_buv021_vn.Name = "light_buv021_vn";
+            this.light_buv021_vn.Size = new System.Drawing.Size(50, 50);
+            this.light_buv021_vn.TabIndex = 99;
             // 
             // light4
             // 
@@ -245,15 +245,16 @@
             this.pictureBox2.TabIndex = 102;
             this.pictureBox2.TabStop = false;
             // 
-            // tumbler21
+            // tumbler_buc021_1
             // 
-            this.tumbler21.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler21.BackgroundImage")));
-            this.tumbler21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler21.Location = new System.Drawing.Point(274, 551);
-            this.tumbler21.Name = "tumbler21";
-            this.tumbler21.Size = new System.Drawing.Size(45, 45);
-            this.tumbler21.TabIndex = 103;
+            this.tumbler_buc021_1.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler_buc021_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler_buc021_1.BackgroundImage")));
+            this.tumbler_buc021_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler_buc021_1.Location = new System.Drawing.Point(274, 551);
+            this.tumbler_buc021_1.Name = "tumbler_buc021_1";
+            this.tumbler_buc021_1.Size = new System.Drawing.Size(45, 45);
+            this.tumbler_buc021_1.TabIndex = 103;
+            this.tumbler_buc021_1.Click += new System.EventHandler(this.tumbler_buc021_1_Click);
             // 
             // tumbler22
             // 
@@ -371,11 +372,11 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tumbler22);
-            this.Controls.Add(this.tumbler21);
+            this.Controls.Add(this.tumbler_buc021_1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.light4);
-            this.Controls.Add(this.light2);
+            this.Controls.Add(this.light_buv021_vn);
             this.Controls.Add(this.light_buv021_1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label3);
@@ -412,11 +413,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private Controls.Light light_buv021_1;
-        private Controls.Light light2;
+        private Controls.Light light_buv021_vn;
         private Controls.Light light4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Controls.Tumbler2 tumbler21;
+        private Controls.Tumbler2 tumbler_buc021_1;
         private Controls.Tumbler2 tumbler22;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;

@@ -51,7 +51,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.roundTrumbler_bvm011_2 = new rsp6m2.Controls.RoundTrumbler();
             this.light3 = new rsp6m2.Controls.Light();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -73,6 +72,7 @@
             this.voltmetr2 = new rsp6m2.Controls.Voltmetr();
             this.voltmetr1 = new rsp6m2.Controls.Voltmetr();
             this.bigbutton1_bvm011_1 = new rsp6m2.Controls.Bigbutton();
+            this.bigbutton1_bvm011_2 = new rsp6m2.Controls.Bigbutton();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -318,15 +318,6 @@
             this.light3.Size = new System.Drawing.Size(50, 50);
             this.light3.TabIndex = 92;
             // 
-            // panel9
-            // 
-            this.panel9.BackgroundImage = global::rsp6m2.Properties.Resources.БольшаяКраснаяКнопка;
-            this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel9.Location = new System.Drawing.Point(256, 95);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(40, 40);
-            this.panel9.TabIndex = 113;
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Transparent;
@@ -559,6 +550,18 @@
             this.bigbutton1_bvm011_1.TabIndex = 116;
             this.bigbutton1_bvm011_1.Click += new System.EventHandler(this.bigbutton1_bvm011_1_Click);
             // 
+            // bigbutton1_bvm011_2
+            // 
+            this.bigbutton1_bvm011_2.BackColor = System.Drawing.Color.Transparent;
+            this.bigbutton1_bvm011_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_2.BackgroundImage")));
+            this.bigbutton1_bvm011_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bigbutton1_bvm011_2.Location = new System.Drawing.Point(260, 95);
+            this.bigbutton1_bvm011_2.Name = "bigbutton1_bvm011_2";
+            this.bigbutton1_bvm011_2.Size = new System.Drawing.Size(40, 40);
+            this.bigbutton1_bvm011_2.TabIndex = 117;
+            this.bigbutton1_bvm011_2.Load += new System.EventHandler(this.bigbutton1_bvm011_2_Load);
+            this.bigbutton1_bvm011_2.Click += new System.EventHandler(this.bigbutton1_bvm011_2_Click);
+            // 
             // bvm011
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -566,6 +569,7 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 744);
+            this.Controls.Add(this.bigbutton1_bvm011_2);
             this.Controls.Add(this.bigbutton1_bvm011_1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
@@ -573,7 +577,6 @@
             this.Controls.Add(this.light3);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.panel9);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -660,11 +663,11 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
         private Controls.Bigbutton bigbutton1_bvm011_1;
+        private Controls.Bigbutton bigbutton1_bvm011_2;
     }
 }

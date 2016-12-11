@@ -43,7 +43,7 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            if(form != null && !form.isOpened)
+            if(form != null && form.isOpened)
                 form.Close();
             selfClosing = true;
             form = null;

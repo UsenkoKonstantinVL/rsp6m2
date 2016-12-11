@@ -45,7 +45,9 @@ namespace rsp6m2
             roundTrumbler_bvm011_1.MaxIndex = 4;
             roundTrumbler_bvm011_1.setDrawRoundTumbler(transformPicture);
 
-           
+            voltmetr2.Set_Value = 1;
+            voltmetr1.Set_Value = 2;
+
         }
 
         #region Delegate for RoundTumblers
@@ -111,21 +113,21 @@ namespace rsp6m2
         private void roundTrumbler_bvm011_1_Click(object sender, EventArgs e)
         {
             ManagerBvm011.ClickToButton((Control)sender);
-            if (roundTrumbler_bvm011_2.CurrentIndex == 0)
+            if (roundTrumbler_bvm011_1.CurrentIndex == 0)
             {
                 voltmetr2.Set_Value = 1;
             }
-            if (roundTrumbler_bvm011_2.CurrentIndex == 1)
+            if (roundTrumbler_bvm011_1.CurrentIndex == 1)
             {
                 voltmetr2.Set_Value = 3;
             }
 
-            if (roundTrumbler_bvm011_2.CurrentIndex == 2)
+            if (roundTrumbler_bvm011_1.CurrentIndex == 2)
             {
                 voltmetr2.Set_Value = 5;
             }
 
-            if (roundTrumbler_bvm011_2.CurrentIndex == 3)
+            if (roundTrumbler_bvm011_1.CurrentIndex == 3)
             {
                 voltmetr2.Set_Value = 10;
             }
@@ -169,6 +171,16 @@ namespace rsp6m2
         }
 
         private void bigbutton1_bvm011_1_Click(object sender, EventArgs e)
+        {
+            ManagerBvm011.ClickToButton((Control)sender);
+        }
+
+        private void bigbutton1_bvm011_2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bigbutton1_bvm011_2_Click(object sender, EventArgs e)
         {
             ManagerBvm011.ClickToButton((Control)sender);
         }
