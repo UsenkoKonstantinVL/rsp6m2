@@ -13,7 +13,7 @@ using indikator_rsp_6m2;
 
 namespace rsp6m2
 {
-    public partial class Form1 : Form
+    public partial class Form1 : genericForm
     {
 
 

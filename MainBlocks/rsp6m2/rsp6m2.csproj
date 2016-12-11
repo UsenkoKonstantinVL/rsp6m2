@@ -412,6 +412,7 @@
     </Compile>
     <Compile Include="Tests\Test1.cs" />
     <Compile Include="Tests\Test2.cs" />
+    <Compile Include="Tests\TestFactory.cs" />
     <Compile Include="uvch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -698,6 +699,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Image\Rsp-6m2-Images\rsp_all_stack_V4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\Logo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

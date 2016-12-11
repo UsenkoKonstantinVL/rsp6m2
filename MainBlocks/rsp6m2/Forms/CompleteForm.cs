@@ -20,7 +20,14 @@ namespace rsp6m2.Forms
         public void GetName(String s1, String s2)
         {
             label1.Text = s1;
-            GetNewName(s1, s2);
+            //GetName(s2, s2);
+            //TextNameForm = s2;
+            //GetNewName(s1, s2);
         }
+
+        public String TextNameForm {
+            set {
+
+                GetName(value, value); } }
     }
 }

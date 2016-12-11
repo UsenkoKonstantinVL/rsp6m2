@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // label1
@@ -41,15 +42,28 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Тест завершен!";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackgroundImage = global::rsp6m2.Properties.Resources.Logo;
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox1.Location = new System.Drawing.Point(394, 42);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(250, 250);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            // 
             // CompleteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 319);
+            this.ClientSize = new System.Drawing.Size(656, 319);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "CompleteForm";
             this.Text = "CompleteForm";
             this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.groupBox1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -58,5 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

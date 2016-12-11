@@ -205,4 +205,7 @@
   <data name="rsp_all_stack_V4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\Rsp-6m2-Images\rsp_all_stack_V4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\Rsp-6m2-Images\Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -25,7 +25,10 @@ namespace rsp6m2.EmulatorManager
             currentQuize = 0;
             //numTest = 1;
 
-            if (numTest == 0)
+            var data =  Tests.TestFactory.GetTest(numTest);
+            Test = data.list;
+            TestName = data.testName;
+            /*if (numTest == 0)
             {
                 Test = Tests.Test1.GetQuize();
                 TestName = Tests.Test1.TestName;
@@ -36,7 +39,7 @@ namespace rsp6m2.EmulatorManager
             {
                 Test = Tests.Test2.GetQuize();
                 TestName = Tests.Test2.TestName;
-            }
+            }*/
 
             withHelp = _withHelp;
 
@@ -51,6 +54,8 @@ namespace rsp6m2.EmulatorManager
 
         }
 
+
+        static bool IsTestComplete = false;
         /// <summary>
         /// Вызывается при нажатии на контроллы типа кнопки для проверки на правильное нажатие
         /// </summary>
@@ -73,9 +78,10 @@ namespace rsp6m2.EmulatorManager
                 /*if (TestIsDone != null)*/ {
                     //TestIsDone();
                     SendMassageThatTestIsDone();
+                    IsTestComplete = true;
                 }
-                
-                TestCancel();
+
+                //TestComplete();
             }
         }
 
@@ -94,9 +100,15 @@ namespace rsp6m2.EmulatorManager
         /// </summary>
         public static void TestCancel()
         {
+            if(IsTestComplete == true)
+            {
+                TestComplete();
+                IsTestComplete = false;
+                return;
+            }
             ManagerHelpForm.CloseHelp();
             Forms.CompleteForm f = new Forms.CompleteForm();
-            f.GetName("Пройден тест: " + Environment.NewLine + "\"" +  TestName + "\"", "Тест окончен");
+            f.GetName("Отмена теста: " + Environment.NewLine + "\"" +  TestName + "\"", "Отмена теста");
             f.ShowDialog();
             Managers.ManagerMainForm.FormShow();
 
@@ -107,6 +119,27 @@ namespace rsp6m2.EmulatorManager
 
             listQuizeIsDone = new List<EmulatorManagerHelp.quizeIsDone>();
             listTestIsDone = new List<EmulatorManagerHelp.testIzDone>();   
+        }
+
+
+        /// <summary>
+        /// Завершение теста
+        /// </summary>
+        public static void TestComplete()
+        {
+            ManagerHelpForm.CloseHelp();
+            Forms.CompleteForm f = new Forms.CompleteForm();
+            f.GetName("Пройден тест: " + Environment.NewLine + "\"" + TestName + "\"", "Тест окончен");
+            f.ShowDialog();
+            Managers.ManagerMainForm.FormShow();
+
+            Test = null;
+            currentQuize = 0;
+            QuizeIsDone = null;
+            TestIsDone = null;
+
+            listQuizeIsDone = new List<EmulatorManagerHelp.quizeIsDone>();
+            listTestIsDone = new List<EmulatorManagerHelp.testIzDone>();
         }
 
         public static void SetListenerToQuizeIsDone(EmulatorManagerHelp.quizeIsDone q)

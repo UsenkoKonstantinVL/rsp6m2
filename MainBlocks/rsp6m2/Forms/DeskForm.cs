@@ -44,7 +44,7 @@ namespace rsp6m2.Forms
         protected void GetNewName(String nameLable, string name)
         {
             labelName.Text = nameLable;
-            this.Name = name;
+            //this.Name = name;
         }
     }
 }

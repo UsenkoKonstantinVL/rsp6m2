@@ -43,7 +43,8 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            form.Close();
+            if(form != null && !form.isOpened)
+                form.Close();
             selfClosing = true;
             form = null;
             SaveInstanceControls = null;
@@ -121,6 +122,9 @@ namespace rsp6m2.Managers
             if (!selfClosing)
             {
                 EmulatorManager.EmulatorManager.TestCancel();
+                form = null;
+                SaveInstanceControls = null;
+                AllControlls = null;
             }
 
             selfClosing = false;
