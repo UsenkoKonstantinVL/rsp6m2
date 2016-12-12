@@ -46,5 +46,10 @@ namespace rsp6m2.Forms
             labelName.Text = nameLable;
             //this.Name = name;
         }
+
+        private void DeskForm_Load(object sender, EventArgs e)
+        {
+            labelName.Text = "";
+        }
     }
 }

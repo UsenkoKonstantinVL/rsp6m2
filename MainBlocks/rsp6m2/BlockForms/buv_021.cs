@@ -75,5 +75,24 @@ namespace rsp6m2.BlockForms
                 light_buv021_vn.SetLight(false);
             }
         }
+
+        private void tumbler_buv021_1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tumbler_buv021_1_MouseClick(object sender, MouseEventArgs e)
+        {
+            ManagerBvm011.ClickToButton((Control)sender);
+
+            if (tumbler_buv021_1.Position == 0)
+            {
+                voltmetr1.Set_Value = 25;
+            }
+            if (tumbler_buv021_1.Position == 2)
+            {
+                voltmetr1.Set_Value = 0;
+            }
+        }
     }
 }

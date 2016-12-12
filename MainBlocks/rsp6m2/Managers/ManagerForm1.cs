@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
+using indikator_rsp_6m2;
 
 namespace rsp6m2.Managers
 {
@@ -70,7 +71,8 @@ namespace rsp6m2.Managers
                 
                 if(b.Name == "buttonIKO")
                 {
-
+                    indikator_rsp_6m2.Form1 f = new indikator_rsp_6m2.Form1();
+                    f.Show();
 
                     return;
                 }

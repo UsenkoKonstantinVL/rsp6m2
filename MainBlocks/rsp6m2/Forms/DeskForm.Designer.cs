@@ -36,7 +36,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.labelName);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -77,6 +77,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DeskForm";
             this.Text = "DeskForm";
+            this.Load += new System.EventHandler(this.DeskForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

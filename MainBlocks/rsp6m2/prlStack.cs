@@ -61,7 +61,7 @@ namespace rsp6m2
             InitializeComponent();
 
 
-            if (ManagerPrlStack.AllControlls == null)
+            //if (ManagerPrlStack.AllControlls == null)
             {
                 List<Control> lc = new List<Control>();
                

@@ -104,5 +104,10 @@ namespace rsp6m2.Forms
         {
             
         }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            Application.ExitThread();
+        }
     }
 }

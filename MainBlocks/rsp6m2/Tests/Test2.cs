@@ -1339,6 +1339,50 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            #region Quize31
+            q = new Quize();
+            q.ListOfConditions = Condition31;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "На  панели БУВ-021" + Environment.NewLine +
+                " проконтролировать показания прибора ВЫСОКОЕ НАПРЯЖЕНИЕ";
+            t = new TextForHelpForm();
+            t.HelpText = "Тумблером БОЛЬШЕ-МЕНЬШЕ на БУВ-021 осуществить" + 
+                Environment.NewLine + "подъем высокого напряжения  " +
+                Environment.NewLine + "до появления показаний прибора ВЫСОКОЕ НАПРЯЖЕНИЕ +26 мА";
+            t.NeedClick = txt;
+            helpDictionary.Add(416, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте БВМ-011";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bvm011_1");
+            cName.Add("button13_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
             return list;
         }
 
@@ -1860,6 +1904,24 @@ namespace rsp6m2.Tests
             {
                 var t = (RoundTrumbler)c;
                 if (t.CurrentIndex == 3)
+                {
+                    Console.WriteLine("Правильно нажал");
+                    //EmulatorManager.GlobalManager.IsLampBuv021Light = true;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize31
+        public static bool Condition31(Control c)
+        {
+            if (c.Name == "tumbler_buv021_1")
+            {
+                var t = (tumbler3)c;
+                if (t.Position == 0)
                 {
                     Console.WriteLine("Правильно нажал");
                     //EmulatorManager.GlobalManager.IsLampBuv021Light = true;

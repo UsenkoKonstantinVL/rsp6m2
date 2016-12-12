@@ -38,8 +38,10 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            form.Close();
+            if (form != null && form.isOpened)
+                form.Close();
             form = null;
+            EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
             //SaveInstanceControls = null;
             AllControlls = null;
         }
@@ -107,7 +109,7 @@ namespace rsp6m2.Managers
         public static void ShowOffForm()
         {
             UnlightControls();
-            EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
+            //EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
             ManagerHelpForm.GetHelp(0);
         }
 

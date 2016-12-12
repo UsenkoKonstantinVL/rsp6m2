@@ -32,7 +32,7 @@ namespace rsp6m2
         {
             InitializeComponent();
 
-            if (ManagerDrlStack.AllControlls == null)
+            //if (ManagerDrlStack.AllControlls == null)
             {
                 List<Control> lc = new List<Control>();
 
@@ -46,7 +46,7 @@ namespace rsp6m2
 
                 ManagerDrlStack.SetControls(lc);
             }
-            else
+            /*else
             {
                 List<Control> lc = ManagerDrlStack.AllControlls;
                 foreach (Control c in Controls)
@@ -59,7 +59,7 @@ namespace rsp6m2
                         }
                     }
                 }
-            }
+            }*/
         }
 
         private void InitializeHelper()

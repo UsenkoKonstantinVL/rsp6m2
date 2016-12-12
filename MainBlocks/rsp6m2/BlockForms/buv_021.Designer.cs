@@ -54,6 +54,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.tumbler_buv021_1 = new rsp6m2.Controls.tumbler3();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -261,7 +262,7 @@
             this.tumbler22.BackColor = System.Drawing.Color.Transparent;
             this.tumbler22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler22.BackgroundImage")));
             this.tumbler22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler22.Location = new System.Drawing.Point(273, 641);
+            this.tumbler22.Location = new System.Drawing.Point(81, 551);
             this.tumbler22.Name = "tumbler22";
             this.tumbler22.Size = new System.Drawing.Size(45, 45);
             this.tumbler22.TabIndex = 104;
@@ -357,12 +358,26 @@
             this.label12.TabIndex = 112;
             this.label12.Text = "МЕНЬШЕ";
             // 
+            // tumbler_buv021_1
+            // 
+            this.tumbler_buv021_1.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler_buv021_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler_buv021_1.BackgroundImage")));
+            this.tumbler_buv021_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler_buv021_1.Location = new System.Drawing.Point(274, 641);
+            this.tumbler_buv021_1.Name = "tumbler_buv021_1";
+            this.tumbler_buv021_1.Position = 1;
+            this.tumbler_buv021_1.Size = new System.Drawing.Size(45, 45);
+            this.tumbler_buv021_1.TabIndex = 113;
+            this.tumbler_buv021_1.Click += new System.EventHandler(this.tumbler_buv021_1_Click);
+            this.tumbler_buv021_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tumbler_buv021_1_MouseClick);
+            // 
             // buv_021
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(477, 721);
+            this.Controls.Add(this.tumbler_buv021_1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -427,5 +442,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private Controls.tumbler3 tumbler_buv021_1;
     }
 }
