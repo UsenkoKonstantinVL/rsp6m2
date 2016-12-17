@@ -7,7 +7,7 @@ namespace rsp6m2.Managers
 {
     public static class ManagerBprn021
     {
-        static bp_apch form = null;
+        static bprn021 form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
         static int ID = 410;
@@ -15,7 +15,7 @@ namespace rsp6m2.Managers
         public static void Initialize()
         {
 
-            form = new bp_apch();
+            form = new bprn021();
 
 
             form.Show();

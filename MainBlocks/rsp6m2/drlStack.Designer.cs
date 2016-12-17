@@ -487,9 +487,9 @@
             this.button29_drl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button29_drl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button29_drl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29_drl.Location = new System.Drawing.Point(743, 3);
+            this.button29_drl.Location = new System.Drawing.Point(784, 5);
             this.button29_drl.Name = "button29_drl";
-            this.button29_drl.Size = new System.Drawing.Size(172, 144);
+            this.button29_drl.Size = new System.Drawing.Size(192, 144);
             this.button29_drl.TabIndex = 29;
             this.button29_drl.UseVisualStyleBackColor = false;
             this.button29_drl.Click += new System.EventHandler(this.button29_Click);

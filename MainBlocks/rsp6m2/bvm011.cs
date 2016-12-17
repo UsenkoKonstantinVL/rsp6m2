@@ -113,23 +113,28 @@ namespace rsp6m2
         private void roundTrumbler_bvm011_1_Click(object sender, EventArgs e)
         {
             ManagerBvm011.ClickToButton((Control)sender);
+
+            Random rng = new Random();
+            // Предположим, что здесь много логики
+            
+
             if (roundTrumbler_bvm011_1.CurrentIndex == 0)
             {
-                voltmetr2.Set_Value = 1;
+                voltmetr2.Set_Value = 1 + rng.Next(2) - 1;
             }
             if (roundTrumbler_bvm011_1.CurrentIndex == 1)
             {
-                voltmetr2.Set_Value = 3;
+                voltmetr2.Set_Value = 3 + rng.Next(2) - 1;
             }
 
             if (roundTrumbler_bvm011_1.CurrentIndex == 2)
             {
-                voltmetr2.Set_Value = 5;
+                voltmetr2.Set_Value = 5 + rng.Next(2) - 1;
             }
 
             if (roundTrumbler_bvm011_1.CurrentIndex == 3)
             {
-                voltmetr2.Set_Value = 10;
+                voltmetr2.Set_Value = 10 + rng.Next(4) - 2;
             }
         }
 
@@ -137,23 +142,24 @@ namespace rsp6m2
         {
             if(((Control)sender).Name == "roundTrumbler_bvm011_2")
             {
+                Random rng = new Random();
                 if (roundTrumbler_bvm011_2.CurrentIndex == 0)
                 {
-                    voltmetr1.Set_Value = 2;
+                    voltmetr1.Set_Value = 2 + rng.Next(2) - 1; ;
                 }
                 if (roundTrumbler_bvm011_2.CurrentIndex == 1)
                 {
-                    voltmetr1.Set_Value = 8;
+                    voltmetr1.Set_Value = 8 + rng.Next(2) - 1; ;
                 }
 
                 if (roundTrumbler_bvm011_2.CurrentIndex == 2)
                 {
-                    voltmetr1.Set_Value = 15;
+                    voltmetr1.Set_Value = 15 + rng.Next(6) - 3; 
                 }
 
                 if (roundTrumbler_bvm011_2.CurrentIndex == 3)
                 {
-                    voltmetr1.Set_Value = 30;
+                    voltmetr1.Set_Value = 30 + rng.Next(9) - 5; 
                 }
 
             }
@@ -183,6 +189,11 @@ namespace rsp6m2
         private void bigbutton1_bvm011_2_Click(object sender, EventArgs e)
         {
             ManagerBvm011.ClickToButton((Control)sender);
+        }
+
+        private void bigbutton1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

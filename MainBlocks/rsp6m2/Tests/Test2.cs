@@ -788,7 +788,7 @@ namespace rsp6m2.Tests
 
             list.Add(q);*/
             #endregion
-
+            /*
             #region Quize18
             q = new Quize();
             q.ListOfConditions = Condition18;
@@ -917,7 +917,7 @@ namespace rsp6m2.Tests
 
             list.Add(q);
             #endregion
-
+            */
           /*  #region Quize21
             q = new Quize();
             q.ListOfConditions = Condition21;
@@ -958,7 +958,7 @@ namespace rsp6m2.Tests
             q.NameOfLightedControls = cName;
 
             list.Add(q);
-            #endregion*/
+            #endregion
 
             #region Quize22
             q = new Quize();
@@ -1339,6 +1339,8 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            */
+
             #region Quize31
             q = new Quize();
             q.ListOfConditions = Condition31;
@@ -1373,8 +1375,225 @@ namespace rsp6m2.Tests
 
 
             cName = new List<string>();
-            cName.Add("roundTrumbler_bvm011_1");
-            cName.Add("button13_prl");
+            cName.Add("tumbler_buv021_1");
+            cName.Add("button16_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+
+            #region Quize32
+            q = new Quize();
+            q.ListOfConditions = Condition32;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Переключение тумблера " + Environment.NewLine +
+                " в блоке БОП";
+            t = new TextForHelpForm();
+            t.HelpText = "Тумблер ВЫКЛ БОН поставить в положение «БОП» " +
+                Environment.NewLine + "проконтролировать загорание лампочки НОРМА";
+            t.NeedClick = txt;
+            helpDictionary.Add(401, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте блок БОП";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("tumblerbop_1");
+            cName.Add("button1_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize33
+            q = new Quize();
+            q.ListOfConditions = Condition33;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "На блоках БСФ первого и второго " + Environment.NewLine +
+                " комплекта по загоранию светодиодов проконтролировать" + Environment.NewLine +
+                " наличие питающих напряжений -12,6 В, +5 В, +24 В, +48 В";
+            t = new TextForHelpForm();
+            t.HelpText = "";
+            //    Environment.NewLine + "проконтролировать загорание лампочки НОРМА";
+            t.NeedClick = txt;
+            helpDictionary.Add(402, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте блок БСФ";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            //cName.Add("tumblerbop_1");
+            cName.Add("button2_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize34
+            q = new Quize();
+            q.ListOfConditions = Condition34;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "На блоке БПРН-021 проверить наличие" +
+                Environment.NewLine + "питающих напряжений -125 В, +150 В, +250 В " +
+                Environment.NewLine + "и загорание сигнальных ламп КАНАЛ, ГОТОВ РАБОТА ";
+            t = new TextForHelpForm();
+            t.HelpText = "На блоке БПРН-021 проверить наличие" +
+                Environment.NewLine + "питающих напряжений -125 В, +150 В, +250 В " +
+                Environment.NewLine + "и загорание сигнальных ламп КАНАЛ, ГОТОВ РАБОТА ";
+            t.NeedClick = txt;
+            helpDictionary.Add(410, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте блок БПРН 021";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            //cName.Add("tumblerbop_1");
+            cName.Add("button10_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize35
+            q = new Quize();
+            q.ListOfConditions = Condition35;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Проверка работы гетеродина";
+            t = new TextForHelpForm();
+            t.HelpText = "Переключатель контрольного прибора поставить" +
+                Environment.NewLine + " в положения: «Канал-1» ";
+            t.NeedClick = txt;
+            helpDictionary.Add(410, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте блок БПРН 021";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bprn021_2");
+            cName.Add("button10_prl");
+            cName.Add("buttonPRL");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
+            #region Quize36
+            q = new Quize();
+            q.ListOfConditions = Condition36;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Проверка работы гетеродина";
+            t = new TextForHelpForm();
+            t.HelpText = "Переключатель контрольного прибора поставить" +
+                Environment.NewLine + " в положения: «Канал-2» ";
+            t.NeedClick = txt;
+            helpDictionary.Add(410, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Нажмите на ПРЛ";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(0, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Откройте блок БПРН 021";
+            t.NeedClick = txt;
+            helpDictionary.Add(4, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = "Вернитесь назад";
+            t.NeedClick = "Включить " + txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("roundTrumbler_bprn021_2");
+            cName.Add("button10_prl");
             cName.Add("buttonPRL");
 
             q.ListOfHelp = helpDictionary;
@@ -1927,6 +2146,90 @@ namespace rsp6m2.Tests
                     //EmulatorManager.GlobalManager.IsLampBuv021Light = true;
                     return true;
                 }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize32
+        public static bool Condition32(Control c)
+        {
+            if (c.Name == "tumblerbop_1")
+            {
+                var t = (Tumbler2)c;
+                if (t.CurrentTumblerPosition() == Position.Up)
+                {
+                    Console.WriteLine("Правильно нажал");
+                    //EmulatorManager.GlobalManager.IsLampBuv021Light = true;
+                    GlobalManager.BSFisOn1Complect = true;
+                    return true;
+                }
+            }
+            return false;
+        }
+        #endregion
+
+        #region Quize33
+        public static bool Condition33(Control c)
+        {
+            if (c.Name == "button2_prl")
+            {
+                GlobalManager.BPRN021FirstOn = true;
+                return true;
+               
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize34
+        public static bool Condition34(Control c)
+        {
+            if (c.Name == "button10_prl")
+            {
+
+                return true;
+
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize35
+        public static bool Condition35(Control c)
+        {
+            if (c.Name == "roundTrumbler_bprn021_2")
+            {
+                var b = (RoundTrumbler)c;
+
+                if (b.CurrentIndex == 3)
+                {
+
+                    return true;
+                }
+
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize36
+        public static bool Condition36(Control c)
+        {
+            if (c.Name == "roundTrumbler_bprn021_2")
+            {
+                var b = (RoundTrumbler)c;
+
+                if (b.CurrentIndex == 4)
+                {
+
+                    return true;
+                }
+
             }
             return false;
         }

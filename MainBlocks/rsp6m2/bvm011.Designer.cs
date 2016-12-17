@@ -544,7 +544,7 @@
             this.bigbutton1_bvm011_1.BackColor = System.Drawing.Color.Transparent;
             this.bigbutton1_bvm011_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_1.BackgroundImage")));
             this.bigbutton1_bvm011_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bigbutton1_bvm011_1.Location = new System.Drawing.Point(205, 95);
+            this.bigbutton1_bvm011_1.Location = new System.Drawing.Point(204, 105);
             this.bigbutton1_bvm011_1.Name = "bigbutton1_bvm011_1";
             this.bigbutton1_bvm011_1.Size = new System.Drawing.Size(40, 40);
             this.bigbutton1_bvm011_1.TabIndex = 116;
@@ -555,11 +555,11 @@
             this.bigbutton1_bvm011_2.BackColor = System.Drawing.Color.Transparent;
             this.bigbutton1_bvm011_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_2.BackgroundImage")));
             this.bigbutton1_bvm011_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bigbutton1_bvm011_2.Location = new System.Drawing.Point(260, 95);
+            this.bigbutton1_bvm011_2.Location = new System.Drawing.Point(270, 105);
             this.bigbutton1_bvm011_2.Name = "bigbutton1_bvm011_2";
             this.bigbutton1_bvm011_2.Size = new System.Drawing.Size(40, 40);
             this.bigbutton1_bvm011_2.TabIndex = 117;
-            this.bigbutton1_bvm011_2.Load += new System.EventHandler(this.bigbutton1_bvm011_2_Load);
+            this.bigbutton1_bvm011_2.Load += new System.EventHandler(this.bigbutton1_Load);
             this.bigbutton1_bvm011_2.Click += new System.EventHandler(this.bigbutton1_bvm011_2_Click);
             // 
             // bvm011

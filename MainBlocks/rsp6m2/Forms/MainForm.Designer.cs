@@ -131,9 +131,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(257, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 18);
+            this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "РСБ 6М";
+            this.label1.Text = "РСП 6М2";
             // 
             // button2
             // 

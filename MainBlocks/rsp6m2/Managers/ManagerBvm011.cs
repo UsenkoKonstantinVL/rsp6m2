@@ -96,8 +96,8 @@ namespace rsp6m2.Managers
                         }
                     }
                 }
-                if (form != null)
-                    form.Invalidate();
+                /*if (form != null)
+                    form.Invalidate();*/
             }
 
         }

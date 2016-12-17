@@ -45,6 +45,8 @@ namespace rsp6m2
             roundTrumbler_bop_3.MaxIndex = 3;
             roundTrumbler_bop_3.setDrawRoundTumbler(transformPicture2);
 
+            tumblerbop_1.SetTumblerPosition(Position.Down);
+
 
         }
 
@@ -105,6 +107,20 @@ namespace rsp6m2
         private void bop_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerBop.ShowOffForm();
+        }
+
+        private void tumblerbop_1_Click(object sender, EventArgs e)
+        {
+            ManagerBvm011.ClickToButton((Control)sender);
+            if (tumblerbop_1.CurrentTumblerPosition() == Position.Up)
+            {
+                lightbop_norma.SetLight(true);
+            }
+
+            else
+            {
+                lightbop_norma.SetLight(false);
+            }
         }
     }
 }

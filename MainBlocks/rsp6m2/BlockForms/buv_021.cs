@@ -65,7 +65,7 @@ namespace rsp6m2.BlockForms
 
         private void tumbler_buc021_1_Click(object sender, EventArgs e)
         {
-            ManagerBvm011.ClickToButton((Control)sender);
+            ManagerBuv021.ClickToButton((Control)sender);
             if (tumbler_buc021_1.CurrentTumblerPosition() == Position.Up)
             {
                 light_buv021_vn.SetLight(true);
@@ -78,12 +78,12 @@ namespace rsp6m2.BlockForms
 
         private void tumbler_buv021_1_Click(object sender, EventArgs e)
         {
-            
+            ManagerBuv021.ClickToButton((Control)sender);
         }
 
         private void tumbler_buv021_1_MouseClick(object sender, MouseEventArgs e)
         {
-            ManagerBvm011.ClickToButton((Control)sender);
+            ManagerBuv021.ClickToButton((Control)sender);
 
             if (tumbler_buv021_1.Position == 0)
             {

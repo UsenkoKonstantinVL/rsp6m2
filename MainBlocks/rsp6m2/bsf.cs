@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using rsp6m2.EmulatorManager;
 
 namespace rsp6m2
 {
@@ -29,6 +30,14 @@ namespace rsp6m2
             {
                 HelpClass.Helper.ReplaceControls(ManagerBSF.SaveInstanceControls, Controls);
             }
+
+            bool res = (GlobalManager.BSFisOn1Complect == true);
+
+            light1.SetLight(res);
+            light2.SetLight(res);
+            light3.SetLight(res);
+            light4.SetLight(res);
+            light5.SetLight(res);
         }
 
         private void bsf_FormClosing(object sender, FormClosingEventArgs e)

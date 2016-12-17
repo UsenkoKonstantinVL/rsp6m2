@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using rsp6m2.EmulatorManager;
 
 namespace rsp6m2
 {
@@ -33,6 +34,12 @@ namespace rsp6m2
             {
                 HelpClass.Helper.ReplaceControls(ManagerBprn021.SaveInstanceControls, Controls);
             }
+
+            var res = (GlobalManager.BPRN021FirstOn == true);
+            light1.SetLight(res);
+            light2.SetLight(res);
+            light7.SetLight(res);
+            light8.SetLight(res);
         }
 
         void Initialize()
@@ -107,6 +114,35 @@ namespace rsp6m2
         private void bprn021_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerBprn021.ShowOffForm(); 
+        }
+
+        private void roundTrumbler_bprn021_2_MouseClick(object sender, MouseEventArgs e)
+        {
+            ManagerBprn021.ClickToButton((Control)sender);
+            Random rng = new Random();
+            if (roundTrumbler_bprn021_2.CurrentIndex == 0)
+            {
+                voltmetr1.Set_Value = 25 + rng.Next(6) - 3; 
+            }
+            if (roundTrumbler_bprn021_2.CurrentIndex == 1)
+            {
+                voltmetr1.Set_Value = 25 + rng.Next(6) - 3;
+            }
+
+            if (roundTrumbler_bprn021_2.CurrentIndex == 2)
+            {
+                voltmetr1.Set_Value = 25 + rng.Next(6) - 3;
+            }
+
+            if (roundTrumbler_bprn021_2.CurrentIndex == 3)
+            {
+                voltmetr1.Set_Value = 25 + rng.Next(6) - 3;
+            }
+
+            if (roundTrumbler_bprn021_2.CurrentIndex == 4)
+            {
+                voltmetr1.Set_Value = 25 + rng.Next(6) - 3;
+            }
         }
     }
 }
