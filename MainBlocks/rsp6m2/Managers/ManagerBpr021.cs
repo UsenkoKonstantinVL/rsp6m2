@@ -82,6 +82,10 @@ namespace rsp6m2.Managers
             {
                 ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
+                if (form != null)
+                {
+                    form.ShowArrow();
+                }
 
                 foreach (string controlName in list)
                 {
@@ -91,6 +95,10 @@ namespace rsp6m2.Managers
                         {
                             {
                                 HelpClass.Helper.SetBorderToControl(c);
+                                if (form != null)
+                                {
+                                    form.CloseArrow();
+                                }
                             }
                         }
                     }

@@ -348,6 +348,7 @@
     </Compile>
     <Compile Include="HelpClass\Helper.cs" />
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
+    <Compile Include="Managers\AbstractManager.cs" />
     <Compile Include="Managers\ManagerBg012.cs" />
     <Compile Include="Managers\ManagerBop.cs" />
     <Compile Include="Managers\ManagerBp127.cs" />
@@ -714,6 +715,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Image\Rsp-6m2-Images\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Controls\arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

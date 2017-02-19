@@ -84,7 +84,10 @@ namespace rsp6m2.Managers
             {
                 ManagerHelpForm.GetHelp(ID);
                 UnlightControls();
-
+                if (form != null)
+                {
+                    form.ShowArrow();
+                }
                 foreach (string controlName in list)
                 {
                     foreach (Control c in AllControlls)
@@ -93,6 +96,10 @@ namespace rsp6m2.Managers
                         {
                             {
                                 HelpClass.Helper.SetBorderToControl(c);
+                                if (form != null)
+                                {
+                                    form.CloseArrow();
+                                }
                             }
                         }
                     }
@@ -107,6 +114,7 @@ namespace rsp6m2.Managers
         {
             if (AllControlls != null)
             {
+
                 foreach (Control c in AllControlls)
                 {
                     if (c is Button)

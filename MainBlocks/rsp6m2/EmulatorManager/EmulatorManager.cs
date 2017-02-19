@@ -75,13 +75,11 @@ namespace rsp6m2.EmulatorManager
 
             if (currentQuize == Test.Count)
             {
-                /*if (TestIsDone != null)*/ {
-                    //TestIsDone();
+                {
                     SendMassageThatTestIsDone();
                     IsTestComplete = true;
+                    TestComplete();
                 }
-
-                //TestComplete();
             }
         }
 

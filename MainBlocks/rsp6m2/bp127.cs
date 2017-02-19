@@ -15,6 +15,7 @@ namespace rsp6m2
         public bp127()
         {
             InitializeComponent();
+            Initialize();
 
             if (ManagerBp127.AllControlls == null)
             {
@@ -90,6 +91,59 @@ namespace rsp6m2
         private void bp127_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerBp127.ShowOffForm();
+        }
+
+        private void roundTrumbler_bp127_MouseClick(object sender, MouseEventArgs e)
+        {
+            ManagerBp127.ClickToButton((Control)sender);
+
+            Random rnd = new Random();
+            uncheckLight();
+            if (roundTrumbler_bp127.CurrentIndex == 0)
+            {
+                voltmetr2.Set_Value = 0;
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 1)
+            {
+                light15.SetLight(true);
+                voltmetr2.Set_Value = 20 - 2 + rnd.Next(4);
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 2)
+            {
+                light14.SetLight(true);
+                voltmetr2.Set_Value = 20 + rnd.Next(4) - 2;
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 3)
+            {
+                light13.SetLight(true);
+                voltmetr2.Set_Value = 37 + rnd.Next(4) - 2;
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 4)
+            {
+                light12.SetLight(true);
+                voltmetr2.Set_Value = 37 + rnd.Next(4) - 2;
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 0)
+            {
+                light11.SetLight(true);
+                voltmetr2.Set_Value = 50 + rnd.Next(4) - 2;
+            }
+            else if (roundTrumbler_bp127.CurrentIndex == 0)
+            {
+                light10.SetLight(true);
+                voltmetr2.Set_Value = 50 + rnd.Next(4) - 2;
+            }
+        }
+
+        void uncheckLight()
+        {
+            bool l = false;
+            light10.SetLight(l);
+            light11.SetLight(l);
+            light12.SetLight(l);
+            light13.SetLight(l);
+            light14.SetLight(l);
+            light15.SetLight(l);
         }
     }
 }

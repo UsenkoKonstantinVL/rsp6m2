@@ -27,7 +27,10 @@ namespace rsp6m2.Managers
 
         public static void FormShow()
         {
-            form.Show();
+            if(form.Visible == false)
+            {
+                form.Visible = true;
+            }
         }
 
         public static bool IsInitialize()
