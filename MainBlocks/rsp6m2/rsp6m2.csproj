@@ -348,6 +348,63 @@
     </Compile>
     <Compile Include="HelpClass\Helper.cs" />
     <Compile Include="HelpClass\HelpFunctionClass.cs" />
+    <Compile Include="Indiacator\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indiacator\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\ikoDispControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\ikoDispControl.designer.cs">
+      <DependentUpon>ikoDispControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\ikoPasControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\ikoPasControl.designer.cs">
+      <DependentUpon>ikoPasControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\npossw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\npossw.Designer.cs">
+      <DependentUpon>npossw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\Potenzhiomert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\Potenzhiomert.Designer.cs">
+      <DependentUpon>Potenzhiomert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\Resource1.Designer.cs" />
+    <Compile Include="Indiacator\Target.cs" />
+    <Compile Include="Indiacator\TargManager.cs" />
+    <Compile Include="Indiacator\tumb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\tumb.Designer.cs">
+      <DependentUpon>tumb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\UnderDRLBlocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indiacator\UnderDRLBlocks.Designer.cs">
+      <DependentUpon>UnderDRLBlocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\UnderPRLBlocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indiacator\UnderPRLBlocks.Designer.cs">
+      <DependentUpon>UnderPRLBlocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indiacator\Voltmetr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Indiacator\Voltmetr.Designer.cs">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </Compile>
     <Compile Include="Managers\AbstractManager.cs" />
     <Compile Include="Managers\ManagerBg012.cs" />
     <Compile Include="Managers\ManagerBop.cs" />
@@ -576,6 +633,34 @@
     <EmbeddedResource Include="genericForm.resx">
       <DependentUpon>genericForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\ikoDispControl.resx">
+      <DependentUpon>ikoDispControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\ikoPasControl.resx">
+      <DependentUpon>ikoPasControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\npossw.resx">
+      <DependentUpon>npossw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\Potenzhiomert.resx">
+      <DependentUpon>Potenzhiomert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\Resource1.resx" />
+    <EmbeddedResource Include="Indiacator\tumb.resx">
+      <DependentUpon>tumb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\UnderDRLBlocks.resx">
+      <DependentUpon>UnderDRLBlocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\UnderPRLBlocks.resx">
+      <DependentUpon>UnderPRLBlocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indiacator\Voltmetr.resx">
+      <DependentUpon>Voltmetr.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="prlPower.resx">
       <DependentUpon>prlPower.cs</DependentUpon>
     </EmbeddedResource>
@@ -684,12 +769,6 @@
     <None Include="Image\Controls\PWRPanel.JPG" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Indicator\indikator_rsp_6m2\indikator_rsp_6m2.csproj">
-      <Project>{e3d91ef3-d9b5-4b22-8a71-4cf0577d67b0}</Project>
-      <Name>indikator_rsp_6m2</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Image\Controls\БольшаяКраснаяКнопка.png" />
   </ItemGroup>
   <ItemGroup>
@@ -718,6 +797,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Image\Controls\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Indiacator\Resources\Pup.png" />
+    <Content Include="Indiacator\Resources\UnderDRLblocks.png" />
+    <Content Include="Indiacator\Resources\UnderPRLblocks.png" />
+    <Content Include="Indiacator\res\perekluchatel.png" />
+    <Content Include="Indiacator\res\potenziometr.png" />
+    <Content Include="Indiacator\res\tmb.png" />
+    <Content Include="Indiacator\res\UnderDRLblocks.png" />
+    <Content Include="Indiacator\res\UnderPRLblocks.png" />
+    <Content Include="Indiacator\res\voltmetr.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
