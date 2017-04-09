@@ -284,6 +284,12 @@
     <Compile Include="drlPwr.Designer.cs">
       <DependentUpon>drlPwr.cs</DependentUpon>
     </Compile>
+    <Compile Include="drlPwrEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drlPwrEx.Designer.cs">
+      <DependentUpon>drlPwrEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="drlStack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -602,6 +608,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="drlPwr.resx">
       <DependentUpon>drlPwr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drlPwrEx.resx">
+      <DependentUpon>drlPwrEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="drlStack.resx">
       <DependentUpon>drlStack.cs</DependentUpon>
