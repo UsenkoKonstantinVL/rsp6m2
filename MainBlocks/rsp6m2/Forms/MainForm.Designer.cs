@@ -35,9 +35,9 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -74,11 +74,15 @@
             this.listBox1.Items.AddRange(new object[] {
             "1. Включение аппаратуры ПРЛ",
             "2. Включение и проверка работоспособности аппаратуры отображения ПРЛ",
-            "3. Включение и проверка работоспособности приемопередатчиков ППП-1, ППП-II"});
+            "3. Включение и проверка работоспособности приемопередатчиков ППП-1, ППП-II",
+            "4. Включение аппаратуры ДРЛ",
+            "5.",
+            "6."});
             this.listBox1.Location = new System.Drawing.Point(3, 77);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(565, 134);
             this.listBox1.TabIndex = 3;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // radioButton2
             // 
@@ -124,6 +128,17 @@
             this.panel2.TabIndex = 1;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackgroundImage = global::rsp6m2.Properties.Resources.exit;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(573, 1);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(23, 20);
+            this.panel3.TabIndex = 3;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -147,17 +162,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.BackgroundImage = global::rsp6m2.Properties.Resources.exit;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(573, 1);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(23, 20);
-            this.panel3.TabIndex = 3;
-            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // MainForm
             // 

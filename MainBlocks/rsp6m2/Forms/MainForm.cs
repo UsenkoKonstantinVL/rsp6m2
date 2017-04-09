@@ -110,5 +110,10 @@ namespace rsp6m2.Forms
         {
             Application.ExitThread();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

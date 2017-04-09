@@ -15,7 +15,7 @@ namespace rsp6m2.Controls
         #endregion
 
         #region Public func
-        public Tumbler2(): this(Position.Up)
+        public Tumbler2(): this(Position.Down)
         {
             //InitializeComponent();
         }

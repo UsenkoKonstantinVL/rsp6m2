@@ -15,7 +15,7 @@ namespace rsp6m2.Controls
         #endregion
 
         #region Public func
-        public Tumbler1(): this(Position.Up)
+        public Tumbler1(): this(Position.Down)
         {
             //InitializeComponent();
         }
@@ -29,7 +29,8 @@ namespace rsp6m2.Controls
             
             //Добавить картинку
             base.SetRedrawDelegate(RedrawControl);
-        }
+            base.SetTumblerPosition(pos);
+         }
         #endregion
 
         #region Private func

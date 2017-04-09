@@ -1,4 +1,5 @@
-﻿using System;
+﻿using rsp6m2.Controls;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -7,7 +8,7 @@ namespace rsp6m2.Managers
 {
     static public class ManagerDrlPwr
     {
-        static drlPwr form = null;
+        static drlPwrEx form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
         static int ID = 24;
@@ -16,7 +17,7 @@ namespace rsp6m2.Managers
         {
             //if (form == null)
             {
-                form = new drlPwr();
+                form = new drlPwrEx();
             }
 
             form.Show();
@@ -41,7 +42,7 @@ namespace rsp6m2.Managers
 
         public static void Dispose()
         {
-            if (form.isOpened == true)
+            if (form != null && form.isOpened == true)
                 form.Close();
             form = null;
             //SaveInstanceControls = null;
@@ -52,13 +53,19 @@ namespace rsp6m2.Managers
         {
             EmulatorManager.EmulatorManager.CheckQuize(control);
             ManagerHelpForm.GetHelp(ID);
-            ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
+
+
+
+            if (control is Button)
+            {
+
+            }
         }
 
         public static void ShowOffForm()
         {
             UnlightControls();
-           // EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
+            EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
             ManagerHelpForm.GetHelp(0);
 
         }
@@ -110,6 +117,12 @@ namespace rsp6m2.Managers
                         b.FlatStyle = FlatStyle.Flat;
                         b.FlatAppearance.BorderSize = 0;
                     }
+                    if (c is Bigbutton)
+                    {
+                        Bigbutton b = (Bigbutton)c;
+                        b.UnHighlight();
+                    }
+                    //if(c is )
                 }
 
                 //form.Invalidate();

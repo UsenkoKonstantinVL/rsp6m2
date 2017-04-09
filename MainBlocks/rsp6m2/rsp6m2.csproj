@@ -482,6 +482,7 @@
     </Compile>
     <Compile Include="Tests\Test1.cs" />
     <Compile Include="Tests\Test2.cs" />
+    <Compile Include="Tests\TestDRL1.cs" />
     <Compile Include="Tests\TestFactory.cs" />
     <Compile Include="uvch.cs">
       <SubType>Form</SubType>

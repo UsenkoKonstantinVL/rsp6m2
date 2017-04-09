@@ -321,9 +321,7 @@ namespace rsp6m2.Tests
             q.NameOfLightedControls = cName;
 
             list.Add(q);
-            #endregion
-
-            
+            #endregion       
 
             #region Quize9
             q = new Quize();

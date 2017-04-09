@@ -22,6 +22,11 @@ namespace rsp6m2.Tests
                 t.list = Tests.Test2.GetQuize();
                 t.testName = Tests.Test2.TestName;
             }
+            if(numOfTest == 3)
+            {
+                t.list = Tests.TestDRL1.GetQuize();
+
+            }
 
             return t;
         }
