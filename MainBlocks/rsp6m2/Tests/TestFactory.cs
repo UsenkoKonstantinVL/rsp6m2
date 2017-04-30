@@ -15,18 +15,21 @@ namespace rsp6m2.Tests
                 t.list = Tests.Test1.GetQuize();
                 t.testName = Tests.Test1.TestName;
             }
+            else if (numOfTest == 3)
+            {
+                t.list = Tests.TestDRL1.GetQuize();
 
-
+            }
+            else if(numOfTest == 1)
+            {
+                t.list = Tests.Test3.GetQuize();
+            }
             else
             {
                 t.list = Tests.Test2.GetQuize();
                 t.testName = Tests.Test2.TestName;
             }
-            if(numOfTest == 3)
-            {
-                t.list = Tests.TestDRL1.GetQuize();
-
-            }
+            
 
             return t;
         }

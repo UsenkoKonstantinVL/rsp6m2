@@ -29,74 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UnderPRLBlocks));
-            this.bi45light = new rsp6m2.Controls.Light();
-            this.buoLight = new rsp6m2.Controls.Light();
-            this.boimLight = new rsp6m2.Controls.Light();
-            this.bi45Tumbler = new rsp6m2.Controls.Tumbler2();
-            this.buoTumbler = new rsp6m2.Controls.Tumbler2();
-            this.boimTumbler = new rsp6m2.Controls.Tumbler2();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.prlblock_bi45light = new rsp6m2.Controls.Light();
+            this.prlblock_buolight = new rsp6m2.Controls.Light();
+            this.prlblock_boilight = new rsp6m2.Controls.Light();
+            this.prlblock_bi45 = new rsp6m2.Controls.Tumbler2();
+            this.prlblock_buo = new rsp6m2.Controls.Tumbler2();
+            this.prlblock_boi = new rsp6m2.Controls.Tumbler2();
             this.SuspendLayout();
-            // 
-            // bi45light
-            // 
-            this.bi45light.BackColor = System.Drawing.Color.Transparent;
-            this.bi45light.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bi45light.BackgroundImage")));
-            this.bi45light.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bi45light.Location = new System.Drawing.Point(453, 0);
-            this.bi45light.Name = "bi45light";
-            this.bi45light.Size = new System.Drawing.Size(38, 36);
-            this.bi45light.TabIndex = 0;
-            // 
-            // buoLight
-            // 
-            this.buoLight.BackColor = System.Drawing.Color.Transparent;
-            this.buoLight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buoLight.BackgroundImage")));
-            this.buoLight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buoLight.Location = new System.Drawing.Point(496, 0);
-            this.buoLight.Name = "buoLight";
-            this.buoLight.Size = new System.Drawing.Size(38, 36);
-            this.buoLight.TabIndex = 1;
-            // 
-            // boimLight
-            // 
-            this.boimLight.BackColor = System.Drawing.Color.Transparent;
-            this.boimLight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boimLight.BackgroundImage")));
-            this.boimLight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.boimLight.Location = new System.Drawing.Point(540, 0);
-            this.boimLight.Name = "boimLight";
-            this.boimLight.Size = new System.Drawing.Size(38, 36);
-            this.boimLight.TabIndex = 2;
-            // 
-            // bi45Tumbler
-            // 
-            this.bi45Tumbler.BackColor = System.Drawing.Color.Transparent;
-            this.bi45Tumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bi45Tumbler.BackgroundImage")));
-            this.bi45Tumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bi45Tumbler.Location = new System.Drawing.Point(464, 57);
-            this.bi45Tumbler.Name = "bi45Tumbler";
-            this.bi45Tumbler.Size = new System.Drawing.Size(27, 42);
-            this.bi45Tumbler.TabIndex = 3;
-            // 
-            // buoTumbler
-            // 
-            this.buoTumbler.BackColor = System.Drawing.Color.Transparent;
-            this.buoTumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buoTumbler.BackgroundImage")));
-            this.buoTumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buoTumbler.Location = new System.Drawing.Point(507, 57);
-            this.buoTumbler.Name = "buoTumbler";
-            this.buoTumbler.Size = new System.Drawing.Size(27, 42);
-            this.buoTumbler.TabIndex = 4;
-            // 
-            // boimTumbler
-            // 
-            this.boimTumbler.BackColor = System.Drawing.Color.Transparent;
-            this.boimTumbler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boimTumbler.BackgroundImage")));
-            this.boimTumbler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.boimTumbler.Location = new System.Drawing.Point(540, 57);
-            this.boimTumbler.Name = "boimTumbler";
-            this.boimTumbler.Size = new System.Drawing.Size(27, 42);
-            this.boimTumbler.TabIndex = 5;
             // 
             // panel1
             // 
@@ -106,6 +46,69 @@
             this.panel1.Size = new System.Drawing.Size(125, 358);
             this.panel1.TabIndex = 6;
             // 
+            // prlblock_bi45light
+            // 
+            this.prlblock_bi45light.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_bi45light.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_bi45light.BackgroundImage")));
+            this.prlblock_bi45light.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_bi45light.Location = new System.Drawing.Point(453, 0);
+            this.prlblock_bi45light.Name = "prlblock_bi45light";
+            this.prlblock_bi45light.Size = new System.Drawing.Size(38, 36);
+            this.prlblock_bi45light.TabIndex = 0;
+            // 
+            // prlblock_buolight
+            // 
+            this.prlblock_buolight.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_buolight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_buolight.BackgroundImage")));
+            this.prlblock_buolight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_buolight.Location = new System.Drawing.Point(496, 0);
+            this.prlblock_buolight.Name = "prlblock_buolight";
+            this.prlblock_buolight.Size = new System.Drawing.Size(38, 36);
+            this.prlblock_buolight.TabIndex = 1;
+            // 
+            // prlblock_boilight
+            // 
+            this.prlblock_boilight.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_boilight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_boilight.BackgroundImage")));
+            this.prlblock_boilight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_boilight.Location = new System.Drawing.Point(540, 0);
+            this.prlblock_boilight.Name = "prlblock_boilight";
+            this.prlblock_boilight.Size = new System.Drawing.Size(38, 36);
+            this.prlblock_boilight.TabIndex = 2;
+            // 
+            // prlblock_bi45
+            // 
+            this.prlblock_bi45.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_bi45.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_bi45.BackgroundImage")));
+            this.prlblock_bi45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_bi45.Location = new System.Drawing.Point(464, 57);
+            this.prlblock_bi45.Name = "prlblock_bi45";
+            this.prlblock_bi45.Size = new System.Drawing.Size(27, 42);
+            this.prlblock_bi45.TabIndex = 3;
+            this.prlblock_bi45.Click += new System.EventHandler(this.prlblock_bi45_Click);
+            // 
+            // prlblock_buo
+            // 
+            this.prlblock_buo.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_buo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_buo.BackgroundImage")));
+            this.prlblock_buo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_buo.Location = new System.Drawing.Point(507, 57);
+            this.prlblock_buo.Name = "prlblock_buo";
+            this.prlblock_buo.Size = new System.Drawing.Size(27, 42);
+            this.prlblock_buo.TabIndex = 4;
+            this.prlblock_buo.Click += new System.EventHandler(this.prlblock_bi45_Click);
+            // 
+            // prlblock_boi
+            // 
+            this.prlblock_boi.BackColor = System.Drawing.Color.Transparent;
+            this.prlblock_boi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prlblock_boi.BackgroundImage")));
+            this.prlblock_boi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prlblock_boi.Location = new System.Drawing.Point(540, 57);
+            this.prlblock_boi.Name = "prlblock_boi";
+            this.prlblock_boi.Size = new System.Drawing.Size(27, 42);
+            this.prlblock_boi.TabIndex = 5;
+            this.prlblock_boi.Click += new System.EventHandler(this.prlblock_bi45_Click);
+            // 
             // UnderPRLBlocks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -113,28 +116,36 @@
             this.BackgroundImage = global::rsp6m2.Properties.Resources.UnderPRLblocks;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 370);
-            this.Controls.Add(this.bi45light);
-            this.Controls.Add(this.buoLight);
-            this.Controls.Add(this.boimLight);
-            this.Controls.Add(this.bi45Tumbler);
-            this.Controls.Add(this.buoTumbler);
-            this.Controls.Add(this.boimTumbler);
+            this.Controls.Add(this.prlblock_bi45light);
+            this.Controls.Add(this.prlblock_buolight);
+            this.Controls.Add(this.prlblock_boilight);
+            this.Controls.Add(this.prlblock_bi45);
+            this.Controls.Add(this.prlblock_buo);
+            this.Controls.Add(this.prlblock_boi);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "UnderPRLBlocks";
             this.Text = "UnderPRLBlocks";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UnderPRLBlocks_FormClosing);
             this.Load += new System.EventHandler(this.UnderPRLBlocks_Load);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.prlblock_boi, 0);
+            this.Controls.SetChildIndex(this.prlblock_buo, 0);
+            this.Controls.SetChildIndex(this.prlblock_bi45, 0);
+            this.Controls.SetChildIndex(this.prlblock_boilight, 0);
+            this.Controls.SetChildIndex(this.prlblock_buolight, 0);
+            this.Controls.SetChildIndex(this.prlblock_bi45light, 0);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private rsp6m2.Controls.Light boimLight;
-        private rsp6m2.Controls.Light buoLight;
-        private rsp6m2.Controls.Light bi45light;
-        private rsp6m2.Controls.Tumbler2 bi45Tumbler;
-        private rsp6m2.Controls.Tumbler2 boimTumbler;
-        private rsp6m2.Controls.Tumbler2 buoTumbler;
+        private rsp6m2.Controls.Light prlblock_boilight;
+        private rsp6m2.Controls.Light prlblock_buolight;
+        private rsp6m2.Controls.Light prlblock_bi45light;
+        private rsp6m2.Controls.Tumbler2 prlblock_bi45;
+        private rsp6m2.Controls.Tumbler2 prlblock_boi;
+        private rsp6m2.Controls.Tumbler2 prlblock_buo;
         private System.Windows.Forms.Panel panel1;
     }
 }

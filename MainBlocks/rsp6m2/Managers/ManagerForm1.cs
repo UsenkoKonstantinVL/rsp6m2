@@ -71,8 +71,9 @@ namespace rsp6m2.Managers
                 
                 if(b.Name == "buttonIKO")
                 {
-                    indikator_rsp_6m2.Form1 f = new indikator_rsp_6m2.Form1();
-                    f.Show();
+                    ManagerIndicator.Initialize();
+                    //indikator_rsp_6m2.Form1 f = new indikator_rsp_6m2.Form1();
+                    //f.Show();
 
                     return;
                 }

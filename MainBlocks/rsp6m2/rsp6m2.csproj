@@ -428,7 +428,9 @@
     <Compile Include="Managers\ManagerDrlTop.cs" />
     <Compile Include="Managers\ManagerForm1.cs" />
     <Compile Include="Managers\ManagerHelpForm.cs" />
+    <Compile Include="Managers\ManagerIndicator.cs" />
     <Compile Include="Managers\ManagerMainForm.cs" />
+    <Compile Include="Managers\ManagerPRLBlock.cs" />
     <Compile Include="Managers\ManagerPrlPwr.cs" />
     <Compile Include="Managers\ManagerPrlStack.cs" />
     <Compile Include="Managers\ManagerPrlTop.cs" />
@@ -482,6 +484,7 @@
     </Compile>
     <Compile Include="Tests\Test1.cs" />
     <Compile Include="Tests\Test2.cs" />
+    <Compile Include="Tests\Test3.cs" />
     <Compile Include="Tests\TestDRL1.cs" />
     <Compile Include="Tests\TestFactory.cs" />
     <Compile Include="uvch.cs">

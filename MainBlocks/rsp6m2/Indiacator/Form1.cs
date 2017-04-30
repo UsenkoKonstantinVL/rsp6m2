@@ -5,10 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using rsp6m2;
+using rsp6m2.Managers;
+using rsp6m2.Controls;
 
 namespace indikator_rsp_6m2
 {
-    public partial class Form1 : Form
+    public partial class Form1 : genericForm
     {
         public Form1()
         {
@@ -17,6 +20,36 @@ namespace indikator_rsp_6m2
             nPosSwitch1.setPosNum(12);
             nPosSwitch2.setPosNum(3);
             nPosSwitch3.setPosNum(3);
+
+            List<Control> lc = new List<Control>();
+            List<Control> ilc = new List<Control>();
+
+            foreach (Control c in Controls)
+            {
+                if (c is Button)
+                {
+                    lc.Add(c);
+                }
+                else if (c is Tumbler)
+                {
+                    lc.Add(c);
+                    ilc.Add(c);
+                }
+                else if (c is RoundTrumbler)
+                {
+                    lc.Add(c);
+                    ilc.Add(c);
+                }
+                else if (c is Light)
+                {
+                    lc.Add(c);
+                    ilc.Add(c);
+                }
+                
+            }
+
+            ManagerIndicator.SetControls(ilc, lc);
+
         }
 
 
@@ -125,14 +158,20 @@ namespace indikator_rsp_6m2
 
         private void UnderPRLblocks_Click(object sender, EventArgs e)
         {
-            indikator_rsp_6m2.UnderPRLBlocks form = new UnderPRLBlocks();
-            form.Show();
+            ManagerPRLBlock.Initialize();
+            /*indikator_rsp_6m2.UnderPRLBlocks form = new UnderPRLBlocks();
+            form.Show();*/
         }
 
         private void UnderDRLblocks_Click(object sender, EventArgs e)
         {
             rsp6m2.Indiacator.UnderDRLBlocks form = new rsp6m2.Indiacator.UnderDRLBlocks();
             form.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerIndicator.ShowOffForm();
         }
     }
 }
