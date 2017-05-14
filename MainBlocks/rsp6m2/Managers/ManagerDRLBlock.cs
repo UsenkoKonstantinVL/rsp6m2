@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using indikator_rsp_6m2;
+using rsp6m2.Indiacator;
 
 namespace rsp6m2.Managers
 {
-    public class ManagerPRLBlock
+    public class ManagerDRLBlock
     {
-        static UnderPRLBlocks form = null;
+        static UnderDRLBlocks form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 91;
+        static int ID = 92;
 
         public static void Initialize()
         {
             //if (form == null)
             {
-                form = new UnderPRLBlocks();
+                form = new UnderDRLBlocks();
             }
 
             form.Show();

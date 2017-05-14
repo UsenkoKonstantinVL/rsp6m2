@@ -118,8 +118,11 @@ namespace indikator_rsp_6m2
             this.Controls.Add(TargManager.Targ3.Labl);
             TargManager.Targ3.shortLabl.BringToFront();
             TargManager.Targ3.Labl.BringToFront();
-            
-            
+
+            potenzhiomert5.Value_Changed += potenzhiomert5_Load;
+            potenzhiomert5.Set_Value = 20;
+
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -172,6 +175,18 @@ namespace indikator_rsp_6m2
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             ManagerIndicator.ShowOffForm();
+        }
+
+        private void potenzhiomert5_Load(object sender, EventArgs e)
+        {
+            if(sender is Potenzhiomert)
+            {
+                Potenzhiomert p = (Potenzhiomert)sender;
+                if(p.Name == "potenzhiomert5")
+                {
+                    ikoPasControl1.SetColor((double)p.getValue() / 100);
+                }
+            }
         }
     }
 }

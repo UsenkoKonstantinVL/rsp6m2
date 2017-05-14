@@ -8,10 +8,10 @@ using System.Windows.Forms;
 
 namespace rsp6m2.Tests
 {
-    public class Test3
+    public class TestDRLIko
     {
         public static String TestName = "2Включение и проверка работоспособности " +
-            Environment.NewLine + "аппаратуры отображения ПРЛ";
+           Environment.NewLine + "аппаратуры отображения ПРЛ";
 
         public static List<Quize> GetQuize()
         {
@@ -30,11 +30,11 @@ namespace rsp6m2.Tests
             t = new TextForHelpForm();
             t.HelpText = "";
             t.NeedClick = txt;
-            helpDictionary.Add(91, t);
+            helpDictionary.Add(92, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на Индикатор";
-            t.NeedClick =  txt;
+            t.NeedClick = txt;
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
@@ -44,13 +44,13 @@ namespace rsp6m2.Tests
 
             t = new TextForHelpForm();
             t.HelpText = "Вернитесь назад";
-            t.NeedClick =  txt;
+            t.NeedClick = txt;
             helpDictionary.Add(-1, t);
 
 
             List<string> cName = new List<string>();
-            cName.Add("prlblock_bi45");
-            cName.Add("UnderPRLblocks");
+            cName.Add("drlblock_bi45");
+            cName.Add("UnderDRLblocks");
             cName.Add("buttonIKO");
 
             q.ListOfHelp = helpDictionary;
@@ -72,7 +72,7 @@ namespace rsp6m2.Tests
             t = new TextForHelpForm();
             t.HelpText = "";
             t.NeedClick = txt;
-            helpDictionary.Add(91, t);
+            helpDictionary.Add(92, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на Индикатор";
@@ -91,8 +91,8 @@ namespace rsp6m2.Tests
 
 
             cName = new List<string>();
-            cName.Add("prlblock_buo");
-            cName.Add("UnderPRLblocks");
+            cName.Add("drlblock_buo");
+            cName.Add("UnderDRLblocks");
             cName.Add("buttonIKO");
 
             q.ListOfHelp = helpDictionary;
@@ -114,7 +114,7 @@ namespace rsp6m2.Tests
             t = new TextForHelpForm();
             t.HelpText = "";
             t.NeedClick = txt;
-            helpDictionary.Add(91, t);
+            helpDictionary.Add(92, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на Индикатор";
@@ -133,8 +133,8 @@ namespace rsp6m2.Tests
 
 
             cName = new List<string>();
-            cName.Add("prlblock_boi");
-            cName.Add("UnderPRLblocks");
+            cName.Add("drlblock_boi");
+            cName.Add("UnderDRLblocks");
             cName.Add("buttonIKO");
 
             q.ListOfHelp = helpDictionary;
@@ -151,7 +151,7 @@ namespace rsp6m2.Tests
 
         public static bool Condition1(Control c)
         {
-            if (c.Name == "prlblock_bi45")
+            if (c.Name == "drlblock_bi45")
             {
                 var t = (Tumbler2)c;
                 if (t.CurrentTumblerPosition() == Position.Up)
@@ -169,7 +169,7 @@ namespace rsp6m2.Tests
 
         public static bool Condition2(Control c)
         {
-            if (c.Name == "prlblock_buo")
+            if (c.Name == "drlblock_buo")
             {
                 var t = (Tumbler2)c;
                 if (t.CurrentTumblerPosition() == Position.Up)
@@ -187,7 +187,7 @@ namespace rsp6m2.Tests
 
         public static bool Condition3(Control c)
         {
-            if (c.Name == "prlblock_boi")
+            if (c.Name == "drlblock_boi")
             {
                 var t = (Tumbler2)c;
                 if (t.CurrentTumblerPosition() == Position.Up)

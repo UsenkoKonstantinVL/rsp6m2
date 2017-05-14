@@ -24,6 +24,10 @@ namespace rsp6m2.Tests
             {
                 t.list = Tests.Test3.GetQuize();
             }
+            else if(numOfTest == 4)
+            {
+                t.list = Tests.TestDRLIko.GetQuize();
+            }
             else
             {
                 t.list = Tests.Test2.GetQuize();

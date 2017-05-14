@@ -423,6 +423,7 @@
     <Compile Include="Managers\ManagerBu011.cs" />
     <Compile Include="Managers\ManagerBuv021.cs" />
     <Compile Include="Managers\ManagerBvm011.cs" />
+    <Compile Include="Managers\ManagerDRLBlock.cs" />
     <Compile Include="Managers\ManagerDrlPwr.cs" />
     <Compile Include="Managers\ManagerDrlStack.cs" />
     <Compile Include="Managers\ManagerDrlTop.cs" />
@@ -486,6 +487,7 @@
     <Compile Include="Tests\Test2.cs" />
     <Compile Include="Tests\Test3.cs" />
     <Compile Include="Tests\TestDRL1.cs" />
+    <Compile Include="Tests\TestDRLIko.cs" />
     <Compile Include="Tests\TestFactory.cs" />
     <Compile Include="uvch.cs">
       <SubType>Form</SubType>

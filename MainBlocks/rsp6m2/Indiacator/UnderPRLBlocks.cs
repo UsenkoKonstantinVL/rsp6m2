@@ -63,6 +63,7 @@ namespace indikator_rsp_6m2
         private void prlblock_bi45_Click(object sender, EventArgs e)
         {
             Tumbler2 cntrl = (Tumbler2)sender;
+            ManagerPRLBlock.ClickToButton((Control)sender);
             if(cntrl.Name == "prlblock_bi45")
             {
                 if (cntrl.CurrentTumblerPosition() == Position.Up) prlblock_bi45light.SetLight(true);

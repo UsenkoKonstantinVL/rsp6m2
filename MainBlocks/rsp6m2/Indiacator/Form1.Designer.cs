@@ -30,96 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.tumbler25 = new indikator_rsp_6m2.tumbler();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.label59 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.tumbler24 = new indikator_rsp_6m2.tumbler();
-            this.tumbler23 = new indikator_rsp_6m2.tumbler();
-            this.tumbler22 = new indikator_rsp_6m2.tumbler();
-            this.tumbler21 = new indikator_rsp_6m2.tumbler();
-            this.tumbler20 = new indikator_rsp_6m2.tumbler();
-            this.tumbler19 = new indikator_rsp_6m2.tumbler();
-            this.tumbler18 = new indikator_rsp_6m2.tumbler();
-            this.label60 = new System.Windows.Forms.Label();
-            this.potenzhiomert17 = new indikator_rsp_6m2.Potenzhiomert();
-            this.potenzhiomert15 = new indikator_rsp_6m2.Potenzhiomert();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.tumbler13 = new indikator_rsp_6m2.tumbler();
-            this.tumbler14 = new indikator_rsp_6m2.tumbler();
-            this.tumbler15 = new indikator_rsp_6m2.tumbler();
-            this.tumbler16 = new indikator_rsp_6m2.tumbler();
-            this.tumbler12 = new indikator_rsp_6m2.tumbler();
-            this.tumbler11 = new indikator_rsp_6m2.tumbler();
-            this.tumbler10 = new indikator_rsp_6m2.tumbler();
-            this.tumbler9 = new indikator_rsp_6m2.tumbler();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.tumbler8 = new indikator_rsp_6m2.tumbler();
-            this.tumbler7 = new indikator_rsp_6m2.tumbler();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.tumbler6 = new indikator_rsp_6m2.tumbler();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.label64 = new System.Windows.Forms.Label();
             this.potenzhiomert11 = new indikator_rsp_6m2.Potenzhiomert();
             this.potenzhiomert12 = new indikator_rsp_6m2.Potenzhiomert();
@@ -175,6 +85,96 @@
             this.tumbler1 = new indikator_rsp_6m2.tumbler();
             this.nPosSwitch1 = new indikator_rsp_6m2.nPosSwitch();
             this.voltmetr1 = new indikator_rsp_6m2.Voltmetr();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.tumbler25 = new indikator_rsp_6m2.tumbler();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.potenzhiomert17 = new indikator_rsp_6m2.Potenzhiomert();
+            this.potenzhiomert15 = new indikator_rsp_6m2.Potenzhiomert();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.tumbler13 = new indikator_rsp_6m2.tumbler();
+            this.tumbler14 = new indikator_rsp_6m2.tumbler();
+            this.tumbler15 = new indikator_rsp_6m2.tumbler();
+            this.tumbler16 = new indikator_rsp_6m2.tumbler();
+            this.tumbler12 = new indikator_rsp_6m2.tumbler();
+            this.tumbler11 = new indikator_rsp_6m2.tumbler();
+            this.tumbler10 = new indikator_rsp_6m2.tumbler();
+            this.tumbler9 = new indikator_rsp_6m2.tumbler();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.tumbler8 = new indikator_rsp_6m2.tumbler();
+            this.tumbler7 = new indikator_rsp_6m2.tumbler();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.tumbler6 = new indikator_rsp_6m2.tumbler();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.tumbler24 = new indikator_rsp_6m2.tumbler();
+            this.tumbler23 = new indikator_rsp_6m2.tumbler();
+            this.tumbler22 = new indikator_rsp_6m2.tumbler();
+            this.tumbler21 = new indikator_rsp_6m2.tumbler();
+            this.tumbler20 = new indikator_rsp_6m2.tumbler();
+            this.tumbler19 = new indikator_rsp_6m2.tumbler();
+            this.tumbler18 = new indikator_rsp_6m2.tumbler();
             this.button1 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -258,18 +258,571 @@
             this.panel1.Controls.Add(this.tumbler1);
             this.panel1.Controls.Add(this.nPosSwitch1);
             this.panel1.Controls.Add(this.voltmetr1);
-            this.panel1.Location = new System.Drawing.Point(91, 12);
+            this.panel1.Location = new System.Drawing.Point(-1, 6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(511, 578);
             this.panel1.TabIndex = 0;
             this.panel1.Visible = false;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(143, 324);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(135, 13);
+            this.label64.TabIndex = 79;
+            this.label64.Text = "Смещение    Микротабло";
+            // 
+            // potenzhiomert11
+            // 
+            this.potenzhiomert11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert11.Location = new System.Drawing.Point(450, 160);
+            this.potenzhiomert11.Name = "potenzhiomert11";
+            this.potenzhiomert11.Set_Type = 0;
+            this.potenzhiomert11.Set_Value = 0;
+            this.potenzhiomert11.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert11.TabIndex = 78;
+            // 
+            // potenzhiomert12
+            // 
+            this.potenzhiomert12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert12.Location = new System.Drawing.Point(386, 160);
+            this.potenzhiomert12.Name = "potenzhiomert12";
+            this.potenzhiomert12.Set_Type = 0;
+            this.potenzhiomert12.Set_Value = 0;
+            this.potenzhiomert12.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert12.TabIndex = 77;
+            // 
+            // potenzhiomert13
+            // 
+            this.potenzhiomert13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert13.Location = new System.Drawing.Point(305, 160);
+            this.potenzhiomert13.Name = "potenzhiomert13";
+            this.potenzhiomert13.Set_Type = 0;
+            this.potenzhiomert13.Set_Value = 0;
+            this.potenzhiomert13.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert13.TabIndex = 76;
+            // 
+            // potenzhiomert14
+            // 
+            this.potenzhiomert14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert14.Location = new System.Drawing.Point(254, 160);
+            this.potenzhiomert14.Name = "potenzhiomert14";
+            this.potenzhiomert14.Set_Type = 0;
+            this.potenzhiomert14.Set_Value = 0;
+            this.potenzhiomert14.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert14.TabIndex = 75;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(469, 62);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(23, 13);
+            this.label29.TabIndex = 74;
+            this.label29.Text = "ДК";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(402, 62);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(31, 13);
+            this.label28.TabIndex = 73;
+            this.label28.Text = "НТМ";
+            // 
+            // potenzhiomert10
+            // 
+            this.potenzhiomert10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert10.Location = new System.Drawing.Point(450, 80);
+            this.potenzhiomert10.Name = "potenzhiomert10";
+            this.potenzhiomert10.Set_Type = 0;
+            this.potenzhiomert10.Set_Value = 0;
+            this.potenzhiomert10.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert10.TabIndex = 72;
+            // 
+            // potenzhiomert9
+            // 
+            this.potenzhiomert9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert9.Location = new System.Drawing.Point(386, 80);
+            this.potenzhiomert9.Name = "potenzhiomert9";
+            this.potenzhiomert9.Set_Type = 0;
+            this.potenzhiomert9.Set_Value = 0;
+            this.potenzhiomert9.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert9.TabIndex = 71;
+            // 
+            // potenzhiomert8
+            // 
+            this.potenzhiomert8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert8.Location = new System.Drawing.Point(305, 80);
+            this.potenzhiomert8.Name = "potenzhiomert8";
+            this.potenzhiomert8.Set_Type = 0;
+            this.potenzhiomert8.Set_Value = 0;
+            this.potenzhiomert8.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert8.TabIndex = 70;
+            // 
+            // potenzhiomert7
+            // 
+            this.potenzhiomert7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert7.Location = new System.Drawing.Point(254, 80);
+            this.potenzhiomert7.Name = "potenzhiomert7";
+            this.potenzhiomert7.Set_Type = 0;
+            this.potenzhiomert7.Set_Value = 0;
+            this.potenzhiomert7.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert7.TabIndex = 69;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(327, 62);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(14, 13);
+            this.label27.TabIndex = 68;
+            this.label27.Text = "А";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(279, 62);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(16, 13);
+            this.label26.TabIndex = 67;
+            this.label26.Text = "Д";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(456, 49);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(46, 13);
+            this.label25.TabIndex = 66;
+            this.label25.Text = "Маркер";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(279, 49);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(39, 13);
+            this.label24.TabIndex = 65;
+            this.label24.Text = "Метки";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(366, 49);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(50, 13);
+            this.label23.TabIndex = 64;
+            this.label23.Text = "Яркость";
+            // 
+            // potenzhiomert5
+            // 
+            this.potenzhiomert5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert5.Location = new System.Drawing.Point(169, 500);
+            this.potenzhiomert5.Name = "potenzhiomert5";
+            this.potenzhiomert5.Set_Type = 0;
+            this.potenzhiomert5.Set_Value = 0;
+            this.potenzhiomert5.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert5.TabIndex = 63;
+            this.potenzhiomert5.Load += new System.EventHandler(this.potenzhiomert5_Load);
+            // 
+            // potenzhiomert4
+            // 
+            this.potenzhiomert4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert4.Location = new System.Drawing.Point(105, 501);
+            this.potenzhiomert4.Name = "potenzhiomert4";
+            this.potenzhiomert4.Set_Type = 0;
+            this.potenzhiomert4.Set_Value = 0;
+            this.potenzhiomert4.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert4.TabIndex = 62;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(106, 477);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(50, 13);
+            this.label22.TabIndex = 61;
+            this.label22.Text = "Яркость";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(188, 416);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(31, 13);
+            this.label21.TabIndex = 60;
+            this.label21.Text = "АКТ.";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(118, 416);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(34, 13);
+            this.label20.TabIndex = 59;
+            this.label20.Text = "СДЦ.";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(55, 416);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(39, 13);
+            this.label19.TabIndex = 58;
+            this.label19.Text = "ПАСС.";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(114, 400);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(38, 13);
+            this.label18.TabIndex = 57;
+            this.label18.Text = "Видео";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(488, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(20, 20);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(221, 336);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(29, 13);
+            this.label17.TabIndex = 56;
+            this.label17.Text = "по Y";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(94, 336);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(29, 13);
+            this.label16.TabIndex = 55;
+            this.label16.Text = "по Y";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(158, 336);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(29, 13);
+            this.label15.TabIndex = 54;
+            this.label15.Text = "по Х";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(27, 336);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(29, 13);
+            this.label14.TabIndex = 53;
+            this.label14.Text = "по Х";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(27, 323);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(110, 13);
+            this.label13.TabIndex = 52;
+            this.label13.Text = "Смещение    Центра";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(224, 277);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(16, 13);
+            this.label10.TabIndex = 51;
+            this.label10.Text = "III";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(201, 268);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(13, 13);
+            this.label11.TabIndex = 50;
+            this.label11.Text = "II";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(177, 276);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(10, 13);
+            this.label12.TabIndex = 49;
+            this.label12.Text = "I";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(94, 278);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(16, 13);
+            this.label9.TabIndex = 48;
+            this.label9.Text = "III";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(71, 269);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 13);
+            this.label8.TabIndex = 47;
+            this.label8.Text = "II";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(47, 277);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(10, 13);
+            this.label7.TabIndex = 46;
+            this.label7.Text = "I";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(164, 255);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 13);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "Размер Знаков";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(49, 255);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "Масштаб";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(180, 234);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "Контроль";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(62, 233);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "Откл";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(184, 193);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 41;
+            this.label2.Text = "Работа";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(47, 181);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 26);
+            this.label1.TabIndex = 40;
+            this.label1.Text = "Смещение \r\n   Центра";
+            // 
+            // potenzhiomert6
+            // 
+            this.potenzhiomert6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert6.Location = new System.Drawing.Point(34, 500);
+            this.potenzhiomert6.Name = "potenzhiomert6";
+            this.potenzhiomert6.Set_Type = 0;
+            this.potenzhiomert6.Set_Value = 0;
+            this.potenzhiomert6.Size = new System.Drawing.Size(58, 60);
+            this.potenzhiomert6.TabIndex = 29;
+            // 
+            // tumbler5
+            // 
+            this.tumbler5.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler5.BackgroundImage")));
+            this.tumbler5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler5.isSided = false;
+            this.tumbler5.Location = new System.Drawing.Point(191, 432);
+            this.tumbler5.Name = "tumbler5";
+            this.tumbler5.Set_Skin = 1;
+            this.tumbler5.Size = new System.Drawing.Size(20, 20);
+            this.tumbler5.State = false;
+            this.tumbler5.TabIndex = 28;
+            // 
+            // tumbler4
+            // 
+            this.tumbler4.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler4.BackgroundImage")));
+            this.tumbler4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler4.isSided = false;
+            this.tumbler4.Location = new System.Drawing.Point(124, 432);
+            this.tumbler4.Name = "tumbler4";
+            this.tumbler4.Set_Skin = 1;
+            this.tumbler4.Size = new System.Drawing.Size(20, 20);
+            this.tumbler4.State = false;
+            this.tumbler4.TabIndex = 27;
+            // 
+            // tumbler3
+            // 
+            this.tumbler3.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler3.BackgroundImage")));
+            this.tumbler3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler3.isSided = false;
+            this.tumbler3.Location = new System.Drawing.Point(62, 432);
+            this.tumbler3.Name = "tumbler3";
+            this.tumbler3.Set_Skin = 1;
+            this.tumbler3.Size = new System.Drawing.Size(20, 20);
+            this.tumbler3.State = false;
+            this.tumbler3.TabIndex = 26;
+            // 
+            // nPosSwitch3
+            // 
+            this.nPosSwitch3.BackColor = System.Drawing.Color.Transparent;
+            this.nPosSwitch3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch3.BackgroundImage")));
+            this.nPosSwitch3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.nPosSwitch3.Location = new System.Drawing.Point(58, 284);
+            this.nPosSwitch3.Name = "nPosSwitch3";
+            this.nPosSwitch3.Size = new System.Drawing.Size(42, 42);
+            this.nPosSwitch3.Step = 0;
+            this.nPosSwitch3.TabIndex = 25;
+            // 
+            // potenzhiomert2
+            // 
+            this.potenzhiomert2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert2.Location = new System.Drawing.Point(200, 346);
+            this.potenzhiomert2.Name = "potenzhiomert2";
+            this.potenzhiomert2.Set_Type = 0;
+            this.potenzhiomert2.Set_Value = 0;
+            this.potenzhiomert2.Size = new System.Drawing.Size(70, 67);
+            this.potenzhiomert2.TabIndex = 24;
+            // 
+            // potenzhiomert3
+            // 
+            this.potenzhiomert3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert3.Location = new System.Drawing.Point(133, 346);
+            this.potenzhiomert3.Name = "potenzhiomert3";
+            this.potenzhiomert3.Set_Type = 0;
+            this.potenzhiomert3.Set_Value = 0;
+            this.potenzhiomert3.Size = new System.Drawing.Size(70, 67);
+            this.potenzhiomert3.TabIndex = 23;
+            // 
+            // tumbler2
+            // 
+            this.tumbler2.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler2.BackgroundImage")));
+            this.tumbler2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler2.isSided = false;
+            this.tumbler2.Location = new System.Drawing.Point(197, 209);
+            this.tumbler2.Name = "tumbler2";
+            this.tumbler2.Set_Skin = 1;
+            this.tumbler2.Size = new System.Drawing.Size(20, 20);
+            this.tumbler2.State = false;
+            this.tumbler2.TabIndex = 22;
+            // 
+            // nPosSwitch2
+            // 
+            this.nPosSwitch2.BackColor = System.Drawing.Color.Transparent;
+            this.nPosSwitch2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch2.BackgroundImage")));
+            this.nPosSwitch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.nPosSwitch2.Location = new System.Drawing.Point(188, 284);
+            this.nPosSwitch2.Name = "nPosSwitch2";
+            this.nPosSwitch2.Size = new System.Drawing.Size(42, 42);
+            this.nPosSwitch2.Step = 0;
+            this.nPosSwitch2.TabIndex = 21;
+            // 
+            // potenzhiomert1
+            // 
+            this.potenzhiomert1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert1.Location = new System.Drawing.Point(67, 346);
+            this.potenzhiomert1.Name = "potenzhiomert1";
+            this.potenzhiomert1.Set_Type = 0;
+            this.potenzhiomert1.Set_Value = 0;
+            this.potenzhiomert1.Size = new System.Drawing.Size(70, 67);
+            this.potenzhiomert1.TabIndex = 20;
+            // 
+            // potenzhiomert16
+            // 
+            this.potenzhiomert16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
+            this.potenzhiomert16.Location = new System.Drawing.Point(2, 346);
+            this.potenzhiomert16.Name = "potenzhiomert16";
+            this.potenzhiomert16.Set_Type = 0;
+            this.potenzhiomert16.Set_Value = 0;
+            this.potenzhiomert16.Size = new System.Drawing.Size(70, 67);
+            this.potenzhiomert16.TabIndex = 19;
+            // 
+            // tumbler1
+            // 
+            this.tumbler1.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler1.BackgroundImage")));
+            this.tumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler1.isSided = false;
+            this.tumbler1.Location = new System.Drawing.Point(69, 210);
+            this.tumbler1.Name = "tumbler1";
+            this.tumbler1.Set_Skin = 1;
+            this.tumbler1.Size = new System.Drawing.Size(20, 20);
+            this.tumbler1.State = false;
+            this.tumbler1.TabIndex = 17;
+            // 
+            // nPosSwitch1
+            // 
+            this.nPosSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.nPosSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch1.BackgroundImage")));
+            this.nPosSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.nPosSwitch1.Location = new System.Drawing.Point(58, 127);
+            this.nPosSwitch1.Name = "nPosSwitch1";
+            this.nPosSwitch1.Size = new System.Drawing.Size(42, 42);
+            this.nPosSwitch1.Step = 0;
+            this.nPosSwitch1.TabIndex = 16;
+            // 
+            // voltmetr1
+            // 
+            this.voltmetr1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("voltmetr1.BackgroundImage")));
+            this.voltmetr1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.voltmetr1.current_Value = 250;
+            this.voltmetr1.Location = new System.Drawing.Point(12, 9);
+            this.voltmetr1.Name = "voltmetr1";
+            this.voltmetr1.Set_Bar_min = 0;
+            this.voltmetr1.Set_Bar_N_bolt = 10;
+            this.voltmetr1.Set_Bar_N_not_bolt = 50;
+            this.voltmetr1.Set_Bar_N_tzhifra = 10;
+            this.voltmetr1.Set_Bar_step = 100D;
+            this.voltmetr1.Set_Center_str = "mA";
+            this.voltmetr1.Set_Value = 50;
+            this.voltmetr1.Size = new System.Drawing.Size(119, 100);
+            this.voltmetr1.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.label59);
-            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.label60);
             this.panel2.Controls.Add(this.potenzhiomert17);
             this.panel2.Controls.Add(this.potenzhiomert15);
@@ -323,9 +876,9 @@
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Location = new System.Drawing.Point(58, 12);
+            this.panel2.Location = new System.Drawing.Point(506, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(508, 578);
+            this.panel2.Size = new System.Drawing.Size(520, 578);
             this.panel2.TabIndex = 79;
             this.panel2.Visible = false;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
@@ -355,7 +908,7 @@
             this.panel5.Controls.Add(this.button20);
             this.panel5.Controls.Add(this.button21);
             this.panel5.Controls.Add(this.button18);
-            this.panel5.Location = new System.Drawing.Point(57, 267);
+            this.panel5.Location = new System.Drawing.Point(109, 295);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(243, 248);
             this.panel5.TabIndex = 112;
@@ -606,150 +1159,6 @@
             this.label59.Size = new System.Drawing.Size(20, 13);
             this.label59.TabIndex = 102;
             this.label59.Text = "АГ";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button16);
-            this.panel4.Controls.Add(this.label66);
-            this.panel4.Controls.Add(this.label65);
-            this.panel4.Controls.Add(this.tumbler24);
-            this.panel4.Controls.Add(this.tumbler23);
-            this.panel4.Controls.Add(this.tumbler22);
-            this.panel4.Controls.Add(this.tumbler21);
-            this.panel4.Controls.Add(this.tumbler20);
-            this.panel4.Controls.Add(this.tumbler19);
-            this.panel4.Controls.Add(this.tumbler18);
-            this.panel4.Location = new System.Drawing.Point(157, 187);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(344, 88);
-            this.panel4.TabIndex = 107;
-            this.panel4.Visible = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.Transparent;
-            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(321, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(20, 20);
-            this.button16.TabIndex = 111;
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(246, 2);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(73, 26);
-            this.label66.TabIndex = 110;
-            this.label66.Text = "        Вид \r\nФормуляров";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(69, 18);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(135, 13);
-            this.label65.TabIndex = 107;
-            this.label65.Text = "ОТБРОС ФОРМУЛЯРОВ";
-            // 
-            // tumbler24
-            // 
-            this.tumbler24.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler24.BackgroundImage")));
-            this.tumbler24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler24.isSided = false;
-            this.tumbler24.Location = new System.Drawing.Point(268, 34);
-            this.tumbler24.Name = "tumbler24";
-            this.tumbler24.Set_Skin = 1;
-            this.tumbler24.Size = new System.Drawing.Size(32, 32);
-            this.tumbler24.State = false;
-            this.tumbler24.TabIndex = 109;
-            // 
-            // tumbler23
-            // 
-            this.tumbler23.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler23.BackgroundImage")));
-            this.tumbler23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler23.isSided = false;
-            this.tumbler23.Location = new System.Drawing.Point(210, 34);
-            this.tumbler23.Name = "tumbler23";
-            this.tumbler23.Set_Skin = 1;
-            this.tumbler23.Size = new System.Drawing.Size(32, 32);
-            this.tumbler23.State = false;
-            this.tumbler23.TabIndex = 108;
-            // 
-            // tumbler22
-            // 
-            this.tumbler22.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler22.BackgroundImage")));
-            this.tumbler22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler22.isSided = false;
-            this.tumbler22.Location = new System.Drawing.Point(172, 34);
-            this.tumbler22.Name = "tumbler22";
-            this.tumbler22.Set_Skin = 1;
-            this.tumbler22.Size = new System.Drawing.Size(32, 32);
-            this.tumbler22.State = false;
-            this.tumbler22.TabIndex = 107;
-            // 
-            // tumbler21
-            // 
-            this.tumbler21.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler21.BackgroundImage")));
-            this.tumbler21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler21.isSided = false;
-            this.tumbler21.Location = new System.Drawing.Point(134, 34);
-            this.tumbler21.Name = "tumbler21";
-            this.tumbler21.Set_Skin = 1;
-            this.tumbler21.Size = new System.Drawing.Size(32, 32);
-            this.tumbler21.State = false;
-            this.tumbler21.TabIndex = 106;
-            // 
-            // tumbler20
-            // 
-            this.tumbler20.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler20.BackgroundImage")));
-            this.tumbler20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler20.isSided = false;
-            this.tumbler20.Location = new System.Drawing.Point(96, 34);
-            this.tumbler20.Name = "tumbler20";
-            this.tumbler20.Set_Skin = 1;
-            this.tumbler20.Size = new System.Drawing.Size(32, 32);
-            this.tumbler20.State = false;
-            this.tumbler20.TabIndex = 105;
-            // 
-            // tumbler19
-            // 
-            this.tumbler19.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler19.BackgroundImage")));
-            this.tumbler19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler19.isSided = false;
-            this.tumbler19.Location = new System.Drawing.Point(58, 34);
-            this.tumbler19.Name = "tumbler19";
-            this.tumbler19.Set_Skin = 1;
-            this.tumbler19.Size = new System.Drawing.Size(32, 32);
-            this.tumbler19.State = false;
-            this.tumbler19.TabIndex = 104;
-            // 
-            // tumbler18
-            // 
-            this.tumbler18.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler18.BackgroundImage")));
-            this.tumbler18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler18.isSided = false;
-            this.tumbler18.Location = new System.Drawing.Point(20, 34);
-            this.tumbler18.Name = "tumbler18";
-            this.tumbler18.Set_Skin = 1;
-            this.tumbler18.Size = new System.Drawing.Size(32, 32);
-            this.tumbler18.State = false;
-            this.tumbler18.TabIndex = 103;
             // 
             // label60
             // 
@@ -1291,558 +1700,149 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(143, 324);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(135, 13);
-            this.label64.TabIndex = 79;
-            this.label64.Text = "Смещение    Микротабло";
-            // 
-            // potenzhiomert11
-            // 
-            this.potenzhiomert11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert11.Location = new System.Drawing.Point(450, 160);
-            this.potenzhiomert11.Name = "potenzhiomert11";
-            this.potenzhiomert11.Set_Type = 0;
-            this.potenzhiomert11.Set_Value = 0;
-            this.potenzhiomert11.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert11.TabIndex = 78;
-            // 
-            // potenzhiomert12
-            // 
-            this.potenzhiomert12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert12.Location = new System.Drawing.Point(386, 160);
-            this.potenzhiomert12.Name = "potenzhiomert12";
-            this.potenzhiomert12.Set_Type = 0;
-            this.potenzhiomert12.Set_Value = 0;
-            this.potenzhiomert12.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert12.TabIndex = 77;
-            // 
-            // potenzhiomert13
-            // 
-            this.potenzhiomert13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert13.Location = new System.Drawing.Point(305, 160);
-            this.potenzhiomert13.Name = "potenzhiomert13";
-            this.potenzhiomert13.Set_Type = 0;
-            this.potenzhiomert13.Set_Value = 0;
-            this.potenzhiomert13.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert13.TabIndex = 76;
-            // 
-            // potenzhiomert14
-            // 
-            this.potenzhiomert14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert14.Location = new System.Drawing.Point(254, 160);
-            this.potenzhiomert14.Name = "potenzhiomert14";
-            this.potenzhiomert14.Set_Type = 0;
-            this.potenzhiomert14.Set_Value = 0;
-            this.potenzhiomert14.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert14.TabIndex = 75;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(469, 62);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(23, 13);
-            this.label29.TabIndex = 74;
-            this.label29.Text = "ДК";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(402, 62);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(31, 13);
-            this.label28.TabIndex = 73;
-            this.label28.Text = "НТМ";
-            // 
-            // potenzhiomert10
-            // 
-            this.potenzhiomert10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert10.Location = new System.Drawing.Point(450, 80);
-            this.potenzhiomert10.Name = "potenzhiomert10";
-            this.potenzhiomert10.Set_Type = 0;
-            this.potenzhiomert10.Set_Value = 0;
-            this.potenzhiomert10.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert10.TabIndex = 72;
-            // 
-            // potenzhiomert9
-            // 
-            this.potenzhiomert9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert9.Location = new System.Drawing.Point(386, 80);
-            this.potenzhiomert9.Name = "potenzhiomert9";
-            this.potenzhiomert9.Set_Type = 0;
-            this.potenzhiomert9.Set_Value = 0;
-            this.potenzhiomert9.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert9.TabIndex = 71;
-            // 
-            // potenzhiomert8
-            // 
-            this.potenzhiomert8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert8.Location = new System.Drawing.Point(305, 80);
-            this.potenzhiomert8.Name = "potenzhiomert8";
-            this.potenzhiomert8.Set_Type = 0;
-            this.potenzhiomert8.Set_Value = 0;
-            this.potenzhiomert8.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert8.TabIndex = 70;
-            // 
-            // potenzhiomert7
-            // 
-            this.potenzhiomert7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert7.Location = new System.Drawing.Point(254, 80);
-            this.potenzhiomert7.Name = "potenzhiomert7";
-            this.potenzhiomert7.Set_Type = 0;
-            this.potenzhiomert7.Set_Value = 0;
-            this.potenzhiomert7.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert7.TabIndex = 69;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(327, 62);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(14, 13);
-            this.label27.TabIndex = 68;
-            this.label27.Text = "А";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(279, 62);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(16, 13);
-            this.label26.TabIndex = 67;
-            this.label26.Text = "Д";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(456, 49);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 13);
-            this.label25.TabIndex = 66;
-            this.label25.Text = "Маркер";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(279, 49);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(39, 13);
-            this.label24.TabIndex = 65;
-            this.label24.Text = "Метки";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(366, 49);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(50, 13);
-            this.label23.TabIndex = 64;
-            this.label23.Text = "Яркость";
-            // 
-            // potenzhiomert5
-            // 
-            this.potenzhiomert5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert5.Location = new System.Drawing.Point(169, 500);
-            this.potenzhiomert5.Name = "potenzhiomert5";
-            this.potenzhiomert5.Set_Type = 0;
-            this.potenzhiomert5.Set_Value = 0;
-            this.potenzhiomert5.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert5.TabIndex = 63;
-            // 
-            // potenzhiomert4
-            // 
-            this.potenzhiomert4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert4.Location = new System.Drawing.Point(98, 500);
-            this.potenzhiomert4.Name = "potenzhiomert4";
-            this.potenzhiomert4.Set_Type = 0;
-            this.potenzhiomert4.Set_Value = 0;
-            this.potenzhiomert4.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert4.TabIndex = 62;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(110, 455);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 13);
-            this.label22.TabIndex = 61;
-            this.label22.Text = "Яркость";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(188, 416);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(31, 13);
-            this.label21.TabIndex = 60;
-            this.label21.Text = "АКТ.";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(118, 416);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(34, 13);
-            this.label20.TabIndex = 59;
-            this.label20.Text = "СДЦ.";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(55, 416);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(39, 13);
-            this.label19.TabIndex = 58;
-            this.label19.Text = "ПАСС.";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(114, 400);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(38, 13);
-            this.label18.TabIndex = 57;
-            this.label18.Text = "Видео";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(488, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 20);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(221, 336);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(29, 13);
-            this.label17.TabIndex = 56;
-            this.label17.Text = "по Y";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(94, 336);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(29, 13);
-            this.label16.TabIndex = 55;
-            this.label16.Text = "по Y";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(158, 336);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(29, 13);
-            this.label15.TabIndex = 54;
-            this.label15.Text = "по Х";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(27, 336);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(29, 13);
-            this.label14.TabIndex = 53;
-            this.label14.Text = "по Х";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(27, 323);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(110, 13);
-            this.label13.TabIndex = 52;
-            this.label13.Text = "Смещение    Центра";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(224, 277);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(16, 13);
-            this.label10.TabIndex = 51;
-            this.label10.Text = "III";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(201, 268);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(13, 13);
-            this.label11.TabIndex = 50;
-            this.label11.Text = "II";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(177, 276);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(10, 13);
-            this.label12.TabIndex = 49;
-            this.label12.Text = "I";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(94, 278);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(16, 13);
-            this.label9.TabIndex = 48;
-            this.label9.Text = "III";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 269);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 13);
-            this.label8.TabIndex = 47;
-            this.label8.Text = "II";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(47, 277);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(10, 13);
-            this.label7.TabIndex = 46;
-            this.label7.Text = "I";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(164, 255);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 13);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "Размер Знаков";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 255);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 13);
-            this.label5.TabIndex = 44;
-            this.label5.Text = "Масштаб";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 234);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
-            this.label4.TabIndex = 43;
-            this.label4.Text = "Контроль";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(62, 233);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
-            this.label3.TabIndex = 42;
-            this.label3.Text = "Откл";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(184, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 41;
-            this.label2.Text = "Работа";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 26);
-            this.label1.TabIndex = 40;
-            this.label1.Text = "Смещение \r\n   Центра";
-            // 
-            // potenzhiomert6
-            // 
-            this.potenzhiomert6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert6.Location = new System.Drawing.Point(34, 500);
-            this.potenzhiomert6.Name = "potenzhiomert6";
-            this.potenzhiomert6.Set_Type = 0;
-            this.potenzhiomert6.Set_Value = 0;
-            this.potenzhiomert6.Size = new System.Drawing.Size(58, 60);
-            this.potenzhiomert6.TabIndex = 29;
-            // 
-            // tumbler5
-            // 
-            this.tumbler5.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler5.BackgroundImage")));
-            this.tumbler5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler5.isSided = false;
-            this.tumbler5.Location = new System.Drawing.Point(191, 432);
-            this.tumbler5.Name = "tumbler5";
-            this.tumbler5.Set_Skin = 1;
-            this.tumbler5.Size = new System.Drawing.Size(20, 20);
-            this.tumbler5.State = false;
-            this.tumbler5.TabIndex = 28;
-            // 
-            // tumbler4
-            // 
-            this.tumbler4.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler4.BackgroundImage")));
-            this.tumbler4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler4.isSided = false;
-            this.tumbler4.Location = new System.Drawing.Point(124, 432);
-            this.tumbler4.Name = "tumbler4";
-            this.tumbler4.Set_Skin = 1;
-            this.tumbler4.Size = new System.Drawing.Size(20, 20);
-            this.tumbler4.State = false;
-            this.tumbler4.TabIndex = 27;
-            // 
-            // tumbler3
-            // 
-            this.tumbler3.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler3.BackgroundImage")));
-            this.tumbler3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler3.isSided = false;
-            this.tumbler3.Location = new System.Drawing.Point(62, 432);
-            this.tumbler3.Name = "tumbler3";
-            this.tumbler3.Set_Skin = 1;
-            this.tumbler3.Size = new System.Drawing.Size(20, 20);
-            this.tumbler3.State = false;
-            this.tumbler3.TabIndex = 26;
-            // 
-            // nPosSwitch3
-            // 
-            this.nPosSwitch3.BackColor = System.Drawing.Color.Transparent;
-            this.nPosSwitch3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch3.BackgroundImage")));
-            this.nPosSwitch3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.nPosSwitch3.Location = new System.Drawing.Point(58, 284);
-            this.nPosSwitch3.Name = "nPosSwitch3";
-            this.nPosSwitch3.Size = new System.Drawing.Size(42, 42);
-            this.nPosSwitch3.Step = 0;
-            this.nPosSwitch3.TabIndex = 25;
-            // 
-            // potenzhiomert2
-            // 
-            this.potenzhiomert2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert2.Location = new System.Drawing.Point(200, 346);
-            this.potenzhiomert2.Name = "potenzhiomert2";
-            this.potenzhiomert2.Set_Type = 0;
-            this.potenzhiomert2.Set_Value = 0;
-            this.potenzhiomert2.Size = new System.Drawing.Size(70, 67);
-            this.potenzhiomert2.TabIndex = 24;
-            // 
-            // potenzhiomert3
-            // 
-            this.potenzhiomert3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert3.Location = new System.Drawing.Point(133, 346);
-            this.potenzhiomert3.Name = "potenzhiomert3";
-            this.potenzhiomert3.Set_Type = 0;
-            this.potenzhiomert3.Set_Value = 0;
-            this.potenzhiomert3.Size = new System.Drawing.Size(70, 67);
-            this.potenzhiomert3.TabIndex = 23;
-            // 
-            // tumbler2
-            // 
-            this.tumbler2.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler2.BackgroundImage")));
-            this.tumbler2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler2.isSided = false;
-            this.tumbler2.Location = new System.Drawing.Point(197, 209);
-            this.tumbler2.Name = "tumbler2";
-            this.tumbler2.Set_Skin = 1;
-            this.tumbler2.Size = new System.Drawing.Size(20, 20);
-            this.tumbler2.State = false;
-            this.tumbler2.TabIndex = 22;
-            // 
-            // nPosSwitch2
-            // 
-            this.nPosSwitch2.BackColor = System.Drawing.Color.Transparent;
-            this.nPosSwitch2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch2.BackgroundImage")));
-            this.nPosSwitch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.nPosSwitch2.Location = new System.Drawing.Point(188, 284);
-            this.nPosSwitch2.Name = "nPosSwitch2";
-            this.nPosSwitch2.Size = new System.Drawing.Size(42, 42);
-            this.nPosSwitch2.Step = 0;
-            this.nPosSwitch2.TabIndex = 21;
-            // 
-            // potenzhiomert1
-            // 
-            this.potenzhiomert1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert1.Location = new System.Drawing.Point(67, 346);
-            this.potenzhiomert1.Name = "potenzhiomert1";
-            this.potenzhiomert1.Set_Type = 0;
-            this.potenzhiomert1.Set_Value = 0;
-            this.potenzhiomert1.Size = new System.Drawing.Size(70, 67);
-            this.potenzhiomert1.TabIndex = 20;
-            // 
-            // potenzhiomert16
-            // 
-            this.potenzhiomert16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(115)))));
-            this.potenzhiomert16.Location = new System.Drawing.Point(2, 346);
-            this.potenzhiomert16.Name = "potenzhiomert16";
-            this.potenzhiomert16.Set_Type = 0;
-            this.potenzhiomert16.Set_Value = 0;
-            this.potenzhiomert16.Size = new System.Drawing.Size(70, 67);
-            this.potenzhiomert16.TabIndex = 19;
-            // 
-            // tumbler1
-            // 
-            this.tumbler1.BackColor = System.Drawing.Color.Transparent;
-            this.tumbler1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler1.BackgroundImage")));
-            this.tumbler1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tumbler1.isSided = false;
-            this.tumbler1.Location = new System.Drawing.Point(69, 210);
-            this.tumbler1.Name = "tumbler1";
-            this.tumbler1.Set_Skin = 1;
-            this.tumbler1.Size = new System.Drawing.Size(20, 20);
-            this.tumbler1.State = false;
-            this.tumbler1.TabIndex = 17;
-            // 
-            // nPosSwitch1
-            // 
-            this.nPosSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.nPosSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nPosSwitch1.BackgroundImage")));
-            this.nPosSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.nPosSwitch1.Location = new System.Drawing.Point(58, 127);
-            this.nPosSwitch1.Name = "nPosSwitch1";
-            this.nPosSwitch1.Size = new System.Drawing.Size(42, 42);
-            this.nPosSwitch1.Step = 0;
-            this.nPosSwitch1.TabIndex = 16;
-            // 
-            // voltmetr1
-            // 
-            this.voltmetr1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("voltmetr1.BackgroundImage")));
-            this.voltmetr1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.voltmetr1.current_Value = 250;
-            this.voltmetr1.Location = new System.Drawing.Point(12, 9);
-            this.voltmetr1.Name = "voltmetr1";
-            this.voltmetr1.Set_Bar_min = 0;
-            this.voltmetr1.Set_Bar_N_bolt = 10;
-            this.voltmetr1.Set_Bar_N_not_bolt = 50;
-            this.voltmetr1.Set_Bar_N_tzhifra = 10;
-            this.voltmetr1.Set_Bar_step = 100D;
-            this.voltmetr1.Set_Center_str = "mA";
-            this.voltmetr1.Set_Value = 50;
-            this.voltmetr1.Size = new System.Drawing.Size(119, 100);
-            this.voltmetr1.TabIndex = 0;
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button16);
+            this.panel4.Controls.Add(this.label66);
+            this.panel4.Controls.Add(this.label65);
+            this.panel4.Controls.Add(this.tumbler24);
+            this.panel4.Controls.Add(this.tumbler23);
+            this.panel4.Controls.Add(this.tumbler22);
+            this.panel4.Controls.Add(this.tumbler21);
+            this.panel4.Controls.Add(this.tumbler20);
+            this.panel4.Controls.Add(this.tumbler19);
+            this.panel4.Controls.Add(this.tumbler18);
+            this.panel4.Location = new System.Drawing.Point(65, 107);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(344, 88);
+            this.panel4.TabIndex = 107;
+            this.panel4.Visible = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
+            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Location = new System.Drawing.Point(321, 3);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(20, 20);
+            this.button16.TabIndex = 111;
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(246, 2);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(73, 26);
+            this.label66.TabIndex = 110;
+            this.label66.Text = "        Вид \r\nФормуляров";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(69, 18);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(135, 13);
+            this.label65.TabIndex = 107;
+            this.label65.Text = "ОТБРОС ФОРМУЛЯРОВ";
+            // 
+            // tumbler24
+            // 
+            this.tumbler24.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler24.BackgroundImage")));
+            this.tumbler24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler24.isSided = false;
+            this.tumbler24.Location = new System.Drawing.Point(268, 34);
+            this.tumbler24.Name = "tumbler24";
+            this.tumbler24.Set_Skin = 1;
+            this.tumbler24.Size = new System.Drawing.Size(32, 32);
+            this.tumbler24.State = false;
+            this.tumbler24.TabIndex = 109;
+            // 
+            // tumbler23
+            // 
+            this.tumbler23.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler23.BackgroundImage")));
+            this.tumbler23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler23.isSided = false;
+            this.tumbler23.Location = new System.Drawing.Point(210, 34);
+            this.tumbler23.Name = "tumbler23";
+            this.tumbler23.Set_Skin = 1;
+            this.tumbler23.Size = new System.Drawing.Size(32, 32);
+            this.tumbler23.State = false;
+            this.tumbler23.TabIndex = 108;
+            // 
+            // tumbler22
+            // 
+            this.tumbler22.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler22.BackgroundImage")));
+            this.tumbler22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler22.isSided = false;
+            this.tumbler22.Location = new System.Drawing.Point(172, 34);
+            this.tumbler22.Name = "tumbler22";
+            this.tumbler22.Set_Skin = 1;
+            this.tumbler22.Size = new System.Drawing.Size(32, 32);
+            this.tumbler22.State = false;
+            this.tumbler22.TabIndex = 107;
+            // 
+            // tumbler21
+            // 
+            this.tumbler21.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler21.BackgroundImage")));
+            this.tumbler21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler21.isSided = false;
+            this.tumbler21.Location = new System.Drawing.Point(134, 34);
+            this.tumbler21.Name = "tumbler21";
+            this.tumbler21.Set_Skin = 1;
+            this.tumbler21.Size = new System.Drawing.Size(32, 32);
+            this.tumbler21.State = false;
+            this.tumbler21.TabIndex = 106;
+            // 
+            // tumbler20
+            // 
+            this.tumbler20.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler20.BackgroundImage")));
+            this.tumbler20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler20.isSided = false;
+            this.tumbler20.Location = new System.Drawing.Point(96, 34);
+            this.tumbler20.Name = "tumbler20";
+            this.tumbler20.Set_Skin = 1;
+            this.tumbler20.Size = new System.Drawing.Size(32, 32);
+            this.tumbler20.State = false;
+            this.tumbler20.TabIndex = 105;
+            // 
+            // tumbler19
+            // 
+            this.tumbler19.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler19.BackgroundImage")));
+            this.tumbler19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler19.isSided = false;
+            this.tumbler19.Location = new System.Drawing.Point(58, 34);
+            this.tumbler19.Name = "tumbler19";
+            this.tumbler19.Set_Skin = 1;
+            this.tumbler19.Size = new System.Drawing.Size(32, 32);
+            this.tumbler19.State = false;
+            this.tumbler19.TabIndex = 104;
+            // 
+            // tumbler18
+            // 
+            this.tumbler18.BackColor = System.Drawing.Color.Transparent;
+            this.tumbler18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tumbler18.BackgroundImage")));
+            this.tumbler18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tumbler18.isSided = false;
+            this.tumbler18.Location = new System.Drawing.Point(20, 34);
+            this.tumbler18.Name = "tumbler18";
+            this.tumbler18.Set_Skin = 1;
+            this.tumbler18.Size = new System.Drawing.Size(32, 32);
+            this.tumbler18.State = false;
+            this.tumbler18.TabIndex = 103;
             // 
             // button1
             // 
@@ -2068,6 +2068,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.button1);
@@ -2093,6 +2094,7 @@
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.panel3, 0);
             this.Controls.SetChildIndex(this.radioButton1, 0);
+            this.Controls.SetChildIndex(this.panel4, 0);
             this.Controls.SetChildIndex(this.radioButton2, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
