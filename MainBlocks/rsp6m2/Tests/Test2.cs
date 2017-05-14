@@ -10,8 +10,8 @@ namespace rsp6m2.Tests
 {
     public static class Test2
     {
-        public static String TestName = "Включение и проверка работоспособности" + 
-            Environment.NewLine +  " приемопередатчиков ППП-1, ППП-II";
+        public static String TestName = "Включение и проверка" + Environment.NewLine + "работоспособности приемопередатчиков" +
+            Environment.NewLine + " ППП-1, ППП-II";
 
         public static List<Quize> GetQuize()
         {
@@ -61,7 +61,7 @@ namespace rsp6m2.Tests
 
 
             #region Quize2
-            /*
+            
              q = new Quize();
             q.ListOfConditions = Condition2;
 
@@ -786,9 +786,9 @@ namespace rsp6m2.Tests
             q.ListOfHelp = helpDictionary;
             q.NameOfLightedControls = cName;
 
-            list.Add(q);*/
+            list.Add(q);
             #endregion
-            /*
+            
             #region Quize18
             q = new Quize();
             q.ListOfConditions = Condition18;
@@ -917,8 +917,8 @@ namespace rsp6m2.Tests
 
             list.Add(q);
             #endregion
-            */
-          /*  #region Quize21
+            
+            #region Quize21
             q = new Quize();
             q.ListOfConditions = Condition21;
 
@@ -1339,7 +1339,7 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
-            */
+            
 
             #region Quize31
             q = new Quize();

@@ -7,6 +7,9 @@ namespace rsp6m2.HelpClass
 {
     public class Helper
     {
+        public static bool isPRLWork = false;
+        public static bool isDRLWork = false;
+
         public static void SetBorderToControl(Control c)
         {
             if(c is Button)

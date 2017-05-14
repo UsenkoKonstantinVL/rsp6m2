@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using rsp6m2.HelpClass;
 
 namespace indikator_rsp_6m2
 {
@@ -78,25 +79,28 @@ namespace indikator_rsp_6m2
         double Zoom = 0.75;
         private void IKO_control_Paint(object sender, PaintEventArgs e)
         {
-          Graphics  canvas = e.Graphics;
+            if (Helper.isPRLWork)
+            {
+                Graphics canvas = e.Graphics;
 
-        //  canvas.FillRectangle(brush, 90, 90,Convert.ToInt32( 320 * Zoom),Convert.ToInt32( 320 * Zoom));
-            TargManager.Targ1.drawPas(e);
-            TargManager.Targ2.drawPas(e);
-            TargManager.Targ3.drawPas(e);
-            canvas.DrawLine(P, 90, 90, 90, Convert.ToInt32(Zoom * 440));
-           
-            canvas.DrawLine(P, 90, Convert.ToInt32(280 * Zoom), Convert.ToInt32(Zoom * 440), Convert.ToInt32(280 * Zoom));
-            canvas.DrawLine(P, 90 + Convert.ToInt32( 80 * Zoom), 90, 90 +Convert.ToInt32( 80 * Zoom),Convert.ToInt32( 440*Zoom));
-            for (int i = 4; i < 8; i++)
-                canvas.DrawLine(P, 90 +Convert.ToInt32( 40 * i * Zoom), 90, 90 +Convert.ToInt32( 40 * i * Zoom),Convert.ToInt32(Zoom* 440));
-            canvas.DrawLine(new Pen(Br), 90, Convert.ToInt32(90 + dal), Convert.ToInt32(Zoom * 440), Convert.ToInt32(90 + dal));
-            canvas.DrawLine(new Pen(Br), 90, Convert.ToInt32(280 * Zoom + alt), Convert.ToInt32(Zoom * 440), Convert.ToInt32(280 * Zoom + alt));
-            DrawExp(canvas);
-            dal = dal + SpeedIKODal;
-            alt = alt - SpeedIKOAlt;
-            if (dal > 155 *Zoom || dal < 3) SpeedIKODal = -SpeedIKODal;
-            if (alt < 3 || alt > 155*Zoom) SpeedIKOAlt = -SpeedIKOAlt;
+                //  canvas.FillRectangle(brush, 90, 90,Convert.ToInt32( 320 * Zoom),Convert.ToInt32( 320 * Zoom));
+                TargManager.Targ1.drawPas(e);
+                TargManager.Targ2.drawPas(e);
+                TargManager.Targ3.drawPas(e);
+                canvas.DrawLine(P, 90, 90, 90, Convert.ToInt32(Zoom * 440));
+
+                canvas.DrawLine(P, 90, Convert.ToInt32(280 * Zoom), Convert.ToInt32(Zoom * 440), Convert.ToInt32(280 * Zoom));
+                canvas.DrawLine(P, 90 + Convert.ToInt32(80 * Zoom), 90, 90 + Convert.ToInt32(80 * Zoom), Convert.ToInt32(440 * Zoom));
+                for (int i = 4; i < 8; i++)
+                    canvas.DrawLine(P, 90 + Convert.ToInt32(40 * i * Zoom), 90, 90 + Convert.ToInt32(40 * i * Zoom), Convert.ToInt32(Zoom * 440));
+                canvas.DrawLine(new Pen(Br), 90, Convert.ToInt32(90 + dal), Convert.ToInt32(Zoom * 440), Convert.ToInt32(90 + dal));
+                canvas.DrawLine(new Pen(Br), 90, Convert.ToInt32(280 * Zoom + alt), Convert.ToInt32(Zoom * 440), Convert.ToInt32(280 * Zoom + alt));
+                DrawExp(canvas);
+                dal = dal + SpeedIKODal;
+                alt = alt - SpeedIKOAlt;
+                if (dal > 155 * Zoom || dal < 3) SpeedIKODal = -SpeedIKODal;
+                if (alt < 3 || alt > 155 * Zoom) SpeedIKOAlt = -SpeedIKOAlt;
+            }
         }
     }
 }

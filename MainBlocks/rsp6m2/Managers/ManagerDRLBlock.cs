@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using indikator_rsp_6m2;
 using rsp6m2.Indiacator;
 
 namespace rsp6m2.Managers

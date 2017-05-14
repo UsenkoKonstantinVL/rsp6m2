@@ -814,6 +814,7 @@
     <None Include="Image\Controls\arrow.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Image\Rsp-6m2-Images\main.jpg" />
     <Content Include="Indiacator\Resources\Pup.png" />
     <Content Include="Indiacator\Resources\UnderDRLblocks.png" />
     <Content Include="Indiacator\Resources\UnderPRLblocks.png" />

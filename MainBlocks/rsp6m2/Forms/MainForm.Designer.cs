@@ -76,11 +76,10 @@
             "2. Включение и проверка работоспособности аппаратуры отображения ПРЛ",
             "3. Включение и проверка работоспособности приемопередатчиков ППП-1, ППП-II",
             "4. Включение аппаратуры ДРЛ",
-            "5.",
-            "6."});
-            this.listBox1.Location = new System.Drawing.Point(3, 77);
+            "5. Включение и проверка работоспособности аппаратуры отображения ДРЛ"});
+            this.listBox1.Location = new System.Drawing.Point(3, 38);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(565, 134);
+            this.listBox1.Size = new System.Drawing.Size(565, 173);
             this.listBox1.TabIndex = 3;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -94,6 +93,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Тест";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Visible = false;
             // 
             // radioButton1
             // 
@@ -106,15 +106,16 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Тренировка";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(32, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 13);
+            this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Выберите  режим:";
+            this.label2.Text = "Выбирите тест:";
             // 
             // panel2
             // 

@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::rsp6m2.Properties.Resources.main;
+            this.BackgroundImage = global::rsp6m2.Properties.Resources.main1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(475, 377);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

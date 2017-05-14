@@ -10,8 +10,9 @@ namespace rsp6m2.Tests
 {
     public class Test3
     {
-        public static String TestName = "2Включение и проверка работоспособности " +
-            Environment.NewLine + "аппаратуры отображения ПРЛ";
+        public static String TestName = "Включение и проверка" +
+            Environment.NewLine + " работоспособности аппаратуры " +
+            Environment.NewLine + "отображения ПРЛ";
 
         public static List<Quize> GetQuize()
         {
@@ -103,7 +104,7 @@ namespace rsp6m2.Tests
 
             #region Quize3
             q = new Quize();
-            q.ListOfConditions = Condition1;
+            q.ListOfConditions = Condition3;
 
             helpDictionary = new Dictionary<int, TextForHelpForm>();
             t = new TextForHelpForm();
@@ -174,6 +175,7 @@ namespace rsp6m2.Tests
                 var t = (Tumbler2)c;
                 if (t.CurrentTumblerPosition() == Position.Up)
                 {
+                    
                     Console.WriteLine("Правильно нажал");
                     return true;
                 }
@@ -193,6 +195,7 @@ namespace rsp6m2.Tests
                 if (t.CurrentTumblerPosition() == Position.Up)
                 {
                     Console.WriteLine("Правильно нажал");
+                    HelpClass.Helper.isPRLWork = true;
                     return true;
                 }
             }
