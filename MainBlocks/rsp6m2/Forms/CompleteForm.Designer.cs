@@ -36,20 +36,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(11, 66);
+            this.label1.Location = new System.Drawing.Point(11, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 29);
+            this.label1.Size = new System.Drawing.Size(209, 58);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Тест завершен!";
+            this.label1.Text = "Тест завершен!\r\nНовый тест\r\n";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.BackgroundImage = global::rsp6m2.Properties.Resources.Logo;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groupBox1.Location = new System.Drawing.Point(496, 42);
+            this.groupBox1.Location = new System.Drawing.Point(185, 53);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(160, 160);
+            this.groupBox1.Size = new System.Drawing.Size(89, 93);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -57,7 +58,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 319);
+            this.ClientSize = new System.Drawing.Size(448, 319);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "CompleteForm";

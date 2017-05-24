@@ -168,8 +168,9 @@ namespace indikator_rsp_6m2
 
         private void UnderDRLblocks_Click(object sender, EventArgs e)
         {
-            rsp6m2.Indiacator.UnderDRLBlocks form = new rsp6m2.Indiacator.UnderDRLBlocks();
-            form.Show();
+            /*rsp6m2.Indiacator.UnderDRLBlocks form = new rsp6m2.Indiacator.UnderDRLBlocks();
+            form.Show();*/
+            ManagerDRLBlock.Initialize();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -185,6 +186,7 @@ namespace indikator_rsp_6m2
                 if(p.Name == "potenzhiomert5")
                 {
                     ikoPasControl1.SetColor((double)p.getValue() / 100);
+                    ikoDispControl1.SetColor((double)p.getValue() / 100);
                 }
             }
         }

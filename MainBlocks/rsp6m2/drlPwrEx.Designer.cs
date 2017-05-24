@@ -179,7 +179,7 @@
             this.tumblerku_drlPwr.Name = "tumblerku_drlPwr";
             this.tumblerku_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerku_drlPwr.TabIndex = 211;
-            this.tumblerku_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerku_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label58
             // 
@@ -736,7 +736,7 @@
             this.tumblerprmd2_drlPwr.Name = "tumblerprmd2_drlPwr";
             this.tumblerprmd2_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerprmd2_drlPwr.TabIndex = 154;
-            this.tumblerprmd2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerprmd2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label15
             // 
@@ -758,7 +758,7 @@
             this.tumblerprmd1_drlPwr.Name = "tumblerprmd1_drlPwr";
             this.tumblerprmd1_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerprmd1_drlPwr.TabIndex = 152;
-            this.tumblerprmd1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerprmd1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label14
             // 
@@ -780,7 +780,7 @@
             this.tumblerNpo2_drlPwr.Name = "tumblerNpo2_drlPwr";
             this.tumblerNpo2_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerNpo2_drlPwr.TabIndex = 150;
-            this.tumblerNpo2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerNpo2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label13
             // 
@@ -802,7 +802,7 @@
             this.tumblerNpo1_drlPwr.Name = "tumblerNpo1_drlPwr";
             this.tumblerNpo1_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerNpo1_drlPwr.TabIndex = 148;
-            this.tumblerNpo1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerNpo1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label12
             // 
@@ -912,7 +912,7 @@
             this.tumblerbrn2_drlPwr.Name = "tumblerbrn2_drlPwr";
             this.tumblerbrn2_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbrn2_drlPwr.TabIndex = 138;
-            this.tumblerbrn2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerbrn2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerbrn1_drlPwr
             // 
@@ -923,7 +923,7 @@
             this.tumblerbrn1_drlPwr.Name = "tumblerbrn1_drlPwr";
             this.tumblerbrn1_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerbrn1_drlPwr.TabIndex = 137;
-            this.tumblerbrn1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerbrn1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerBost2_drlPwr
             // 
@@ -934,7 +934,7 @@
             this.tumblerBost2_drlPwr.Name = "tumblerBost2_drlPwr";
             this.tumblerBost2_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerBost2_drlPwr.TabIndex = 136;
-            this.tumblerBost2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerBost2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerBost1_drlPwr
             // 
@@ -945,7 +945,7 @@
             this.tumblerBost1_drlPwr.Name = "tumblerBost1_drlPwr";
             this.tumblerBost1_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerBost1_drlPwr.TabIndex = 135;
-            this.tumblerBost1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerBost1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerantenna_drlPwr
             // 
@@ -956,7 +956,7 @@
             this.tumblerantenna_drlPwr.Name = "tumblerantenna_drlPwr";
             this.tumblerantenna_drlPwr.Size = new System.Drawing.Size(35, 73);
             this.tumblerantenna_drlPwr.TabIndex = 134;
-            this.tumblerantenna_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerantenna_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerprod2_drlPwr
             // 
@@ -967,7 +967,7 @@
             this.tumblerprod2_drlPwr.Name = "tumblerprod2_drlPwr";
             this.tumblerprod2_drlPwr.Size = new System.Drawing.Size(35, 73);
             this.tumblerprod2_drlPwr.TabIndex = 133;
-            this.tumblerprod2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerprod2_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // tumblerprod1_drlPwr
             // 
@@ -978,7 +978,7 @@
             this.tumblerprod1_drlPwr.Name = "tumblerprod1_drlPwr";
             this.tumblerprod1_drlPwr.Size = new System.Drawing.Size(35, 73);
             this.tumblerprod1_drlPwr.TabIndex = 132;
-            this.tumblerprod1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerprod1_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // light1
             // 
@@ -1099,7 +1099,7 @@
             this.tumblerprl_drlPwr.Size = new System.Drawing.Size(35, 73);
             this.tumblerprl_drlPwr.TabIndex = 215;
             this.tumblerprl_drlPwr.Load += new System.EventHandler(this.tumblerprl_drlPwr_Load);
-            this.tumblerprl_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerprl_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // pictureBox9
             // 
@@ -1133,6 +1133,7 @@
             this.tumblerventilate_drlPwr.Size = new System.Drawing.Size(35, 73);
             this.tumblerventilate_drlPwr.TabIndex = 212;
             this.tumblerventilate_drlPwr.Load += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerventilate_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // buttnoVkl_drlPwr
             // 
@@ -1143,7 +1144,7 @@
             this.buttnoVkl_drlPwr.Name = "buttnoVkl_drlPwr";
             this.buttnoVkl_drlPwr.Size = new System.Drawing.Size(25, 24);
             this.buttnoVkl_drlPwr.TabIndex = 226;
-            this.buttnoVkl_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.buttnoVkl_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // buttnoOtkl_drlPwr
             // 
@@ -1201,7 +1202,7 @@
             this.tumblerPwk_drlPwr.Name = "tumblerPwk_drlPwr";
             this.tumblerPwk_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerPwk_drlPwr.TabIndex = 232;
-            this.tumblerPwk_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerPwk_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label60
             // 
@@ -1281,7 +1282,7 @@
             this.tumblerAfd_drlPwr.Name = "tumblerAfd_drlPwr";
             this.tumblerAfd_drlPwr.Size = new System.Drawing.Size(35, 35);
             this.tumblerAfd_drlPwr.TabIndex = 238;
-            this.tumblerAfd_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Load);
+            this.tumblerAfd_drlPwr.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             // 
             // label65
             // 
@@ -1444,6 +1445,7 @@
             this.Name = "drlPwrEx";
             this.Text = "drlPwrEx";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.drlPwrEx_FormClosing);
+            this.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             this.Controls.SetChildIndex(this.tumblerprod1_drlPwr, 0);
             this.Controls.SetChildIndex(this.tumblerprod2_drlPwr, 0);
             this.Controls.SetChildIndex(this.tumblerantenna_drlPwr, 0);

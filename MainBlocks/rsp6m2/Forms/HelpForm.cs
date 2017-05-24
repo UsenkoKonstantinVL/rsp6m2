@@ -36,10 +36,12 @@ namespace rsp6m2.Forms
         {
             var nl = Environment.NewLine;
 
-            labelHelp.Text = "Требуется:" + nl +
+            labelHelp.Text = t.HelpText;
+
+            /*labelHelp.Text = "Требуется:" + nl +
                 t.NeedClick + nl +
                 "Подсказка:" + nl +
-                t.HelpText;
+                t.HelpText;*/
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)

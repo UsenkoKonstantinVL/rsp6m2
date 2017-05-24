@@ -38,9 +38,11 @@ namespace rsp6m2.BlockForms
         {
             roundTrumbler_bg021_1.MaxIndex = 3;
             roundTrumbler_bg021_1.setDrawRoundTumbler(transformPicture);
+            roundTrumbler_bg021_1.CurrentIndex = 2;
 
             roundTrumbler_bg021_2.MaxIndex = 4;
             roundTrumbler_bg021_2.setDrawRoundTumbler(transformPicture2);
+            roundTrumbler_bg021_2.CurrentIndex = 3;
         }
 
         #region Delegate for RoundTumblers

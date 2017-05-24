@@ -72,6 +72,7 @@
             this.voltmetr2 = new rsp6m2.Controls.Voltmetr();
             this.voltmetr1 = new rsp6m2.Controls.Voltmetr();
             this.bigbutton1_bvm011_1 = new rsp6m2.Controls.Bigbutton();
+            this.bigbutton1_bvm011_22 = new rsp6m2.Controls.Bigbutton();
             this.bigbutton1_bvm011_2 = new rsp6m2.Controls.Bigbutton();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
@@ -550,17 +551,28 @@
             this.bigbutton1_bvm011_1.TabIndex = 116;
             this.bigbutton1_bvm011_1.Click += new System.EventHandler(this.bigbutton1_bvm011_1_Click);
             // 
+            // bigbutton1_bvm011_22
+            // 
+            this.bigbutton1_bvm011_22.BackColor = System.Drawing.Color.Transparent;
+            this.bigbutton1_bvm011_22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_22.BackgroundImage")));
+            this.bigbutton1_bvm011_22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bigbutton1_bvm011_22.Location = new System.Drawing.Point(32, 24);
+            this.bigbutton1_bvm011_22.Name = "bigbutton1_bvm011_22";
+            this.bigbutton1_bvm011_22.Size = new System.Drawing.Size(40, 40);
+            this.bigbutton1_bvm011_22.TabIndex = 117;
+            this.bigbutton1_bvm011_22.Load += new System.EventHandler(this.bigbutton1_Load);
+            this.bigbutton1_bvm011_22.Click += new System.EventHandler(this.bigbutton1_bvm011_2_Click);
+            // 
             // bigbutton1_bvm011_2
             // 
             this.bigbutton1_bvm011_2.BackColor = System.Drawing.Color.Transparent;
             this.bigbutton1_bvm011_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bigbutton1_bvm011_2.BackgroundImage")));
             this.bigbutton1_bvm011_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bigbutton1_bvm011_2.Location = new System.Drawing.Point(270, 105);
+            this.bigbutton1_bvm011_2.Location = new System.Drawing.Point(261, 105);
             this.bigbutton1_bvm011_2.Name = "bigbutton1_bvm011_2";
             this.bigbutton1_bvm011_2.Size = new System.Drawing.Size(40, 40);
-            this.bigbutton1_bvm011_2.TabIndex = 117;
-            this.bigbutton1_bvm011_2.Load += new System.EventHandler(this.bigbutton1_Load);
-            this.bigbutton1_bvm011_2.Click += new System.EventHandler(this.bigbutton1_bvm011_2_Click);
+            this.bigbutton1_bvm011_2.TabIndex = 118;
+            this.bigbutton1_bvm011_2.Click += new System.EventHandler(this.bigbutton1_bvm011_1_Click);
             // 
             // bvm011
             // 
@@ -570,6 +582,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 744);
             this.Controls.Add(this.bigbutton1_bvm011_2);
+            this.Controls.Add(this.bigbutton1_bvm011_22);
             this.Controls.Add(this.bigbutton1_bvm011_1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
@@ -616,6 +629,50 @@
             this.Name = "bvm011";
             this.Text = "bvm011";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bvm011_FormClosing);
+            this.Controls.SetChildIndex(this.voltmetr1, 0);
+            this.Controls.SetChildIndex(this.voltmetr2, 0);
+            this.Controls.SetChildIndex(this.panel7, 0);
+            this.Controls.SetChildIndex(this.light1, 0);
+            this.Controls.SetChildIndex(this.light2, 0);
+            this.Controls.SetChildIndex(this.label11, 0);
+            this.Controls.SetChildIndex(this.label10, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.roundTrumbler_bvm011_1, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.label5, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.light4, 0);
+            this.Controls.SetChildIndex(this.light5, 0);
+            this.Controls.SetChildIndex(this.light6, 0);
+            this.Controls.SetChildIndex(this.light7, 0);
+            this.Controls.SetChildIndex(this.light8, 0);
+            this.Controls.SetChildIndex(this.light9, 0);
+            this.Controls.SetChildIndex(this.light10, 0);
+            this.Controls.SetChildIndex(this.panel4, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.panel2, 0);
+            this.Controls.SetChildIndex(this.panel3, 0);
+            this.Controls.SetChildIndex(this.panel5, 0);
+            this.Controls.SetChildIndex(this.panel6, 0);
+            this.Controls.SetChildIndex(this.label12, 0);
+            this.Controls.SetChildIndex(this.label14, 0);
+            this.Controls.SetChildIndex(this.label15, 0);
+            this.Controls.SetChildIndex(this.label16, 0);
+            this.Controls.SetChildIndex(this.label19, 0);
+            this.Controls.SetChildIndex(this.label20, 0);
+            this.Controls.SetChildIndex(this.label21, 0);
+            this.Controls.SetChildIndex(this.label22, 0);
+            this.Controls.SetChildIndex(this.label23, 0);
+            this.Controls.SetChildIndex(this.label24, 0);
+            this.Controls.SetChildIndex(this.light3, 0);
+            this.Controls.SetChildIndex(this.roundTrumbler_bvm011_2, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
+            this.Controls.SetChildIndex(this.label9, 0);
+            this.Controls.SetChildIndex(this.bigbutton1_bvm011_1, 0);
+            this.Controls.SetChildIndex(this.bigbutton1_bvm011_22, 0);
+            this.Controls.SetChildIndex(this.bigbutton1_bvm011_2, 0);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);
@@ -668,6 +725,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
         private Controls.Bigbutton bigbutton1_bvm011_1;
+        private Controls.Bigbutton bigbutton1_bvm011_22;
         private Controls.Bigbutton bigbutton1_bvm011_2;
     }
 }

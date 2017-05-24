@@ -29,7 +29,7 @@ namespace rsp6m2.Tests
             String txt = "Включить тумблер" + Environment.NewLine +
                 "Би-45";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Включите тумблер БИ-45";
             t.NeedClick = txt;
             helpDictionary.Add(91, t);
 
@@ -71,7 +71,7 @@ namespace rsp6m2.Tests
             txt = "Включить тумблер" + Environment.NewLine +
                 "БОИ";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Включите тумблер БУО";
             t.NeedClick = txt;
             helpDictionary.Add(91, t);
 
@@ -113,7 +113,7 @@ namespace rsp6m2.Tests
             txt = "Включить тумблер" + Environment.NewLine +
                 "БОИ";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Включите тумблер БОИ";
             t.NeedClick = txt;
             helpDictionary.Add(91, t);
 

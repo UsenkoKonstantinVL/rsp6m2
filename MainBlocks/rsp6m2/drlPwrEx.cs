@@ -50,6 +50,20 @@ namespace rsp6m2
         {
 
             buttnoVkl_drlPwr.UnHighlight();
+            Position pos = Position.Down;
+            foreach (var contrl in Controls)
+            {
+                if(contrl is Tumbler1)
+                {
+                    var tempC = (Tumbler1)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+                else if(contrl is Tumbler2)
+                {
+                    var tempC = (Tumbler2)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+            }
             /*List<Control> Controls;
             holder = new Holder();
             Controls = new List<Control>();
@@ -78,6 +92,22 @@ namespace rsp6m2
 
         private void tumblerventilate_drlPwr_Load(object sender, EventArgs e)
         {
+
+           
+        }
+
+        private void drlPwrEx_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ManagerDrlPwr.ShowOffForm();
+        }
+
+        private void tumblerprl_drlPwr_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tumblerventilate_drlPwr_Click(object sender, EventArgs e)
+        {
             if (sender is Tumbler1)
             {
                 var t = (Tumbler1)sender;
@@ -94,16 +124,6 @@ namespace rsp6m2
                 }
             }
             ManagerDrlPwr.ClickToButton((Control)sender);
-        }
-
-        private void drlPwrEx_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            ManagerDrlPwr.ShowOffForm();
-        }
-
-        private void tumblerprl_drlPwr_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

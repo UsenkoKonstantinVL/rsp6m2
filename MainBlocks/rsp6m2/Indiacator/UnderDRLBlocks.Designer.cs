@@ -32,12 +32,12 @@
             this.drlblock_bi45light = new rsp6m2.Controls.Light();
             this.drlblock_buolight = new rsp6m2.Controls.Light();
             this.drlblock_boilight = new rsp6m2.Controls.Light();
-            this.drlblock_bi45 = new rsp6m2.Controls.Tumbler2();
             this.drlblock_buo = new rsp6m2.Controls.Tumbler2();
             this.drlblock_boi = new rsp6m2.Controls.Tumbler2();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.drlblock_bi45 = new rsp6m2.Controls.Tumbler2();
             this.SuspendLayout();
             // 
             // drlblock_bi45light
@@ -69,17 +69,6 @@
             this.drlblock_boilight.Name = "drlblock_boilight";
             this.drlblock_boilight.Size = new System.Drawing.Size(38, 36);
             this.drlblock_boilight.TabIndex = 8;
-            // 
-            // drlblock_bi45
-            // 
-            this.drlblock_bi45.BackColor = System.Drawing.Color.Transparent;
-            this.drlblock_bi45.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("drlblock_bi45.BackgroundImage")));
-            this.drlblock_bi45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.drlblock_bi45.Location = new System.Drawing.Point(483, 112);
-            this.drlblock_bi45.Name = "drlblock_bi45";
-            this.drlblock_bi45.Size = new System.Drawing.Size(27, 42);
-            this.drlblock_bi45.TabIndex = 9;
-            this.drlblock_bi45.Click += new System.EventHandler(this.drlblock_bi45_Click);
             // 
             // drlblock_buo
             // 
@@ -130,6 +119,17 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "БОИ-М";
             // 
+            // drlblock_bi45
+            // 
+            this.drlblock_bi45.BackColor = System.Drawing.Color.Transparent;
+            this.drlblock_bi45.BackgroundImage = global::rsp6m2.Properties.Resources.Tumbler2On;
+            this.drlblock_bi45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.drlblock_bi45.Location = new System.Drawing.Point(477, 112);
+            this.drlblock_bi45.Name = "drlblock_bi45";
+            this.drlblock_bi45.Size = new System.Drawing.Size(33, 42);
+            this.drlblock_bi45.TabIndex = 15;
+            this.drlblock_bi45.Click += new System.EventHandler(this.drlblock_bi45_Click);
+            // 
             // UnderDRLBlocks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,28 +137,29 @@
             this.BackgroundImage = global::rsp6m2.Properties.Resources.UnderDRLblocks;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1069, 370);
+            this.Controls.Add(this.drlblock_bi45);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.drlblock_bi45light);
             this.Controls.Add(this.drlblock_buolight);
             this.Controls.Add(this.drlblock_boilight);
-            this.Controls.Add(this.drlblock_bi45);
             this.Controls.Add(this.drlblock_buo);
             this.Controls.Add(this.drlblock_boi);
             this.DoubleBuffered = true;
             this.Name = "UnderDRLBlocks";
             this.Text = "UnderDRLBlocks";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UnderdrlBlocks_FormClosing);
             this.Load += new System.EventHandler(this.UnderDRLBlocks_Load);
             this.Controls.SetChildIndex(this.drlblock_boi, 0);
             this.Controls.SetChildIndex(this.drlblock_buo, 0);
-            this.Controls.SetChildIndex(this.drlblock_bi45, 0);
             this.Controls.SetChildIndex(this.drlblock_boilight, 0);
             this.Controls.SetChildIndex(this.drlblock_buolight, 0);
             this.Controls.SetChildIndex(this.drlblock_bi45light, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.drlblock_bi45, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,11 +170,11 @@
         private Controls.Light drlblock_bi45light;
         private Controls.Light drlblock_buolight;
         private Controls.Light drlblock_boilight;
-        private Controls.Tumbler2 drlblock_bi45;
         private Controls.Tumbler2 drlblock_buo;
         private Controls.Tumbler2 drlblock_boi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private Controls.Tumbler2 drlblock_bi45;
     }
 }

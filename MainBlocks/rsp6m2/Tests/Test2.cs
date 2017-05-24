@@ -28,7 +28,7 @@ namespace rsp6m2.Tests
             String txt = "Переключатель РАБОТА-КОНТРОЛЬ" + Environment.NewLine +
                 " установить в положение «РАБОТА»";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель РАБОТА-КОНТРОЛЬ в положение «РАБОТА»";
             t.NeedClick = txt;
             helpDictionary.Add(406, t);
 
@@ -72,7 +72,7 @@ namespace rsp6m2.Tests
              txt = "Переключатель в положение" + Environment.NewLine +
                 " -125В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение -125В";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -114,7 +114,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "150В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение 150В";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -156,7 +156,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "250В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение 250В";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -200,7 +200,7 @@ namespace rsp6m2.Tests
                "Показания прибора должны быть " + Environment.NewLine  + 
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение ТОК ПР УМН" + Environment.NewLine + "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -244,7 +244,8 @@ namespace rsp6m2.Tests
                "Показания прибора должны быть " + Environment.NewLine +
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение ТОК II УМН" + Environment.NewLine +
+               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -288,7 +289,8 @@ namespace rsp6m2.Tests
                "Показания прибора должны быть " + Environment.NewLine +
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение ТОК III УМН" + Environment.NewLine +
+               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -332,7 +334,8 @@ namespace rsp6m2.Tests
                "Показания прибора должны быть " + Environment.NewLine +
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение КОНТРОЛЬ ОУ" + Environment.NewLine +
+               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов"; ;
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -374,7 +377,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "+125 BI";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение +125 BI";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -416,7 +419,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "+125 BII";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение +125 BII";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -458,7 +461,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "+250 В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение +250 В";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -500,7 +503,7 @@ namespace rsp6m2.Tests
             txt = "Переключатель в положение" + Environment.NewLine +
                "-100 В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение -100 В";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -543,7 +546,7 @@ namespace rsp6m2.Tests
                "УСТ 0, " + Environment.NewLine + "показания должны быть " + 
                Environment.NewLine + " близкие к 0";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение УСТ 0" + Environment.NewLine + "Показания должны быть близкие к 0";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -586,7 +589,7 @@ namespace rsp6m2.Tests
                "УСТ НАПР, " + Environment.NewLine + "показания должны быть " +
                Environment.NewLine + " близкие к 0";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Установите переключатель в положение УСТ НАПР" + Environment.NewLine + "Показания должны быть близкие к 0";
             t.NeedClick = txt;
             helpDictionary.Add(428, t);
 
@@ -628,8 +631,8 @@ namespace rsp6m2.Tests
             txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine + 
                 "поочередно в положения КР1";
             t = new TextForHelpForm();
-            t.HelpText = "Показания прибора должны быть" + Environment.NewLine
-                 + "в пределах красного сектора.";
+            t.HelpText = "Установите переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine + "в положение КР1" + Environment.NewLine +
+                "Показания прибора должны быть" + Environment.NewLine + "в пределах красного сектора";
             t.NeedClick = txt;
             helpDictionary.Add(421, t);
 
@@ -671,8 +674,8 @@ namespace rsp6m2.Tests
             txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine +
                 "поочередно в положения КР2";
             t = new TextForHelpForm();
-            t.HelpText = "Показания прибора должны быть" + Environment.NewLine
-                 + "в пределах красного сектора.";
+            t.HelpText = "Установите переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine + "в положение КР2" + Environment.NewLine +
+                "Показания прибора должны быть" + Environment.NewLine + "в пределах красного сектора";
             t.NeedClick = txt;
             helpDictionary.Add(421, t);
 
@@ -714,8 +717,8 @@ namespace rsp6m2.Tests
             txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine +
                 "поочередно в положения КР3";
             t = new TextForHelpForm();
-            t.HelpText = "Показания прибора должны быть" + Environment.NewLine 
-                 + "в пределах красного сектора.";
+            t.HelpText = "Установите переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine + "в положение КР3" + Environment.NewLine +
+                "Показания прибора должны быть" + Environment.NewLine + "в пределах красного сектора";
             t.NeedClick = txt;
             helpDictionary.Add(421, t);
 
@@ -757,8 +760,8 @@ namespace rsp6m2.Tests
             txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine +
                 "поочередно в положения КР4";
             t = new TextForHelpForm();
-            t.HelpText = "Показания прибора должны быть" + Environment.NewLine
-                 + "в пределах красного сектора.";
+            t.HelpText = "Установите переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine + "в положение КР4" + Environment.NewLine +
+                "Показания прибора должны быть" + Environment.NewLine + "в пределах красного сектора";
             t.NeedClick = txt;
             helpDictionary.Add(421, t);
 
@@ -789,48 +792,48 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
             
-            #region Quize18
-            q = new Quize();
-            q.ListOfConditions = Condition18;
+            //#region Quize18
+            //q = new Quize();
+            //q.ListOfConditions = Condition18;
 
-            helpDictionary = new Dictionary<int, TextForHelpForm>();
-            t = new TextForHelpForm();
-
-
-            txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine +
-                "поочередно в положения КР4";
-            t = new TextForHelpForm();
-            t.HelpText = "Показания прибора должны быть" + Environment.NewLine
-                 + "в пределах красного сектора.";
-            t.NeedClick = txt;
-            helpDictionary.Add(421, t);
-
-            t = new TextForHelpForm();
-            t.HelpText = "Нажмите на ПРЛ";
-            t.NeedClick = "Включить " + txt;
-            helpDictionary.Add(0, t);
-
-            t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
-            t.NeedClick = txt;
-            helpDictionary.Add(4, t);
-
-            t = new TextForHelpForm();
-            t.HelpText = "Вернитесь назад";
-            t.NeedClick = "Включить " + txt;
-            helpDictionary.Add(-1, t);
+            //helpDictionary = new Dictionary<int, TextForHelpForm>();
+            //t = new TextForHelpForm();
 
 
-            cName = new List<string>();
-            cName.Add("roundTumbler_bpr021");
-            cName.Add("button21_prl");
-            cName.Add("buttonPRL");
+            //txt = "Установить переключатель КОНТРОЛЬ ТОКОВ" + Environment.NewLine +
+            //    "поочередно в положения КР4";
+            //t = new TextForHelpForm();
+            //t.HelpText = "Показания прибора должны быть" + Environment.NewLine
+            //     + "в пределах красного сектора.";
+            //t.NeedClick = txt;
+            //helpDictionary.Add(421, t);
 
-            q.ListOfHelp = helpDictionary;
-            q.NameOfLightedControls = cName;
+            //t = new TextForHelpForm();
+            //t.HelpText = "Нажмите на ПРЛ";
+            //t.NeedClick = "Включить " + txt;
+            //helpDictionary.Add(0, t);
 
-            list.Add(q);
-            #endregion
+            //t = new TextForHelpForm();
+            //t.HelpText = "Откройте БГ-021";
+            //t.NeedClick = txt;
+            //helpDictionary.Add(4, t);
+
+            //t = new TextForHelpForm();
+            //t.HelpText = "Вернитесь назад";
+            //t.NeedClick = "Включить " + txt;
+            //helpDictionary.Add(-1, t);
+
+
+            //cName = new List<string>();
+            //cName.Add("roundTumbler_bpr021");
+            //cName.Add("button21_prl");
+            //cName.Add("buttonPRL");
+
+            //q.ListOfHelp = helpDictionary;
+            //q.NameOfLightedControls = cName;
+
+            //list.Add(q);
+            //#endregion
 
             #region Quize19
             q = new Quize();
@@ -845,7 +848,10 @@ namespace rsp6m2.Tests
                  "Показания прибора НАПРЯЖЕНИЕ НАКАЛА ГЕНЕРАТОРА." + Environment.NewLine +
                  "Oно должно быть от 14 до 16 В";
             t = new TextForHelpForm();
-            t.HelpText = "";
+            t.HelpText = "Проверка правильности работы" + Environment.NewLine
+                 + "Должна гореть лампочка: БЛОКИРОВКА ЗАМКНУТА." + Environment.NewLine +
+                 "Показания прибора НАПРЯЖЕНИЕ НАКАЛА ГЕНЕРАТОРА." + Environment.NewLine +
+                 "Oно должно быть от 14 до 16 В";
             t.NeedClick = txt;
             helpDictionary.Add(416, t);
 
@@ -887,7 +893,7 @@ namespace rsp6m2.Tests
             txt = "На передней панели БВМ-011" + Environment.NewLine + 
                 " нажать кнопку ИЗМЕРЕНИЕ";
             t = new TextForHelpForm();
-            t.HelpText = "Нажать кнопку ИЗМЕРЕНИЕ";
+            t.HelpText = "Нажмите кнопку ИЗМЕРЕНИЕ";
             t.NeedClick = txt;
             helpDictionary.Add(413, t);
 
@@ -934,7 +940,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(413, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Нажмите на ПРЛ";
+            t.HelpText = "Нажмите на ПРЛ" + Environment.NewLine + "Для контроля показания прибора -50В";
             t.NeedClick = "Включить " + txt;
             helpDictionary.Add(0, t);
 
@@ -950,7 +956,7 @@ namespace rsp6m2.Tests
 
 
             cName = new List<string>();
-            //cName.Add("roundTrumbler_bvm011_2");
+            cName.Add("roundTrumbler_bvm011_2");
             cName.Add("button13_prl");
             cName.Add("buttonPRL");
 
@@ -971,7 +977,7 @@ namespace rsp6m2.Tests
             txt = "На  панели БВМ-011" + Environment.NewLine +
                 " проконтролировать показания прибора -150 В";
             t = new TextForHelpForm();
-            t.HelpText = "Проконтролировать показания прибора -150 В";
+            t.HelpText =  "Проконтролировать показания прибора -150 В";
             t.NeedClick = txt;
             helpDictionary.Add(413, t);
 
@@ -1087,6 +1093,8 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            
+
             #region Quize25
             q = new Quize();
             q.ListOfConditions = Condition25;
@@ -1182,7 +1190,7 @@ namespace rsp6m2.Tests
             txt = "На  панели БУВ-021" + Environment.NewLine +
                 " включить тумблер ВКЛ ВН";
             t = new TextForHelpForm();
-            t.HelpText = "После срабатывания реле После срабатывания реле";
+            t.HelpText = "На БУВ-021 включить тумблер ВКЛ ВН";
             t.NeedClick = txt;
             helpDictionary.Add(413, t);
 
@@ -1473,6 +1481,8 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            list = new List<Quize>();
+
             #region Quize34
             q = new Quize();
             q.ListOfConditions = Condition34;
@@ -1615,7 +1625,7 @@ namespace rsp6m2.Tests
             t.HelpText = "Проконтролировать наличие" +
                 Environment.NewLine + " питающих напряжений -100 В I";
             t.NeedClick = txt;
-            helpDictionary.Add(417, t);
+            helpDictionary.Add(401, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на ПРЛ";
@@ -1657,7 +1667,7 @@ namespace rsp6m2.Tests
             t.HelpText = "Проконтролировать наличие" +
                 Environment.NewLine + " питающих напряжений +150 В I";
             t.NeedClick = txt;
-            helpDictionary.Add(417, t);
+            helpDictionary.Add(401, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на ПРЛ";
@@ -1699,7 +1709,7 @@ namespace rsp6m2.Tests
             t.HelpText = "Проконтролировать наличие" +
                 Environment.NewLine + " питающих напряжений +250 В I";
             t.NeedClick = txt;
-            helpDictionary.Add(417, t);
+            helpDictionary.Add(401, t);
 
             t = new TextForHelpForm();
             t.HelpText = "Нажмите на ПРЛ";
@@ -1937,7 +1947,7 @@ namespace rsp6m2.Tests
             if (c.Name == "roundTrumbler_bpch_1")
             {
                 var t = (RoundTrumbler)c;
-                if (t.CurrentIndex == 3)
+                if (t.CurrentIndex == 4)
                 {
                     Console.WriteLine("Правильно нажал");
                     return true;
@@ -2087,15 +2097,15 @@ namespace rsp6m2.Tests
         #region Quize21
         public static bool Condition21(Control c)
         {
-            if (c.Name == "button13_prl")
+            if (c.Name == "roundTrumbler_bvm011_2")
             {
-               /* var t = (RoundTrumbler)c;
+                var t = (RoundTrumbler)c;
                 if (t.CurrentIndex == 0)
                 {
                     Console.WriteLine("Правильно нажал");
-                    EmulatorManager.GlobalManager.IsLampBuv021Light = true;*/
+                    EmulatorManager.GlobalManager.IsLampBuv021Light = true;
                     return true;
-               /* }*/
+                }
             }
             return false;
         }

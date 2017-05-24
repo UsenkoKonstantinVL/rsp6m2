@@ -18,7 +18,7 @@ namespace rsp6m2.Tests
             else if (numOfTest == 3)
             {
                 t.list = Tests.TestDRL1.GetQuize();
-                //t.testName = Tests.TestDRL1.
+                t.testName = Tests.TestDRL1.TestName;
             }
             else if(numOfTest == 1)
             {

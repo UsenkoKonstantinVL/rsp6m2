@@ -46,7 +46,7 @@ namespace rsp6m2.Indiacator
             }
 
             ManagerDRLBlock.SetControls(ilc, lc);
-
+            
         }
 
         private void PupBlock_Click(object sender, EventArgs e)
@@ -56,9 +56,24 @@ namespace rsp6m2.Indiacator
 
         private void UnderDRLBlocks_Load(object sender, EventArgs e)
         {
-            drlblock_bi45.SetTumblerPosition(rsp6m2.Controls.Position.Down);
-            drlblock_boi.SetTumblerPosition(rsp6m2.Controls.Position.Down);
-            drlblock_buo.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            Position pos = Position.Down;
+            foreach (var contrl in Controls)
+            {
+                if (contrl is Tumbler1)
+                {
+                    var tempC = (Tumbler1)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+                else if (contrl is Tumbler2)
+                {
+                    var tempC = (Tumbler2)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+            }
+            //drlblock_bi45.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            //drlblock_boi.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            //drlblock_buo.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            //ManagerDRLBlock.ClickToButton((Control)drlblock_boi);
         }
 
         private void drlblock_bi45_Click(object sender, EventArgs e)

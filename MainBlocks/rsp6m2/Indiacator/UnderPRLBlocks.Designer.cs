@@ -107,6 +107,7 @@
             this.prlblock_boi.Name = "prlblock_boi";
             this.prlblock_boi.Size = new System.Drawing.Size(27, 42);
             this.prlblock_boi.TabIndex = 5;
+            this.prlblock_boi.Load += new System.EventHandler(this.UnderPRLBlocks_Load);
             this.prlblock_boi.Click += new System.EventHandler(this.prlblock_bi45_Click);
             // 
             // UnderPRLBlocks

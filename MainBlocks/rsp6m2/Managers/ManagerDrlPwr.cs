@@ -15,11 +15,8 @@ namespace rsp6m2.Managers
 
         public static void Initialize()
         {
-            //if (form == null)
-            {
-                form = new drlPwrEx();
-            }
-
+            form = new drlPwrEx();
+    
             form.Show();
 
             ManagerHelpForm.GetHelp(ID);
@@ -54,12 +51,6 @@ namespace rsp6m2.Managers
             EmulatorManager.EmulatorManager.CheckQuize(control);
             ManagerHelpForm.GetHelp(ID);
 
-
-
-            if (control is Button)
-            {
-
-            }
         }
 
         public static void ShowOffForm()
@@ -69,8 +60,6 @@ namespace rsp6m2.Managers
             ManagerHelpForm.GetHelp(0);
 
         }
-
-
 
         public static void ChangeInstance(List<string> list)
         {

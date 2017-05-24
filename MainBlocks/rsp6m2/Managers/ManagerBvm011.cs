@@ -58,15 +58,7 @@ namespace rsp6m2.Managers
             ManagerHelpForm.GetHelp(ID);
 
             ChangeInstance(EmulatorManager.EmulatorManager.GetListOfLightedControls());
-            if (control is Button)
-            {
-                Button b = (Button)control;
-
-
-
-
-
-            }
+ 
         }
 
         public static void ShowOffForm()
@@ -104,8 +96,7 @@ namespace rsp6m2.Managers
                         }
                     }
                 }
-                /*if (form != null)
-                    form.Invalidate();*/
+
             }
 
         }

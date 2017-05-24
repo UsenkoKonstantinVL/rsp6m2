@@ -53,8 +53,9 @@ namespace rsp6m2
             //roundTrumbler_bpch_1.MaxIndex = 5;
             // roundTrumbler_bpch_1.setDrawRoundTumbler(transformPicture);
 
-            roundTumbler_bpr021.MaxIndex = 5;
+            roundTumbler_bpr021.MaxIndex = 4;
             roundTumbler_bpr021.setDrawRoundTumbler(transformPicture);
+            roundTumbler_bpr021.CurrentIndex = 3;
 
             List<Control> Controls = new List<Control>();
 

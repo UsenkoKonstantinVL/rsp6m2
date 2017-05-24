@@ -12,7 +12,7 @@ namespace rsp6m2.Tests
 {
     public static class TestDRL1
     {
-        static String TestName = "Включение аппаратуры ДРЛ";
+        public static String TestName = "Включение аппаратуры ДРЛ";
 
         public static List<Quize> GetQuize()
         {

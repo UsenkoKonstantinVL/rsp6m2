@@ -61,9 +61,9 @@ namespace indikator_rsp_6m2
             for (int x = 4; x < 60; x = x + 1) // просисовка глиссад
             {
                 G.DrawLine(new Pen(currentColor), Convert.ToInt32(GainX1 * (x - 1) + X1sm), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x - 1)), Convert.ToInt32(GainX1 * (x) +X1sm), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x)));
-                G.DrawLine(new Pen(Color.GreenYellow), Convert.ToInt32(GainX1 * (x - 1) + X1sm +30), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x - 1)), Convert.ToInt32(GainX1 * (x) + X1sm + 30), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x)));
-                G.DrawLine(new Pen(Color.GreenYellow), Convert.ToInt32(GainX1 * (x - 1) + X2sm), Y2sm - Convert.ToInt32(GainY2 * Math.Log(x - 1)), Convert.ToInt32(GainX2 * (x) + X2sm), Y2sm - Convert.ToInt32(GainY2 * Math.Log(x)));
-                G.DrawLine(new Pen(Color.GreenYellow), Convert.ToInt32(GainX1 * (x - 1) + X2sm ), Y2sm -150  + Convert.ToInt32(GainY2 * Math.Log(x - 1)), Convert.ToInt32(GainX2 * (x) + X2sm), Y2sm -150  + Convert.ToInt32(GainY2 * Math.Log(x)));
+                G.DrawLine(new Pen(/*Color.GreenYellow*/currentColor), Convert.ToInt32(GainX1 * (x - 1) + X1sm +30), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x - 1)), Convert.ToInt32(GainX1 * (x) + X1sm + 30), Y1sm - Convert.ToInt32(GainY1 * Math.Log(x)));
+                G.DrawLine(new Pen(currentColor), Convert.ToInt32(GainX1 * (x - 1) + X2sm), Y2sm - Convert.ToInt32(GainY2 * Math.Log(x - 1)), Convert.ToInt32(GainX2 * (x) + X2sm), Y2sm - Convert.ToInt32(GainY2 * Math.Log(x)));
+                G.DrawLine(new Pen(currentColor), Convert.ToInt32(GainX1 * (x - 1) + X2sm ), Y2sm -150  + Convert.ToInt32(GainY2 * Math.Log(x - 1)), Convert.ToInt32(GainX2 * (x) + X2sm), Y2sm -150  + Convert.ToInt32(GainY2 * Math.Log(x)));
             }
         }
         public bool ctrl = false;
@@ -87,6 +87,7 @@ namespace indikator_rsp_6m2
                 TargManager.Targ1.drawPas(e);
                 TargManager.Targ2.drawPas(e);
                 TargManager.Targ3.drawPas(e);
+                P = new Pen(currentColor);
                 canvas.DrawLine(P, 90, 90, 90, Convert.ToInt32(Zoom * 440));
 
                 canvas.DrawLine(P, 90, Convert.ToInt32(280 * Zoom), Convert.ToInt32(Zoom * 440), Convert.ToInt32(280 * Zoom));

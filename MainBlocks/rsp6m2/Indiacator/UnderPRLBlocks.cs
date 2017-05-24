@@ -45,7 +45,7 @@ namespace indikator_rsp_6m2
             }
 
             ManagerPRLBlock.SetControls(ilc, lc);
-
+            ManagerPRLBlock.ClickToButton((Control)prlblock_boi);
         }
 
         private void PupBlock_Click(object sender, EventArgs e)
@@ -55,9 +55,23 @@ namespace indikator_rsp_6m2
 
         private void UnderPRLBlocks_Load(object sender, EventArgs e)
         {
-            prlblock_bi45.SetTumblerPosition(rsp6m2.Controls.Position.Down);
-            prlblock_boi.SetTumblerPosition(rsp6m2.Controls.Position.Down);
-            prlblock_buo.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            Position pos = Position.Down;
+            foreach (var contrl in Controls)
+            {
+                if (contrl is Tumbler1)
+                {
+                    var tempC = (Tumbler1)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+                else if (contrl is Tumbler2)
+                {
+                    var tempC = (Tumbler2)contrl;
+                    tempC.SetTumblerPosition(pos);
+                }
+            }
+            //prlblock_bi45.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            //prlblock_boi.SetTumblerPosition(rsp6m2.Controls.Position.Down);
+            //prlblock_buo.SetTumblerPosition(rsp6m2.Controls.Position.Down);
         }
 
         private void prlblock_bi45_Click(object sender, EventArgs e)

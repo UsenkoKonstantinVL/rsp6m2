@@ -110,6 +110,8 @@ namespace rsp6m2.Managers
         {
             UnlightControls();
             //EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
+            EmulatorManager.EmulatorManager.DeleteListenerToQuizeIsDone(ChangeInstance);
+            EmulatorManager.EmulatorManager.DeleteListenerTestIsDone(Dispose);
             ManagerHelpForm.GetHelp(0);
         }
 

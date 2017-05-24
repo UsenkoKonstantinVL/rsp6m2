@@ -68,6 +68,20 @@ namespace indikator_rsp_6m2
         public double rMarker = 0;
         public double angMarker = 0;
         public bool onMarker = false;
+
+        Color currentColor;
+        public void SetColor(double percentage)
+        {
+            if (percentage >= 1.2) percentage = 1.2;
+
+            Color colorMax = Color.GreenYellow;
+            Color colorMin = Color.FromArgb(65, 111, 74);
+
+            currentColor = Color.FromArgb((int)(colorMin.R + (colorMax.R - colorMin.R) * percentage),
+                (int)(colorMin.G + (colorMax.G - colorMin.G) * percentage),
+                (int)(colorMin.B + (colorMax.B - colorMin.B) * percentage));
+        }
+
         void DrawMarker(Graphics canvas)
         {
             if (onMarker)
@@ -77,7 +91,7 @@ namespace indikator_rsp_6m2
                 label1.Left = MarkX;
                 label1.Top = MarkY;
                 label1.Text = angMarker.ToString();
-                canvas.DrawLine(new Pen(Brushes.GreenYellow), x0, y0, MarkX, MarkY);
+                canvas.DrawLine(new Pen(/*Brushes.GreenYellow*/currentColor), x0, y0, MarkX, MarkY);
             }
             else
             {
@@ -109,7 +123,7 @@ namespace indikator_rsp_6m2
                        canvas.DrawArc(new Pen(Brushes.GreenYellow), 20 + step * i, 20 + step * i, 460 - step * 2 * i, 460 - step * 2 * i, Convert.ToInt32(angle - 110), 10);
                    }
                  */
-                Pen PenKorob = new Pen(Brushes.GreenYellow);
+                Pen PenKorob = new Pen(/*Brushes.GreenYellow*/currentColor);
                 int rPas = 90 * 2 / 3 * Zoom;
                 int anglPas = 45;
                 int Perenos = 45 * 2 / 3 * Zoom;

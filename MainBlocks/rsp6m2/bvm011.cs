@@ -41,6 +41,7 @@ namespace rsp6m2
 
             roundTrumbler_bvm011_2.MaxIndex = 4;
             roundTrumbler_bvm011_2.setDrawRoundTumbler(transformPicture2);
+            roundTrumbler_bvm011_2.CurrentIndex = 3;
 
             roundTrumbler_bvm011_1.MaxIndex = 4;
             roundTrumbler_bvm011_1.setDrawRoundTumbler(transformPicture);
