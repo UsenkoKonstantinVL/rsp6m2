@@ -126,7 +126,7 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "UnderPRLBlocks";
-            this.Text = "UnderPRLBlocks";
+            this.Text = "Блоки под столечницей";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UnderPRLBlocks_FormClosing);
             this.Load += new System.EventHandler(this.UnderPRLBlocks_Load);
             this.Controls.SetChildIndex(this.panel1, 0);

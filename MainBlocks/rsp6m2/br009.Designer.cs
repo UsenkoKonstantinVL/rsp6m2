@@ -87,7 +87,7 @@
             this.Controls.Add(this.br009_tumbler_1);
             this.DoubleBuffered = true;
             this.Name = "br009";
-            this.Text = "br009";
+            this.Text = "БР-009";
             this.Controls.SetChildIndex(this.br009_tumbler_1, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.br009_tumbler_2, 0);

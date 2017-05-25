@@ -40,7 +40,7 @@
             this.ClientSize = new System.Drawing.Size(527, 744);
             this.DoubleBuffered = true;
             this.Name = "buv011";
-            this.Text = "buv011";
+            this.Text = "БУВ-011";
             this.ResumeLayout(false);
 
         }

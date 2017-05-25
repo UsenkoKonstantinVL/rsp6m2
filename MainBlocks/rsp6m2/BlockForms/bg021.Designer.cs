@@ -388,7 +388,7 @@
             this.Controls.Add(this.voltmetr1);
             this.Controls.Add(this.panel1);
             this.Name = "bg021";
-            this.Text = "bg021";
+            this.Text = "БГ-021";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bg021_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

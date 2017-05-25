@@ -1443,7 +1443,7 @@
             this.Controls.Add(this.tumblerprod2_drlPwr);
             this.Controls.Add(this.tumblerprod1_drlPwr);
             this.Name = "drlPwrEx";
-            this.Text = "drlPwrEx";
+            this.Text = "ЩИТ ДРЛ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.drlPwrEx_FormClosing);
             this.Click += new System.EventHandler(this.tumblerventilate_drlPwr_Click);
             this.Controls.SetChildIndex(this.tumblerprod1_drlPwr, 0);

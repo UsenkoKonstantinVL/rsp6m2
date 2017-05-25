@@ -34,7 +34,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(23, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Нажмите на верхний блок ДРЛ";
+            t.HelpText = "Нажмите на верхний блок щита ДРЛ";
             t.NeedClick = "";
             helpDictionary.Add(0, t);
 
@@ -70,7 +70,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(24, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Нажмите на нижний блок ДРЛ";
+            t.HelpText = "Нажмите на нижний блок щита ДРЛ";
             t.NeedClick = "";
             helpDictionary.Add(0, t);
 
@@ -137,7 +137,8 @@ namespace rsp6m2.Tests
             //var txt = " на БП-142 (стойка СВП-01)" + Environment.NewLine + "тумблеры СЕТЬ-ОТКЛ в положение СЕТЬ";
 
             t = new TextForHelpForm();
-            t.HelpText = "Нажмите ВКЛ.";
+            t.HelpText = "Включите автомат АППАРАТУРА ДРЛ" +
+                Environment.NewLine + "Положение вверху.";
             t.NeedClick = "";
             helpDictionary.Add(24, t);
 
@@ -253,7 +254,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(24, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Нажмите на нижнюю правую часть щитка";
+            t.HelpText = "Нажмите на нижнюю левую часть щитка";
             t.NeedClick = "";
             helpDictionary.Add(0, t);
 

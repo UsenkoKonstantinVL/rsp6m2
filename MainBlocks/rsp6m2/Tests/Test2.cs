@@ -28,7 +28,7 @@ namespace rsp6m2.Tests
             String txt = "Переключатель РАБОТА-КОНТРОЛЬ" + Environment.NewLine +
                 " установить в положение «РАБОТА»";
             t = new TextForHelpForm();
-            t.HelpText = "Установите переключатель РАБОТА-КОНТРОЛЬ в положение «РАБОТА»";
+            t.HelpText = "Установите переключатель РАБОТА-КОНТРОЛЬ \n в положение «РАБОТА»";
             t.NeedClick = txt;
             helpDictionary.Add(406, t);
 
@@ -200,7 +200,7 @@ namespace rsp6m2.Tests
                "Показания прибора должны быть " + Environment.NewLine  + 
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
-            t.HelpText = "Установите переключатель в положение ТОК ПР УМН" + Environment.NewLine + "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
+            t.HelpText = "Установите переключатель в положение ТОК ПР УМН" + Environment.NewLine + "Показания прибора должны быть в пределах \n зеленого и красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -245,7 +245,7 @@ namespace rsp6m2.Tests
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
             t.HelpText = "Установите переключатель в положение ТОК II УМН" + Environment.NewLine +
-               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
+               "Показания прибора должны быть в пределах зеленого \n и красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -290,7 +290,7 @@ namespace rsp6m2.Tests
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
             t.HelpText = "Установите переключатель в положение ТОК III УМН" + Environment.NewLine +
-               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов";
+               "Показания прибора должны быть в пределах зеленого и \n красного (для ОУ) секторов";
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -335,7 +335,7 @@ namespace rsp6m2.Tests
                "в пределах зеленого и красного (для ОУ) секторов";
             t = new TextForHelpForm();
             t.HelpText = "Установите переключатель в положение КОНТРОЛЬ ОУ" + Environment.NewLine +
-               "Показания прибора должны быть в пределах зеленого и красного (для ОУ) секторов"; ;
+               "Показания прибора должны быть в пределах зеленого \n и красного (для ОУ) секторов"; ;
             t.NeedClick = txt;
             helpDictionary.Add(424, t);
 
@@ -387,7 +387,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -429,7 +429,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -471,7 +471,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -513,7 +513,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -556,7 +556,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -599,7 +599,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПЧ";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -642,7 +642,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПР-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -685,7 +685,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПР-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -728,7 +728,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПР-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -771,7 +771,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БГ-021";
+            t.HelpText = "Откройте БПР-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -903,7 +903,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -945,7 +945,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -987,7 +987,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1029,7 +1029,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1072,7 +1072,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1116,7 +1116,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1158,7 +1158,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1242,7 +1242,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1284,7 +1284,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1326,7 +1326,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БВМ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1372,7 +1372,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте БВМ-011";
+            t.HelpText = "Откройте БГВ-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
@@ -1481,7 +1481,7 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
-            list = new List<Quize>();
+            //list = new List<Quize>();
 
             #region Quize34
             q = new Quize();
@@ -1507,7 +1507,7 @@ namespace rsp6m2.Tests
             helpDictionary.Add(0, t);
 
             t = new TextForHelpForm();
-            t.HelpText = "Откройте блок БПРН 021";
+            t.HelpText = "Откройте блок БПРН-021";
             t.NeedClick = txt;
             helpDictionary.Add(4, t);
 
