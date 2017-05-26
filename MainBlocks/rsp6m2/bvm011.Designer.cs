@@ -627,7 +627,7 @@
             this.Controls.Add(this.voltmetr1);
             this.DoubleBuffered = true;
             this.Name = "bvm011";
-            this.Text = "bvm011";
+            this.Text = "БВМ-021";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bvm011_FormClosing);
             this.Controls.SetChildIndex(this.voltmetr1, 0);
             this.Controls.SetChildIndex(this.voltmetr2, 0);

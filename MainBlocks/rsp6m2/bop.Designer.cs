@@ -85,7 +85,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 15);
             this.label2.TabIndex = 51;
-            this.label2.Text = "БПЧ";
+            this.label2.Text = "БОП";
             // 
             // roundTrumbler_bop_1
             // 
@@ -463,7 +463,7 @@
             this.Controls.Add(this.panel2);
             this.DoubleBuffered = true;
             this.Name = "bop";
-            this.Text = "bop";
+            this.Text = "БОП";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bop_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();

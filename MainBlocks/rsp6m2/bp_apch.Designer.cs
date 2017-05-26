@@ -576,7 +576,7 @@
             this.Controls.Add(this.voltmetr1);
             this.DoubleBuffered = true;
             this.Name = "bp_apch";
-            this.Text = "bp_apch";
+            this.Text = "БПЧ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bp_apch_FormClosing);
             this.Load += new System.EventHandler(this.bp_apch_Load);
             this.Controls.SetChildIndex(this.voltmetr1, 0);

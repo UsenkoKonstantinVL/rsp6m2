@@ -148,7 +148,7 @@
             this.Controls.Add(this.drlblock_boi);
             this.DoubleBuffered = true;
             this.Name = "UnderDRLBlocks";
-            this.Text = "UnderDRLBlocks";
+            this.Text = "Блоки под столечницей";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UnderdrlBlocks_FormClosing);
             this.Load += new System.EventHandler(this.UnderDRLBlocks_Load);
             this.Controls.SetChildIndex(this.drlblock_boi, 0);

@@ -38,7 +38,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(794, 611);
             this.Name = "prlTop";
-            this.Text = "prlTop";
+            this.Text = "ЩИТ ПРЛ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.prlTop_FormClosing);
             this.Load += new System.EventHandler(this.prlTop_Load);
             this.ResumeLayout(false);

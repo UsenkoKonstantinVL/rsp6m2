@@ -715,7 +715,7 @@
             this.Controls.Add(this.voltmetr2);
             this.DoubleBuffered = true;
             this.Name = "bp127";
-            this.Text = "bp127";
+            this.Text = "БП-127";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bp127_FormClosing);
             this.Load += new System.EventHandler(this.bp127_Load);
             this.panel9.ResumeLayout(false);
