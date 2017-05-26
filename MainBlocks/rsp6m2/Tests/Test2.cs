@@ -1221,6 +1221,7 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+			/*
             #region Quize28
             q = new Quize();
             q.ListOfConditions = Condition28;
@@ -1262,6 +1263,7 @@ namespace rsp6m2.Tests
 
             list.Add(q);
             #endregion
+			*/
 
             #region Quize29
             q = new Quize();
