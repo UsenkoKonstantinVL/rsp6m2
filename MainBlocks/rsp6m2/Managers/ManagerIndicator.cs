@@ -55,11 +55,6 @@ namespace rsp6m2.Managers
             ManagerHelpForm.GetHelp(ID);
 
 
-
-            if (control is Button)
-            {
-
-            }
         }
 
         public static void ShowOffForm()

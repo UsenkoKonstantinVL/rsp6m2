@@ -11,7 +11,7 @@ namespace indikator_rsp_6m2
         {
             InitializeComponent();
             alt = 155* Zoom;
-            //SetColor(0.2);
+            SetColor(0.8);
         }
         double dal = 0;
         double alt ; // высота на уровнем моря по английски altitude

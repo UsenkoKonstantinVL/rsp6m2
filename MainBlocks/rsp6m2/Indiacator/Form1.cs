@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using rsp6m2;
 using rsp6m2.Managers;
 using rsp6m2.Controls;
+using rsp6m2.HelpClass;
+using rsp6m2.EmulatorManager;
 
 namespace indikator_rsp_6m2
 {
@@ -20,6 +22,8 @@ namespace indikator_rsp_6m2
             nPosSwitch1.setPosNum(12);
             nPosSwitch2.setPosNum(3);
             nPosSwitch3.setPosNum(3);
+            buttonFinish.Visible = false;
+            rsp6m2.HelpClass.Helper.buttonFinish = buttonFinish;
 
             List<Control> lc = new List<Control>();
             List<Control> ilc = new List<Control>();
@@ -118,9 +122,14 @@ namespace indikator_rsp_6m2
             this.Controls.Add(TargManager.Targ3.Labl);
             TargManager.Targ3.shortLabl.BringToFront();
             TargManager.Targ3.Labl.BringToFront();
-
+            //Helper.ChangeVisibleButtonFinish();
             potenzhiomert5.Value_Changed += potenzhiomert5_Load;
-            potenzhiomert5.Set_Value = 20;
+            potenzhiomert5.Set_Value = 80;
+            ikoPasControl1.SetColor(0.8);
+            ikoDispControl1.SetColor(0.8);
+            ikoDispControl1.Invalidate();
+            ikoPasControl1.Invalidate();
+            
 
 
         }
@@ -175,6 +184,11 @@ namespace indikator_rsp_6m2
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            if(buttonFinish.Visible == true)
+            {
+                ManagerIndicator.ClickToButton(buttonFinish as Control);
+                return;
+            }
             ManagerIndicator.ShowOffForm();
         }
 
@@ -189,6 +203,11 @@ namespace indikator_rsp_6m2
                     ikoDispControl1.SetColor((double)p.getValue() / 100);
                 }
             }
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            ManagerIndicator.ClickToButton(sender as Control);
         }
     }
 }

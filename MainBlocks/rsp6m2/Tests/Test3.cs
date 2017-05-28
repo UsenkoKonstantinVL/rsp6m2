@@ -144,6 +144,49 @@ namespace rsp6m2.Tests
             list.Add(q);
             #endregion
 
+            #region Quize4
+            q = new Quize();
+            q.ListOfConditions = Condition4;
+
+            helpDictionary = new Dictionary<int, TextForHelpForm>();
+            t = new TextForHelpForm();
+
+
+            txt = "Индикатор ПРЛ включен." + Environment.NewLine +
+                "Проверкой работы индикатора заключается в" + Environment.NewLine + 
+                "визуальном наблюдении работы индикатора.";
+            t = new TextForHelpForm();
+            t.HelpText = txt;
+            t.NeedClick = txt;
+            helpDictionary.Add(9, t);
+
+            //t = new TextForHelpForm();
+            //t.HelpText = "Нажмите на Индикатор";
+            //t.NeedClick = txt;
+            //helpDictionary.Add(0, t);
+
+            //t = new TextForHelpForm();
+            //t.HelpText = "Откройте блоки под столечницей индикатора ПРЛ";
+            //t.NeedClick = txt;
+            //helpDictionary.Add(9, t);
+
+            t = new TextForHelpForm();
+            t.HelpText = txt;
+            t.NeedClick = txt;
+            helpDictionary.Add(-1, t);
+
+
+            cName = new List<string>();
+            cName.Add("buttonFinish");
+            //cName.Add("UnderPRLblocks");
+            //cName.Add("buttonIKO");
+
+            q.ListOfHelp = helpDictionary;
+            q.NameOfLightedControls = cName;
+
+            list.Add(q);
+            #endregion
+
             return list;
         }
 
@@ -196,8 +239,22 @@ namespace rsp6m2.Tests
                 {
                     Console.WriteLine("Правильно нажал");
                     HelpClass.Helper.isPRLWork = true;
+                    HelpClass.Helper.ChangeVisibleButtonFinish();
                     return true;
                 }
+            }
+            return false;
+        }
+
+        #endregion
+
+        #region Quize4
+
+        public static bool Condition4(Control c)
+        {
+            if (c.Name == "buttonFinish")
+            {
+                return true;
             }
             return false;
         }

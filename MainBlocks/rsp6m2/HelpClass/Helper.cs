@@ -153,5 +153,15 @@ namespace rsp6m2.HelpClass
                 cCollection.Add(c);
             }
         }
+
+
+        public static Button buttonFinish = null;
+        public static void ChangeVisibleButtonFinish()
+        {
+            if(buttonFinish != null)
+            {
+                buttonFinish.Visible = !buttonFinish.Visible;
+            }
+        }
     }
 }

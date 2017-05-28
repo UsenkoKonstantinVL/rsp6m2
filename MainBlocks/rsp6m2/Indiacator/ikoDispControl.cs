@@ -9,6 +9,7 @@ namespace indikator_rsp_6m2
         public ikoDispControl()
         {
             InitializeComponent();
+            SetColor(0.8);
         }
 
         public int brightness = 6;

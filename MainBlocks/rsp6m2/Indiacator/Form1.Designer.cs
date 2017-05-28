@@ -193,6 +193,7 @@
             this.ikoPasControl1 = new indikator_rsp_6m2.ikoPasControl();
             this.UnderPRLblocks = new System.Windows.Forms.Button();
             this.UnderDRLblocks = new System.Windows.Forms.Button();
+            this.buttonFinish = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -258,7 +259,7 @@
             this.panel1.Controls.Add(this.tumbler1);
             this.panel1.Controls.Add(this.nPosSwitch1);
             this.panel1.Controls.Add(this.voltmetr1);
-            this.panel1.Location = new System.Drawing.Point(-1, 6);
+            this.panel1.Location = new System.Drawing.Point(-1, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(511, 578);
             this.panel1.TabIndex = 0;
@@ -876,7 +877,7 @@
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Location = new System.Drawing.Point(506, 3);
+            this.panel2.Location = new System.Drawing.Point(513, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(520, 578);
             this.panel2.TabIndex = 79;
@@ -2058,6 +2059,16 @@
             this.UnderDRLblocks.UseVisualStyleBackColor = true;
             this.UnderDRLblocks.Click += new System.EventHandler(this.UnderDRLblocks_Click);
             // 
+            // buttonFinish
+            // 
+            this.buttonFinish.Location = new System.Drawing.Point(516, 5);
+            this.buttonFinish.Name = "buttonFinish";
+            this.buttonFinish.Size = new System.Drawing.Size(119, 35);
+            this.buttonFinish.TabIndex = 115;
+            this.buttonFinish.Text = "Закончить";
+            this.buttonFinish.UseVisualStyleBackColor = true;
+            this.buttonFinish.Click += new System.EventHandler(this.button34_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2065,6 +2076,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1018, 576);
+            this.Controls.Add(this.buttonFinish);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.radioButton2);
@@ -2098,6 +2110,7 @@
             this.Controls.SetChildIndex(this.radioButton2, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
+            this.Controls.SetChildIndex(this.buttonFinish, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -2279,6 +2292,7 @@
         private tumbler tumbler25;
         private System.Windows.Forms.Button UnderPRLblocks;
         private System.Windows.Forms.Button UnderDRLblocks;
+        private System.Windows.Forms.Button buttonFinish;
     }
 }
 
