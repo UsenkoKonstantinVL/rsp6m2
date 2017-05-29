@@ -818,6 +818,7 @@
     <None Include="Image\Rsp-6m2-Images\bpr011sm2Ex.png" />
     <None Include="Image\Rsp-6m2-Images\bp138ex.png" />
     <None Include="Image\Rsp-6m2-Images\bpchsEx.png" />
+    <None Include="Image\Rsp-6m2-Images\bp213ex.png" />
     <Content Include="Indiacator\Resources\Pup.png" />
     <Content Include="Indiacator\Resources\UnderDRLblocks.png" />
     <Content Include="Indiacator\Resources\UnderPRLblocks.png" />

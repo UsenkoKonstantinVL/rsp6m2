@@ -226,6 +226,9 @@
   <data name="bp138ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\Rsp-6m2-Images\bp138ex.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bp213ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\Rsp-6m2-Images\bp213ex.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bpchsEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\Rsp-6m2-Images\bpchsEx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

@@ -83,6 +83,16 @@ namespace rsp6m2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bp213ex {
+            get {
+                object obj = ResourceManager.GetObject("bp213ex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bpchsEx {
             get {
                 object obj = ResourceManager.GetObject("bpchsEx", resourceCulture);
