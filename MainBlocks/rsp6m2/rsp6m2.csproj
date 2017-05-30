@@ -101,6 +101,12 @@
     <Compile Include="bost.Designer.cs">
       <DependentUpon>bost.cs</DependentUpon>
     </Compile>
+    <Compile Include="bp127_drl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bp127_drl.Designer.cs">
+      <DependentUpon>bp127_drl.cs</DependentUpon>
+    </Compile>
     <Compile Include="bp127.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,12 @@
     </Compile>
     <Compile Include="bsf.Designer.cs">
       <DependentUpon>bsf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bu011_drl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bu011_drl.Designer.cs">
+      <DependentUpon>bu011_drl.cs</DependentUpon>
     </Compile>
     <Compile Include="bu011.cs">
       <SubType>Form</SubType>
@@ -414,12 +426,20 @@
     <Compile Include="Managers\AbstractManager.cs" />
     <Compile Include="Managers\ManagerBg012.cs" />
     <Compile Include="Managers\ManagerBop.cs" />
+    <Compile Include="Managers\ManagerBOST.cs" />
+    <Compile Include="Managers\ManagerBp127_drl.cs" />
     <Compile Include="Managers\ManagerBp127.cs" />
+    <Compile Include="Managers\ManagerBp138.cs" />
     <Compile Include="Managers\Managerbp142.cs" />
+    <Compile Include="Managers\ManagerBp213.cs" />
     <Compile Include="Managers\ManagerBpApch.cs" />
+    <Compile Include="Managers\ManagerBPCHS.cs" />
+    <Compile Include="Managers\ManagerBpr011sm2.cs" />
+    <Compile Include="Managers\ManagerBpr011sm1.cs" />
     <Compile Include="Managers\ManagerBpr021.cs" />
     <Compile Include="Managers\ManagerBprn021.cs" />
     <Compile Include="Managers\ManagerBSF.cs" />
+    <Compile Include="Managers\ManagerBu011_drl.cs" />
     <Compile Include="Managers\ManagerBu011.cs" />
     <Compile Include="Managers\ManagerBuv021.cs" />
     <Compile Include="Managers\ManagerBvm011.cs" />
@@ -487,6 +507,7 @@
     <Compile Include="Tests\Test2.cs" />
     <Compile Include="Tests\Test3.cs" />
     <Compile Include="Tests\TestDRL1.cs" />
+    <Compile Include="Tests\TestDRL3.cs" />
     <Compile Include="Tests\TestDRLIko.cs" />
     <Compile Include="Tests\TestFactory.cs" />
     <Compile Include="uvch.cs">
@@ -524,6 +545,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="bost.resx">
       <DependentUpon>bost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bp127_drl.resx">
+      <DependentUpon>bp127_drl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bp127.resx">
       <DependentUpon>bp127.cs</DependentUpon>
@@ -569,6 +593,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="bsf.resx">
       <DependentUpon>bsf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bu011_drl.resx">
+      <DependentUpon>bu011_drl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bu011.resx">
       <DependentUpon>bu011.cs</DependentUpon>

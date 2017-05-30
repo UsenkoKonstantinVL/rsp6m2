@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 
 namespace rsp6m2.Managers
 {
-    public static class ManagerBp127
+    public class ManagerBPCHS
     {
-        static bp127 form = null;
+        static bpchs form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 401;
+        static int ID = 120;
 
         public static void Initialize()
         {
-
-            form = new bp127();
-
-
+            form = new bpchs();
+ 
             form.Show();
 
             ManagerHelpForm.GetHelp(ID);
@@ -60,9 +57,7 @@ namespace rsp6m2.Managers
             UnlightControls();
             ManagerHelpForm.GetHelp(4);
         }
-
-
-
+  
         public static void ChangeInstance(List<string> list)
         {
             if (AllControlls != null)

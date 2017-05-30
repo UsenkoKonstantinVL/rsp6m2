@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="roundTrumbler1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="roundTrumbler_bp213.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAAd0SU1FB9wEBw4IItZYDmsAAICZSURBVHhe7f0HeJXX1e2PfukxpiOEhApCvffe
+        wAAADsABataJCQAAAAd0SU1FB9wEBw4IItZYDmsAAICZSURBVHhe7f0HeJXX1e2PfukxpiOEhApCvffe
         e++9994rqIBAIISEEB0hBKIIgenuuMRJ7BQnLimOEzuxY8dO7LjF3bEdF+YdY21tbH/x/9x7zj3n/LHz
         zudZz7slbe29Bev3jjnWmmut/9JCCy200EILLbTQQgsttNBCCy200EILLbTQQgsttNBCCy200EILLbTQ
         QgsttNBCCy200EILLbTQQgsttNBCCy200EKL/6X48QMPf3Pf/mnD8bHdHRPje56ePHjo/UsXbvr00V/8
@@ -676,7 +676,7 @@
   <data name="voltmetr1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAApcAAAJHCAYAAADFUn2+AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAAAd0SU1FB9wDCg87FzUIwYIAAP+fSURBVHhe3P1X0F1XlpgJVkhpSCYzk0mTmTTw
+        EQAACxEBf2RfkQAAAAd0SU1FB9wDCg87FzUIwYIAAP+fSURBVHhe3P1X0F1XlpgJVkhpSCYzk0mTmTTw
         wO+9997/MD+8d4QHCIAgAQK0IEBvQe99usqsUqmMpFJXtVJqlaR20SO11Gr1OMWEOhStidGToh/00NFr
         vm/te5mpMRE9M23nRqw4556zzz7br2+vbc7v/C/x+/LLzzs+//yTIx9/8v7rH3783h9/+vnH//Crn37y
         L7/46Uf/7ac/+eC/+/iL9/77jz97Pz769L348JO348OP3+T8rfjki7fj4y+59vkH8T73Pvj0/fj08w+5

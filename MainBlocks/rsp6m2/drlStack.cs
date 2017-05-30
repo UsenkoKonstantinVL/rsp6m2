@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using rsp6m2.Controls;
 using rsp6m2.HelpClass;
@@ -81,22 +77,22 @@ namespace rsp6m2
         }
 
         br009 br0091 = new br009();
-        bp213 bp2131 = new bp213();
+        //bp213 bp2131 = new bp213();
         bp135 bp1351 = new bp135();
         brn01 brn011 = new brn01();
-        bost bost1 = new bost();
+        //bost bost1 = new bost();
         buv011 buv0111 = new buv011();
         bchv021 bchv0211 = new bchv021();
         bchk011 bchk0111 = new bchk011();
         bu011 bu0111 = new bu011();
         bki011 bki0111 = new bki011();
         //bp142 bp1421 = new bp142();
-        bp138 bp1381 = new bp138();
-        bp127 bp1271 = new bp127();
+        //bp138 bp1381 = new bp138();
+        //bp127 bp1271 = new bp127();
         bksg bksg1 = new bksg();
-        bpr011sm1 bpr011sm11 = new bpr011sm1();
+        //bpr011sm1 bpr011sm11 = new bpr011sm1();
         bpchs bpchs1 = new bpchs();
-        bpr011sm2 bpr011sm21 = new bpr011sm2();
+        //bpr011sm2 bpr011sm21 = new bpr011sm2();
         sp02 sp021 = new sp02();
         bpm011 bpm0111 = new bpm011();
         bvm011 bvm0111 = new bvm011();
@@ -110,7 +106,8 @@ namespace rsp6m2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bp2131.Show();
+            ManagerDrlStack.ClickToButton(sender as Button);
+            //bp2131.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -120,7 +117,8 @@ namespace rsp6m2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            bp2131.Show();
+            ManagerDrlStack.ClickToButton(sender as Button);
+            //bp2131.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -135,12 +133,14 @@ namespace rsp6m2
 
         private void button8_Click(object sender, EventArgs e)
         {
-            bost1.Show();
+            ManagerDrlStack.ClickToButton(sender as Button);
+            //bost1.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            bost1.Show();
+            ManagerDrlStack.ClickToButton(sender as Button);
+            //bost1.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -165,7 +165,9 @@ namespace rsp6m2
 
         private void button13_Click(object sender, EventArgs e)
         {
-            bu0111.Show();
+
+            ManagerDrlStack.ClickToButton((Control)sender);
+            //bu0111.Show();
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -182,12 +184,14 @@ namespace rsp6m2
 
         private void button16_Click(object sender, EventArgs e)
         {
-            bp1381.Show();
+            ManagerDrlStack.ClickToButton((Control)sender);
+            //bp1381.Show();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            bp1271.Show();
+            ManagerDrlStack.ClickToButton(sender as Control);
+            //bp1271.Show();
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -197,12 +201,14 @@ namespace rsp6m2
 
         private void button19_Click(object sender, EventArgs e)
         {
-            bpr011sm11.Show();
+            ManagerDrlStack.ClickToButton(sender as Control);
+            //bpr011sm11.Show();
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            bpchs1.Show();
+            ManagerDrlStack.ClickToButton(sender as Control);
+            //bpchs1.Show();
         }
 
         private void button21_Click(object sender, EventArgs e)
@@ -213,7 +219,8 @@ namespace rsp6m2
 
         private void button22_Click(object sender, EventArgs e)
         {
-            bpr011sm21.Show();
+            ManagerDrlStack.ClickToButton(sender as Control);
+            //bpr011sm21.Show();
         }
 
         private void button23_Click(object sender, EventArgs e)

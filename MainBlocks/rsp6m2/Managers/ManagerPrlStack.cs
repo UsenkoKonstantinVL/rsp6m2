@@ -126,8 +126,6 @@ namespace rsp6m2.Managers
                     return;
                 }
 
-                
-
             }
         }
 

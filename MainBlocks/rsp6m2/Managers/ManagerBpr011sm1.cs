@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 
 namespace rsp6m2.Managers
 {
-    public static class ManagerBp127
+    class ManagerBpr011sm1
     {
-        static bp127 form = null;
+        static bpr011sm1 form = null;
         public static List<Control> AllControlls = null;
         public static List<Control> SaveInstanceControls = null;
-        static int ID = 401;
+        static int ID = 119;
 
         public static void Initialize()
         {
-
-            form = new bp127();
-
+            {
+                form = new bpr011sm1();
+            }
 
             form.Show();
 
@@ -58,10 +57,8 @@ namespace rsp6m2.Managers
         public static void ShowOffForm()
         {
             UnlightControls();
-            ManagerHelpForm.GetHelp(4);
+            ManagerHelpForm.GetHelp(1);
         }
-
-
 
         public static void ChangeInstance(List<string> list)
         {

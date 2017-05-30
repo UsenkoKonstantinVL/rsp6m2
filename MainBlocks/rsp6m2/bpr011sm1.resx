@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="roundTrumbler1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="roundTrumbler_bp011sm1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAAd0SU1FB9wEBw4IItZYDmsAAICZSURBVHhe7f0HeJXX1e2PfukxpiOEhApCvffe
+        vQAADr0BR/uQrQAAAAd0SU1FB9wEBw4IItZYDmsAAICZSURBVHhe7f0HeJXX1e2PfukxpiOEhApCvffe
         e++9994rqIBAIISEEB0hBKIIgenuuMRJ7BQnLimOEzuxY8dO7LjF3bEdF+YdY21tbH/x/9x7zj3n/LHz
         zudZz7slbe29Bev3jjnWmmut/9JCCy200EILLbTQQgsttNBCCy200EILLbTQQgsttNBCCy200EILLbTQ
         QgsttNBCCy200EILLbTQQgsttNBCCy200EKL/6X48QMPf3Pf/mnD8bHdHRPje56ePHjo/UsXbvr00V/8

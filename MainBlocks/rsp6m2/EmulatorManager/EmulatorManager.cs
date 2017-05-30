@@ -175,6 +175,7 @@ namespace rsp6m2.EmulatorManager
             //QuizeIsDone(GetListOfLightedControls());
             if (listTestIsDone != null)
             {
+
                 foreach (EmulatorManagerHelp.testIzDone q in listTestIsDone)
                 {
                     q();

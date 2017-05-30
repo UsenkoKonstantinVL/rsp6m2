@@ -30,10 +30,15 @@ namespace rsp6m2.Tests
                 t.list = Tests.TestDRLIko.GetQuize();
                 t.testName = TestDRLIko.TestName;
             }
-            else
+            else if (numOfTest == 2)
             {
                 t.list = Tests.Test2.GetQuize();
-                t.testName = Tests.Test2.TestName;
+                t.testName = Test2.TestName;
+            }
+            else
+            {
+                t.list = Tests.TestDRL3.GetQuize();
+                t.testName = Tests.TestDRL3.TestName;
             }
             
 

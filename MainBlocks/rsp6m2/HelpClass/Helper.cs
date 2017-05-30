@@ -9,6 +9,9 @@ namespace rsp6m2.HelpClass
     {
         public static bool isPRLWork = false;
         public static bool isDRLWork = false;
+        public static bool bostLightOn = false;
+        public static bool isReady = false;
+        public static bool isBPRReady = false;
 
         public static void SetBorderToControl(Control c)
         {

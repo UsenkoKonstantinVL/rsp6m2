@@ -41,7 +41,7 @@ namespace rsp6m2.Managers
             if (form != null && form.isOpened)
                 form.Close();
             form = null;
-            EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
+            //EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
             //SaveInstanceControls = null;
             AllControlls = null;
         }
@@ -101,8 +101,53 @@ namespace rsp6m2.Managers
                     return;
                 }
 
+                if(b.Name == "button2_drl")
+                {
+                    ManagerBp213.Initialize();
+                    return;
+                }
+                if (b.Name == "button7_drl")
+                {
+                    ManagerBOST.Initialize();
+                    return;
+                }
+                ///
+                if (b.Name == "button17_drl")
+                {
+                    ManagerBp127_drl.Initialize();
+                    return;
+                }
 
+                if (b.Name == "button16_drl")
+                {
+                    ManagerBp138.Initialize();
+                    return;
+                }
+                //throw new Exception("Доделать вызов блоков...");
+                if (b.Name == "button13_drl")
+                {
+                    ManagerBu011_drl.Initialize();
+                    return;
+                }
 
+                if (b.Name == "button19_drl")
+                {
+                    ManagerBpr011sm1.Initialize();
+                    return;
+                }
+
+                if (b.Name == "button22_drl")
+                {
+                    
+                    ManagerBpr011sm2.Initialize();
+                    return;
+                }
+                //button20
+                if (b.Name == "button20_drl")
+                {
+                    ManagerBPCHS.Initialize();
+                    return;
+                }
             }
         }
 
@@ -110,8 +155,8 @@ namespace rsp6m2.Managers
         {
             UnlightControls();
             //EmulatorManager.EmulatorManager.QuizeIsDone -= ChangeInstance;
-            EmulatorManager.EmulatorManager.DeleteListenerToQuizeIsDone(ChangeInstance);
-            EmulatorManager.EmulatorManager.DeleteListenerTestIsDone(Dispose);
+            //EmulatorManager.EmulatorManager.DeleteListenerToQuizeIsDone(ChangeInstance);
+            //EmulatorManager.EmulatorManager.DeleteListenerTestIsDone(Dispose);
             ManagerHelpForm.GetHelp(0);
         }
 

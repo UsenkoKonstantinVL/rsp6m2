@@ -10,8 +10,9 @@ namespace rsp6m2.Tests
 {
     public static class Test2
     {
-        public static String TestName = "Включение и проверка" + Environment.NewLine + "работоспособности приемопередатчиков" +
-            Environment.NewLine + " ППП-1, ППП-II";
+        public static String TestName = "Включение и проверка" + Environment.NewLine + "работоспособности" +
+            Environment.NewLine + "приемопередатчиков" +
+            Environment.NewLine + "ППП-1, ППП-II";
 
         public static List<Quize> GetQuize()
         {

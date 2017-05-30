@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bost));
-            this.light1 = new rsp6m2.Controls.Light();
+            this.light1_drl = new rsp6m2.Controls.Light();
             this.light2 = new rsp6m2.Controls.Light();
             this.light3 = new rsp6m2.Controls.Light();
             this.light4 = new rsp6m2.Controls.Light();
@@ -40,15 +40,15 @@
             this.light9 = new rsp6m2.Controls.Light();
             this.SuspendLayout();
             // 
-            // light1
+            // light1_drl
             // 
-            this.light1.BackColor = System.Drawing.Color.Transparent;
-            this.light1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light1.BackgroundImage")));
-            this.light1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.light1.Location = new System.Drawing.Point(103, 145);
-            this.light1.Name = "light1";
-            this.light1.Size = new System.Drawing.Size(26, 25);
-            this.light1.TabIndex = 1;
+            this.light1_drl.BackColor = System.Drawing.Color.Transparent;
+            this.light1_drl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("light1_drl.BackgroundImage")));
+            this.light1_drl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.light1_drl.Location = new System.Drawing.Point(103, 145);
+            this.light1_drl.Name = "light1_drl";
+            this.light1_drl.Size = new System.Drawing.Size(26, 25);
+            this.light1_drl.TabIndex = 1;
             // 
             // light2
             // 
@@ -145,11 +145,12 @@
             this.Controls.Add(this.light4);
             this.Controls.Add(this.light3);
             this.Controls.Add(this.light2);
-            this.Controls.Add(this.light1);
+            this.Controls.Add(this.light1_drl);
             this.DoubleBuffered = true;
             this.Name = "bost";
             this.Text = "БОСТ";
-            this.Controls.SetChildIndex(this.light1, 0);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.bost_FormClosing);
+            this.Controls.SetChildIndex(this.light1_drl, 0);
             this.Controls.SetChildIndex(this.light2, 0);
             this.Controls.SetChildIndex(this.light3, 0);
             this.Controls.SetChildIndex(this.light4, 0);
@@ -164,7 +165,7 @@
 
         #endregion
 
-        private Controls.Light light1;
+        private Controls.Light light1_drl;
         private Controls.Light light2;
         private Controls.Light light3;
         private Controls.Light light4;
